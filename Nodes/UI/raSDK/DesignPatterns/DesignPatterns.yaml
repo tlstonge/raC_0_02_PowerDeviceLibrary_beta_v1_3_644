@@ -1,0 +1,5 @@
+Name: DesignPatterns
+Type: FolderType
+Children:
+- File: ProjectOrganization/ProjectOrganization.yaml
+- File: Faceplate_UI_FolderStructure/Faceplate_UI_FolderStructure.yaml

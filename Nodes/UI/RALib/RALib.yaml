@@ -1,0 +1,6 @@
+Name: RALib
+Type: FolderType
+Children:
+- File: Machine Builder/Machine Builder.yaml
+- File: Power v3/Power v3.yaml
+- File: ProcessLibrary v5.23/ProcessLibrary v5.23.yaml

@@ -1,0 +1,8 @@
+Name: DataDisplay
+Type: FolderType
+Children:
+- File: Numeric/Numeric.yaml
+- File: String/String.yaml
+- File: Time/Time.yaml
+- File: Boolean/Boolean.yaml
+- File: Trends/Trends.yaml

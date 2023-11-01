@@ -1,0 +1,22 @@
+Name: Panels
+Type: FolderType
+Children:
+- Name: raX_0_00_raX_YYY_ObjectName_P1
+  Id: g=95f68e38e7c833a0fe3e1fc0fff29328
+  Supertype: raSDK1_PanelBase
+  Description: {"LocaleId":"en-US","Text":"Faceplate panel base type with predefined alias."}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Tag
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{raSDK1_DialogBox}/Ref_Tag@NodeId"

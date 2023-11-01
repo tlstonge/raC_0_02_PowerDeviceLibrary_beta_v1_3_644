@@ -1,0 +1,19 @@
+Name: Graphic Symbols
+Type: FolderType
+Children:
+- Name: raX_0_00_raX_YYY_ObjectName_GS_SymbolName
+  Id: g=6f24f794c1206524a04d2ae9428579fa
+  Supertype: Panel
+  DisplayName: {"LocaleId":"en-US","Text":"SymbolA"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0

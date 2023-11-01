@@ -1,0 +1,4 @@
+Name: Reference
+Type: FolderType
+Children:
+- File: SampleConfigurations/SampleConfigurations.yaml

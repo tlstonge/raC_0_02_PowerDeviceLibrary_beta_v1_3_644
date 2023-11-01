@@ -1,0 +1,19 @@
+Name: Widgets
+Type: FolderType
+Children:
+- Name: raX_0_00_raX_YYY_ObjectName_W_WidgetName
+  Id: g=bd702b1a6956b0d5e98ea55780c2b9d5
+  Supertype: Panel
+  DisplayName: {"LocaleId":"en-US","Text":"WidgetA"}
+  ReferenceType: HasComponent
+  Children:
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 300.0

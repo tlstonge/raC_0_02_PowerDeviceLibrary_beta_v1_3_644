@@ -1,0 +1,5 @@
+Name: DataInput
+Type: FolderType
+Children:
+- File: Numeric/Numeric.yaml
+- File: String/String.yaml

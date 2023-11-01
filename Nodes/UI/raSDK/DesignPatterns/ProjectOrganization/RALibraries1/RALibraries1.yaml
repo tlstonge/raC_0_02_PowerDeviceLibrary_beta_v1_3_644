@@ -1,0 +1,8 @@
+Name: RALibraries1
+Type: FolderType
+Children:
+- File: Machine Builder/Machine Builder.yaml
+- File: Power Device v0.00/Power Device v0.00.yaml
+- File: Process Library v0.00/Process Library v0.00.yaml
+- File: RapidLaunch v0.00/RapidLaunch v0.00.yaml
+- File: Common Components/Common Components.yaml
