@@ -4,7 +4,7 @@ DisplayName: {"LocaleId":"en-US","Text":"raC_Tec_PwrDvcStateMonitor"}
 Children:
 - Name: raC_Tec_PwrVelocityStateMonitor_3_03_Faceplate
   Id: g=ece322b8dd93799025145bfdd7913f15
-  Supertype: raSDK1_DialogBoxBase1
+  Supertype: raSDK1_DialogBoxBase
   ReferenceType: HasComponent
   Children:
   - Name: raSDK1_DialogBox

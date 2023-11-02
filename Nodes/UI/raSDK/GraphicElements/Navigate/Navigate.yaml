@@ -2,8 +2,6 @@ Name: Navigate
 Type: FolderType
 Children:
 - File: DialogBoxType/DialogBoxType.yaml
-- File: FaceplatePanelType/FaceplatePanelType.yaml
-- File: LaunchButtons_OLD_DO_NOT_USE/LaunchButtons_OLD_DO_NOT_USE.yaml
 - File: NavWithIcon/NavWithIcon.yaml
 - File: NavWithLabel/NavWithLabel.yaml
 - File: NavWithOverlay/NavWithOverlay.yaml

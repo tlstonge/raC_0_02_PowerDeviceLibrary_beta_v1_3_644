@@ -20,4 +20,4 @@ Children:
 - Name: FilePath
   Type: BaseDataVariableType
   DataType: AbsoluteResourceUri
-  Value: ""
+  Value: "file:///C:/Users/TLSt.Ong/OneDrive - Rockwell Automation, Inc/LIBRARIES/Projects/Power_FTOptix.ACD"

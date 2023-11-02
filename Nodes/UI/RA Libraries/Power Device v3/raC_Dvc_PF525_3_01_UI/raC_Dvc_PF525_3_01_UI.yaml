@@ -4,7 +4,7 @@ DisplayName: {"LocaleId":"en-US","Text":"raC_Dvc_PF525"}
 Children:
 - Name: raC_Dvc_PF525_3_01_Faceplate
   Id: g=98edfda924820a6d7e1501b11f8c8f52
-  Supertype: raSDK1_DialogBoxBase1
+  Supertype: raSDK1_DialogBoxBase
   ReferenceType: HasComponent
   Children:
   - Name: raSDK1_DialogBox
@@ -271,7 +271,7 @@ Children:
                   DataType: Color
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: "#000000"
+                  Value: "#3b3b3b"
                 - Name: FalseValue
                   Type: BaseDataVariableType
                   DataType: Color
@@ -286,43 +286,6 @@ Children:
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
-          Children:
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Expression
-              Type: BaseDataVariableType
-              DataType: String
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "{0} OR {1} OR NOT {2}"
-            - Name: ns=3;Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Faulted"
-            - Name: ns=3;Source1
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Warning"
-            - Name: ns=3;Source2
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Ready"
         - Name: grp_Banner
           Type: RowLayout
           Children:
@@ -850,7 +813,7 @@ Children:
                   DataType: String
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: "{0} OR {1}"
+                  Value: "{0}||{1}"
                 - Name: ns=3;Source0
                   Type: BaseDataVariableType
                   DataType: BaseDataType
@@ -859,7 +822,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Fault"
+                    Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Faulted"
                 - Name: ns=3;Source1
                   Type: BaseDataVariableType
                   DataType: BaseDataType
@@ -1087,6 +1050,67 @@ Children:
             Type: BaseDataVariableType
             DataType: Boolean
             Value: true
+            Children:
+            - Name: ExpressionEvaluator1
+              Type: ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0} || (NOT{1})  || (NOT{2})"
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Ref_Tag}/Sts_InhibitCmd"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: Mode
+                Type: PropertyType
+                DataType: DynamicLinkMode
+                ReferenceType: HasComponent
+                ModellingRule: Optional
+                Value: 2
+              - Name: ns=3;Source1
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Ref_Tag}/Sts_Ready"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: ns=3;Source2
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Ref_Tag}/Sts_Available"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
           - Name: Cfg_Image
             Type: BaseDataVariableType
             DataType: ResourceUri
@@ -1174,7 +1198,7 @@ Children:
                 DataType: String
                 ReferenceType: HasParameter
                 ModellingRule: Optional
-                Value: "{0} OR {1}"
+                Value: "{0} || {1}"
               - Name: ns=3;Source0
                 Type: BaseDataVariableType
                 DataType: BaseDataType
@@ -1183,7 +1207,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Fault"
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Faulted"
               - Name: ns=3;Source1
                 Type: BaseDataVariableType
                 DataType: BaseDataType
@@ -1205,7 +1229,7 @@ Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Home"}
+              Value: {"LocaleId":"en-US","Text":""}
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
@@ -1231,7 +1255,7 @@ Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Trend"}
+              Value: {"LocaleId":"en-US","Text":""}
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
@@ -1246,34 +1270,13 @@ Children:
               DataType: ResourceUri
               ModellingRule: Optional
               Value: "ns=20;%PROJECTDIR%/Nav_Trend.png"
-          - Name: Config
-            Type: NavigationPanelItem
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Config"}
-            - Name: Panel
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"IdType":2,"Id":"f0d292242d967907fd08729be51135ae","Namespace":20}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":71,"Namespace":5}
-            - Name: ImagePath
-              Type: BaseDataVariableType
-              DataType: ResourceUri
-              ModellingRule: Optional
-              Value: "ns=20;%PROJECTDIR%/Nav_Maint.png"
           - Name: Diagnostics
             Type: NavigationPanelItem
             Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Diagnostics"}
+              Value: {"LocaleId":"en-US","Text":""}
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
@@ -1294,7 +1297,7 @@ Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Fault"}
+              Value: {"LocaleId":"en-US","Text":""}
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
@@ -1315,7 +1318,7 @@ Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Extensions"}
+              Value: {"LocaleId":"en-US","Text":""}
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
@@ -1373,7 +1376,7 @@ Children:
           Type: BaseDataVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 50.0
+          Value: 44.0
         - Name: TabHeight
           Type: BaseDataVariableType
           DataType: Size
@@ -1425,6 +1428,129 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#e0e0e0"
+    - Name: img_bcfaulted
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=20;%PROJECTDIR%/Sts_Faulted.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Faulted"
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+    - Name: img_bcwarning
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=20;%PROJECTDIR%/Sts_Warning.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: Visible
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: true
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Warning"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: true
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: false
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 2
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 8.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 134.0
+      - Name: BottomMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
   - Name: Sts_SecAreaBasic
     Type: BaseDataVariableType
     DataType: Boolean

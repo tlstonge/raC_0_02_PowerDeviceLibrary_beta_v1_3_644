@@ -12,7 +12,7 @@ Children:
   - Name: Converter
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Value: {"IdType":2,"Id":"c0473e1480eff38711e6ec05fb0293c9","Namespace":20}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -25,44 +25,7 @@ Children:
   - Name: CSVFile
     Type: BaseDataVariableType
     DataType: ResourceUri
-    Value: ""
-  - Name: WrapFields
-    Type: BaseDataVariableType
-    DataType: Boolean
-    Value: false
-  - Name: CSVSeparator
-    Type: BaseDataVariableType
-    DataType: String
-    Value: ","
-  - Class: Method
-    Name: Import
-  - Class: Method
-    Name: Export
-- Name: CSVToKeyValueConverter
-  Type: NetLogic
-  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-  Children:
-  - Name: BehaviourStartPriority
-    Type: BehaviourStartPriorityVariableType
-    DataType: Byte
-    Value: 180
-  - Name: Converter
-    Type: NodePointer
-    DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"Id":46,"Namespace":3}
-    - Name: NodeClass
-      Type: PropertyType
-      DataType: NodePointerNodeClass
-      Value: 1
-  - Name: CSVFile
-    Type: BaseDataVariableType
-    DataType: ResourceUri
-    Value: ""
+    Value: "file:///C:/Users/TLSt.Ong/OneDrive - Rockwell Automation, Inc/Documents - Device Object Library/Power Device Library/FT Optix Development/Faullt InfTables/Export.csv"
   - Name: WrapFields
     Type: BaseDataVariableType
     DataType: Boolean

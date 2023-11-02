@@ -238,7 +238,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "{NodeId:ns=20;g=fd60986e-685a-b11e-2634-68e2a5c7d976}"
+        Value: "/Objects/raC_0_02_PowerDeviceLibrary_beta_v1_3_644/CommDrivers/RAEtherNet_IPDriver1/PowerLibraryEcho/Tags/Controller Tags/Dvc_PF525/Inf_Type"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -260,7 +260,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "{NodeId:ns=20;g=fd60986e-685a-b11e-2634-68e2a5c7d976}"
+        Value: "/Objects/raC_0_02_PowerDeviceLibrary_beta_v1_3_644/CommDrivers/RAEtherNet_IPDriver1/PowerLibraryEcho/Tags/Controller Tags/Dvc_PF525/Inf_Lib"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -348,7 +348,7 @@ Children:
     - Name: Ref_Tag
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"7d398545d73b6a761ed3aba55937bd37","Namespace":20}
+      Value: {"IdType":2,"Id":"008ab24d46832b761e3c8a5eb30aabd0","Namespace":20}
     - Name: Cfg_DisplayType
       Type: BaseDataVariableType
       DataType: String
@@ -372,190 +372,6 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"M102 PF525"}
-  - Name: raSDK1_ND_LblVal_Stack1
-    Type: raSDK1_ND_LblVal_Stack
-    Children:
-    - Name: Label
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../Cfg_Label"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-    - Name: Value
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: StringFormatter1
-          Type: StringFormatter
-          Children:
-          - Name: Source0
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../Inp_Value"
-          - Name: Source1
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../Set_DecimalPlaces"
-      - Name: Style
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Live Data"
-        Children:
-        - Name: ConditionalConverter1
-          Type: ConditionalConverter
-          Children:
-          - Name: Condition
-            Type: BaseDataVariableType
-            DataType: Boolean
-            ReferenceType: HasSource
-            Value: false
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../Cfg_DisplayAsPrimary"
-    - Name: Cfg_Label
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Secondary"}
-    - Name: Inp_Value
-      Type: BaseDataVariableType
-      DataType: Float
-      Value: 1234.56005859375
-    - Name: Set_DecimalPlaces
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 2
-    - Name: Cfg_DisplayAsPrimary
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: false
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 190.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 260.0
-  - Name: raSDK1_ND_LblVal_Stack3
-    Type: raSDK1_ND_LblVal_Stack
-    Children:
-    - Name: Label
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../Cfg_Label"
-      - Name: FontSize
-        Type: BaseDataVariableType
-        DataType: Size
-        Value: -1.0
-    - Name: Value
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: StringFormatter1
-          Type: StringFormatter
-          Children:
-          - Name: Source0
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../Inp_Value"
-          - Name: Source1
-            Type: BaseDataVariableType
-            DataType: BaseDataType
-            ReferenceType: HasSource
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../Set_DecimalPlaces"
-      - Name: Style
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "Live Data"
-        Children:
-        - Name: ConditionalConverter1
-          Type: ConditionalConverter
-          Children:
-          - Name: Condition
-            Type: BaseDataVariableType
-            DataType: Boolean
-            ReferenceType: HasSource
-            Value: false
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../../../Cfg_DisplayAsPrimary"
-    - Name: Cfg_Label
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      Value: {"LocaleId":"en-US","Text":"Primary"}
-    - Name: Inp_Value
-      Type: BaseDataVariableType
-      DataType: Float
-      Value: 1234.56005859375
-    - Name: Set_DecimalPlaces
-      Type: BaseDataVariableType
-      DataType: Int32
-      Value: 2
-    - Name: Cfg_DisplayAsPrimary
-      Type: BaseDataVariableType
-      DataType: Boolean
-      Value: true
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 284.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 260.0
   - Name: PF525_StateMon
     Type: raC_Tec_PwrVelocityStateMonitor_3_03_Nav_Text
     Children:
@@ -633,7 +449,7 @@ Children:
     - Name: Ref_Tag
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"a30cbb7c6cd7a374f028d8c41184b98b","Namespace":20}
+      Value: {"IdType":2,"Id":"4a08d462560838cf35ddc25230bd703d","Namespace":20}
     - Name: Cfg_DisplayType
       Type: BaseDataVariableType
       DataType: String
@@ -642,6 +458,21 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 255.0
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"PF525 State Mon"}
   - Name: TextButton1
     Type: raC_Dvc_PF525_3_01_Nav_Text
     Children:
@@ -719,7 +550,7 @@ Children:
     - Name: Ref_Tag
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"ce93a3a3d1327b563693c699a6e1b236","Namespace":20}
+      Value: {"IdType":2,"Id":"680fb95f5a4cdac14927d046254c4474","Namespace":20}
     - Name: Cfg_DisplayType
       Type: BaseDataVariableType
       DataType: String
@@ -743,6 +574,54 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"M100 PF525"}
+  - Name: Label5
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: KeyValueConverter1
+        Type: ValueMapConverter
+        Children:
+        - Name: Source
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: ""
+        - Name: Pairs
+          Type: BaseObjectType
+          ModellingRule: None
+          Children:
+          - Name: Pair
+            Type: ValueMapPair
+            ModellingRule: None
+            Children:
+            - Name: Key
+              Type: BaseDataVariableType
+              DataType: UInt32
+              ModellingRule: None
+              Value: 0
+            - Name: Value
+              Type: BaseDataVariableType
+              DataType: String
+              ModellingRule: None
+              Value: ""
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 390.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
 - File: Screens/Screens.yaml
 - File: raSDK/raSDK.yaml
-- File: RALib/RALib.yaml
+- File: RA Libraries/RA Libraries.yaml

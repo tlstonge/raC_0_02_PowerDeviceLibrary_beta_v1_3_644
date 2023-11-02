@@ -18,14 +18,10 @@ Children:
     ModellingRule: Optional
     Value: 56.0
   - Name: Button
-    Type: XraSDK1_NavExplicitUsingTag
+    Type: raSDK1_NavExplicitUsingTag
     Children:
     - Name: raSDK1_NL_NavExplicit
       Type: NetLogic
-      Children:
-      - Class: Reference
-        Target: g=c1ff374fc9e7681460754c2b5cc7ae00
-        Direction: Forward
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
