@@ -837,6 +837,38 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: 8.0
+            - Name: Visible
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: ExpressionEvaluator1
+                Type: ExpressionEvaluator
+                Children:
+                - Name: Expression
+                  Type: BaseDataVariableType
+                  DataType: String
+                  ReferenceType: HasParameter
+                  ModellingRule: Optional
+                  Value: "{0} OR {1}"
+                - Name: ns=3;Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Fault"
+                - Name: ns=3;Source1
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Warning"
           - Name: VerticalAlignment
             Type: BaseVariableType
             DataType: VerticalAlignment
@@ -857,6 +889,310 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 1.0
+        - Name: btn_reset
+          Type: raSDK1_Btn_Momentary_Icon
+          Children:
+          - Name: Ref_Variable
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{raSDK1_DialogBox}/Ref_Tag/Cmd_ResetFault"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: Button
+            Type: Button
+            Children:
+            - Name: MouseUpEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"Id":15,"Namespace":5}
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer1
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: {"Id":22,"Namespace":3}
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: {"Id":58}
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Ref_Variable@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: false
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
+              - Name: EventArguments
+                Type: MouseUpEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
+            - Name: Enabled
+              Type: BaseDataVariableType
+              DataType: Boolean
+              Value: true
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../Set_Enabled"
+            - Name: MouseDownEventHandler1
+              Type: EventHandler
+              Children:
+              - Name: ListenEventType
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"Id":14,"Namespace":5}
+              - Name: MethodsToCall
+                Type: BaseObjectType
+                Children:
+                - Name: MethodContainer1
+                  Type: BaseObjectType
+                  Children:
+                  - Name: ObjectPointer
+                    Type: NodePointer
+                    DataType: NodeId
+                    Value: {"Id":22,"Namespace":3}
+                    Children:
+                    - Name: Kind
+                      Type: PropertyType
+                      DataType: NodeId
+                      Value: {"Id":58}
+                  - Name: Method
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Value: "Set"
+                  - Name: InputArguments
+                    Type: BaseObjectType
+                    Children:
+                    - Name: VariableToModify
+                      Type: BaseDataVariableType
+                      DataType: VariablePointer
+                      Value: {"IdType":0,"Id":0,"Namespace":-1}
+                      Children:
+                      - Name: DynamicLink
+                        Type: DynamicLink
+                        DataType: NodePath
+                        Value: "../../../../../../Ref_Variable@NodeId"
+                    - Name: Value
+                      Type: BaseDataVariableType
+                      DataType: Boolean
+                      Value: true
+                    - Name: ArrayIndex
+                      Type: BaseDataVariableType
+                      DataType: UInt32
+                      ValueRank: ScalarOrOneDimension
+                      Value: 0
+              - Name: EventArguments
+                Type: MouseDownEvent
+                Children:
+                - Name: EventId
+                  Type: PropertyType
+                  DataType: ByteString
+                  Value: ""
+                - Name: EventType
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceNode
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"IdType":0,"Id":0,"Namespace":-1}
+                - Name: SourceName
+                  Type: PropertyType
+                  DataType: String
+                  Value: ""
+                - Name: Time
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: ReceiveTime
+                  Type: PropertyType
+                  DataType: UtcTime
+                  Value: "1601-01-01T00:00:00.0000000"
+                - Name: Message
+                  Type: PropertyType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                - Name: Severity
+                  Type: PropertyType
+                  DataType: UInt16
+                  Value: 0
+          - Name: Set_Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+          - Name: Cfg_Image
+            Type: BaseDataVariableType
+            DataType: ResourceUri
+            Value: "ns=20;%PROJECTDIR%/Cmd_AlmAckAllReset.svg"
+          - Name: Cfg_ImageFillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#6a6a6a"
+          - Name: Image
+            Type: Image
+            Children:
+            - Name: Path
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=20;%PROJECTDIR%/res/Chevron2.svg"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../Cfg_Image"
+            - Name: DynamicColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#d1d3d4"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../Cfg_ImageFillColor"
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              Value: 44.0
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../Cfg_ImageSize"
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              Value: 44.0
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../Cfg_ImageSize"
+            - Name: Opacity
+              Type: BaseVariableType
+              DataType: Float
+              Value: 100.0
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../Set_Enabled"
+          - Name: Cfg_ImageSize
+            Type: BaseDataVariableType
+            DataType: Int32
+            Value: 44
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: Visible
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: ExpressionEvaluator1
+              Type: ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0} OR {1}"
+              - Name: ns=3;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Fault"
+              - Name: ns=3;Source1
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Warning"
       - Name: NavigationPanel
         Type: NavigationPanel
         Children:
