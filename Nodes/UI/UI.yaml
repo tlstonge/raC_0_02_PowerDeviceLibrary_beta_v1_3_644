@@ -348,7 +348,7 @@ Children:
     - Name: Ref_Tag
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"008ab24d46832b761e3c8a5eb30aabd0","Namespace":20}
+      Value: {"IdType":2,"Id":"5ed08135adc183e63af990f0437b168e","Namespace":20}
     - Name: Cfg_DisplayType
       Type: BaseDataVariableType
       DataType: String
@@ -550,7 +550,7 @@ Children:
     - Name: Ref_Tag
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"680fb95f5a4cdac14927d046254c4474","Namespace":20}
+      Value: {"IdType":2,"Id":"ecbda55748ca374bad0d13d186a902b3","Namespace":20}
     - Name: Cfg_DisplayType
       Type: BaseDataVariableType
       DataType: String

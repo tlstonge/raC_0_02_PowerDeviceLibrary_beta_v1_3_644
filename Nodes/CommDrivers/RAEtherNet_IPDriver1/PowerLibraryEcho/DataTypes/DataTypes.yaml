@@ -148,6 +148,169 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: raC_Opr_PF755_Energy
+  Id: g=2a0581c897afa17fad2c4071604daa34
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Opr_PF755_Energy",
+    "DataType": {
+     "IdType": 2,
+     "Id": "2a0581c897afa17fad2c4071604daa34",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "_Beh",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "_bSts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "_NoiseMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "_NoiseMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "_Out_kW",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cmd_ResetOdometers",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_Tab",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "HMI_Version",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inf_Lib",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_Type",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inp_Speed_RPM",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "raC_Opr_PF755_Energy",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Set_Inertia",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Set_PowerNominal_kW",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Set_PowerNominal_RPM",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Set_SampleInterval",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Sts_AcquiringData",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_DataAcquisitionDuration",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_EnergyBase",
+      "DataType": {
+       "IdType": 2,
+       "Id": "3c2d612ef902ea4c1b8d53d473f90012",
+       "Namespace": 20
+      }
+     },{
+      "Name": "Sts_ER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_EXERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Idle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_OdometerResetServiced",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_WaitingForCtrlResource",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_WaitingForDevice",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Opr_PF755_Energy"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: raC_UDT_ItfAD_PwrVelocity_Inf
   Id: g=f00b0acee63195e7b2e056229bd1d937
   Supertype: Structure
@@ -177,6 +340,117 @@ Children:
      }]
    }
   DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PwrVelocity_Inf"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:PowerFlex525V_EENET_Drive:O:0'
+  Id: g=5a2996dbbce24096efe65b82ec265847
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:PowerFlex525V_EENET_Drive:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5a2996dbbce24096efe65b82ec265847",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "AccelRate1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AccelRate2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClearFaults",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DecelRate1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DecelRate2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ForceKeypadCtrl",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Forward",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FreqCommand",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "FreqSel01",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FreqSel02",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FreqSel03",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Jog",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MOPDecrement",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MOPIncrement",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Reverse",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Stop",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:PowerFlex525V_EENET_Drive:O:0"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
@@ -1024,6 +1298,279 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: raC_Dvc_PF755
+  Id: g=9d2471b3c8e5f71809bd6acec120c6ae
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Dvc_PF755",
+    "DataType": {
+     "IdType": 2,
+     "Id": "9d2471b3c8e5f71809bd6acec120c6ae",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Cfg_PercentFLATrendMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_PercentFLATrendMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_SpeedTrendMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_SpeedTrendMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cmd_JogFwd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_JogRev",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ResetFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_Tab",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "HMI_Version",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inf_Lib",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_Type",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "raC_Dvc_PF755",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Set_JogSpeed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Sts_ActDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Available",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_bAlarmA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_bAlarmB",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_bLogicStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_bNotReady",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_bStartInhibits",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_CmdDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_eDvcAction",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_eEventType",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [4]
+     },{
+      "Name": "Sts_eEventValue",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [4]
+     },{
+      "Name": "Sts_eNotReady",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_EventMessage",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Sts_ExtensionEnabled",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_InhibitCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_InhibitSet",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_tEventTimeD0",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_tEventTimeD1",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_tEventTimeD2",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_tEventTimeD3",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ZeroSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Val_CmdSpeed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_FreqActual",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_MotorFLA",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_OutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_PercentFLA",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Wrk_bSts",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Dvc_PF755"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: raC_UDT_EnergyBaseObject
   Id: g=3c2d612ef902ea4c1b8d53d473f90012
   Supertype: Structure
@@ -1545,6 +2092,437 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: raC_UDT_ItfAD_PF755_Inp
+  Id: g=5b57b42027c91631b27b6e57adf4edff
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_PF755_Inp",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5b57b42027c91631b27b6e57adf4edff",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "AlarmStatusA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AlarmStatusA_AltFdbkLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_AuxFdbkLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_DecInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_GndWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_InPhaseLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_LoadLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_MotorOL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_OutPhaseLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_PosFdbkLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_PowerLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_PriFdbkLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_Reserved",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_ShearPin1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_ShearPin2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_TaskOverrun",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_UnderVoltage",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AlarmStatusB_CurLmtReduc",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_DBResOT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_DriveOL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_GndWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_HeatsinkOT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_HomingActv",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_IGBTOT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_NotHomeSet",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_OWAlarmTO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_OWLevel",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_PumpOffAlrm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_PWMFrqReduc",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_Reserved",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_Reserved1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_StartOnPwrUp",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_Waking",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Feedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "LastFaultCode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "LogicStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "LogicStatus_Accelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_ActualDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_AtHome",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_AtLimit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_AtSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_AtZeroSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_BusFrqReg",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_CommandDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_CurrLimit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_DBActive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_DCBraking",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Decelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_EnableOn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Jogging",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Manual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_MotorOL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_PositionMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Regen",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Reserved",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Running",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_SpdRefBit0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_SpdRefBit1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_SpdRefBit2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_SpdRefBit3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_SpdRefBit4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_SpeedMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_Stopping",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicStatus_TorqueMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorNPAmps",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StartInhibits",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "StartInhibits_Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Database",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Enable",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Precharge",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Profiler",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Safety",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Sleep",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Startup",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Stop",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PF755_Inp"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: raC_UDT_Event
   Id: g=2be20bdf736832a3ad1b2e8c07077405
   Supertype: Structure
@@ -1601,6 +2579,704 @@ Children:
      }]
    }
   DisplayName: {"LocaleId":"","Text":"raC_UDT_Event"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:PowerFlex755_EENET_Drive:O:0'
+  Id: g=b1cbeccf5d1c32395f742bda5fe3cbea
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:PowerFlex755_EENET_Drive:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b1cbeccf5d1c32395f742bda5fe3cbea",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "LogicCommand",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "LogicCommand_AccelTime1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_AccelTime2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_ClearFaults",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_CLimitStop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_CoastStop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_DecelTime1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_DecelTime2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_Forward",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_Jog1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_Jog2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_Manual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_Reverse",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_Run",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_SpdRefSel0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_SpdRefSel1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_SpdRefSel2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand_Stop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Reference",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:PowerFlex755_EENET_Drive:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:PowerFlex755_E_CF5EF03B:I:0'
+  Id: g=05056782e26dd566b6082b422c44b953
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:PowerFlex755_E_CF5EF03B:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "05056782e26dd566b6082b422c44b953",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "AlarmStatusA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AlarmStatusA_AltFdbkLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_AuxFdbkLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_DecelInhib",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_GndWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_InPhaseLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_LoadLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_MotorOL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_OutPhaseLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_PosFdbkLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_PowerLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_PriFdbkLoss",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_Reserved",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_ShearPin1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_ShearPin2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_TaskOverrun",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusA_UnderVoltage",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AlarmStatusB_CurLmtReduc",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_DBResOT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_DriveOL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_GndWarning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_HeatsinkOT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_HomingActv",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_IGBTOT",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_NotHomeSet",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_OWAlarmTO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_OWLevel",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_ProfileActv",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_PumpOffAlrm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_PWMFrqReduc",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_Reserved",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_StartOnPwrUp",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatusB_Waking",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DriveStatus_Accelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_ActualDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_AtHome",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_AtLimit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_AtSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_AtZeroSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_BusFrqReg",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_CommandDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_CurrLimit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_DBActive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_DCBraking",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Decelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_EnableOn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Jogging",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Manual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_MotorOL",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_PositionMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Regen",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Running",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_SpdRefBit0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_SpdRefBit1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_SpdRefBit2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_SpdRefBit3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_SpdRefBit4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_SpeedMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_Stopping",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_TorqueMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Feedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "LastFaultCode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MotorNPAmps",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StartInhibits",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "StartInhibits_Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_CommutNotCfg",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Database",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Enable",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Precharge",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Profiler",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Safety",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Sleep",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Startup",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StartInhibits_Stop",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:PowerFlex755_E_CF5EF03B:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:PowerFlex525V_E_2A5D8895:I:0'
+  Id: g=5dab659bf1ea05da4e959dd019506e3a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:PowerFlex525V_E_2A5D8895:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5dab659bf1ea05da4e959dd019506e3a",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Accelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ActualDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AtReference",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommandDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommFreqCnt",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommLogicCnt",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Decelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DigIn1Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DigIn2Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DigIn3Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DigIn4Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DriveStatus_param",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DriveStatus_param_Accelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_param_Decelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_param_Forward",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_param_Running",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveStatus_param_SafetyActive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Fault1Code",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OutputCurrent",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "OutputFreq",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ParmsLocked",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ready",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:PowerFlex525V_E_2A5D8895:I:0"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType

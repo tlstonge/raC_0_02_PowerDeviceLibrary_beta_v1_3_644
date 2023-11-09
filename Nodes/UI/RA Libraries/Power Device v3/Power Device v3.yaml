@@ -3,3 +3,4 @@ Type: FolderType
 Children:
 - File: raC_Dvc_PF525_3_01_UI/raC_Dvc_PF525_3_01_UI.yaml
 - File: raC_Tec_PwrVelocityStateMonitor_3_03_UI/raC_Tec_PwrVelocityStateMonitor_3_03_UI.yaml
+- File: raC_Dvc_PF755_3_03_UI/raC_Dvc_PF755_3_03_UI.yaml

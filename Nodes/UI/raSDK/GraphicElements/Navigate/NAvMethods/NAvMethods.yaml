@@ -361,6 +361,7 @@ Children:
     Children:
     - Class: Method
       Name: TagNativeLaunchButton
+      Id: g=f59d0e3d765c98561a37c98b99306761
   - Name: MouseClickEventHandler1
     Type: EventHandler
     Children:
