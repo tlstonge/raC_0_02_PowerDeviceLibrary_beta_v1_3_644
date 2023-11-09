@@ -22,6 +22,10 @@ Children:
     Children:
     - Name: raSDK1_NL_NavExplicit
       Type: NetLogic
+      Children:
+      - Class: Reference
+        Target: g=90a476d1d00bbeeb7c046c615e814704
+        Direction: Forward
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
