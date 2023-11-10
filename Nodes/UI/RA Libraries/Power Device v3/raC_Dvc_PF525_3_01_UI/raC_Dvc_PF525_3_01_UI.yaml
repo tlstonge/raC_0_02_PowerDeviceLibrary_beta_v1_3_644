@@ -1269,7 +1269,7 @@ Children:
               Type: BaseDataVariableType
               DataType: ResourceUri
               ModellingRule: Optional
-              Value: "ns=20;%PROJECTDIR%/Nav_Trend.png"
+              Value: "ns=20;%PROJECTDIR%/Nav_Trend.svg"
           - Name: Diagnostics
             Type: NavigationPanelItem
             Children:
