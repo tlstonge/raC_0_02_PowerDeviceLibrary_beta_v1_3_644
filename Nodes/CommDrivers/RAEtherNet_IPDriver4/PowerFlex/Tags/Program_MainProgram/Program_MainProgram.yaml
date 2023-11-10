@@ -1,0 +1,1228 @@
+Name: 'Program:MainProgram'
+Type: FolderType
+Children:
+- Name: _InstanceName
+  Id: g=05f821e164f4a5b6d47eca14610a1dbd
+  Type: raC_Dvc_PF527
+  DataType: raC_Dvc_PF527
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "6a427f9cd0fd38ec8e0b4ba6e7b66deb",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Val_ActualVelocity": 0.0,
+     "Val_ActualPosition": 0.0,
+     "Sts_Virtual": false,
+     "Sts_Connected": false,
+     "Sts_Available": false,
+     "Sts_Warning": false,
+     "Sts_Faulted": false,
+     "Sts_Ready": false,
+     "Sts_Active": false,
+     "Sts_NoMotion": false,
+     "Sts_ZeroSpeed": false,
+     "raC_Dvc_PF527": false,
+     "Sts_bNotReady": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.EnableOut"
+  - Name: Val_ActualVelocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Val_ActualVelocity"
+  - Name: Val_ActualPosition
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Val_ActualPosition"
+  - Name: Sts_Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_Virtual"
+  - Name: Sts_Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_Connected"
+  - Name: Sts_Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_Available"
+  - Name: Sts_Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_Warning"
+  - Name: Sts_Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_Faulted"
+  - Name: Sts_Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_Ready"
+  - Name: Sts_Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_Active"
+  - Name: Sts_NoMotion
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_NoMotion"
+  - Name: Sts_ZeroSpeed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_ZeroSpeed"
+  - Name: raC_Dvc_PF527
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.raC_Dvc_PF527"
+  - Name: Sts_bNotReady
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName.Sts_bNotReady"
+- Name: _InstanceName_CtrlCmd
+  Type: raC_UDT_ItfAD_PwrMotion_Cmd2
+  DataType: raC_UDT_ItfAD_PwrMotion_Cmd2
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "da5e5ece726af7c65cf48dc12a8b5e12",
+     "Namespace": 20
+    },
+    "Body": {
+     "bCmd": 0,
+     "Physical": false,
+     "Virtual": false,
+     "ResetWarn": false,
+     "ResetFault": false,
+     "Activate": false,
+     "Deactivate": false
+    }
+   }
+  Children:
+  - Name: bCmd
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlCmd.bCmd"
+  - Name: Physical
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlCmd.Physical"
+  - Name: Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlCmd.Virtual"
+  - Name: ResetWarn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlCmd.ResetWarn"
+  - Name: ResetFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlCmd.ResetFault"
+  - Name: Activate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlCmd.Activate"
+  - Name: Deactivate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlCmd.Deactivate"
+- Name: _InstanceName_CtrlInf
+  Type: raC_UDT_ItfAD_PwrMotion_Inf2
+  DataType: raC_UDT_ItfAD_PwrMotion_Inf2
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "210709dd4de5d8ebb58a8d3d4955ad40",
+     "Namespace": 20
+    },
+    "Body": {
+     "ModulePath": "",
+     "bExtensionEnabled": 0,
+     "bExtensionAlert": 0,
+     "AxisID": 0
+    }
+   }
+  Children:
+  - Name: ModulePath
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlInf.ModulePath"
+  - Name: bExtensionEnabled
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlInf.bExtensionEnabled"
+  - Name: bExtensionAlert
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlInf.bExtensionAlert"
+  - Name: AxisID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlInf.AxisID"
+- Name: _InstanceName_CtrlSet
+  Type: raC_UDT_ItfAD_PwrMotion_Set2
+  DataType: raC_UDT_ItfAD_PwrMotion_Set2
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "1ad44ce04262ce243eb77b574c05cbaf",
+     "Namespace": 20
+    },
+    "Body": {
+     "bInhibit": 0,
+     "InhibitCmd": false,
+     "InhibitSet": false,
+     "InhibitCfg": false
+    }
+   }
+  Children:
+  - Name: bInhibit
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSet.bInhibit"
+  - Name: InhibitCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSet.InhibitCmd"
+  - Name: InhibitSet
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSet.InhibitSet"
+  - Name: InhibitCfg
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSet.InhibitCfg"
+- Name: _InstanceName_CtrlSts
+  Type: raC_UDT_ItfAD_PwrMotion_Sts2
+  DataType: raC_UDT_ItfAD_PwrMotion_Sts2
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "57ceaead45b07a05be7f8b885e2155f0",
+     "Namespace": 20
+    },
+    "Body": {
+     "eState": 0,
+     "FirstWarning": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "3ca1b541e3f33c146e3d57137fc2a061",
+       "Namespace": 20
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     },
+     "FirstFault": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "3ca1b541e3f33c146e3d57137fc2a061",
+       "Namespace": 20
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     },
+     "eCmdFail": 0,
+     "bSts": 0,
+     "Physical": false,
+     "Virtual": false,
+     "Connected": false,
+     "Available": false,
+     "Warning": false,
+     "Faulted": false,
+     "Ready": false,
+     "Active": false,
+     "ZeroSpeed": false,
+     "NoMotion": false
+    }
+   }
+  Children:
+  - Name: eState
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.eState"
+  - Name: FirstWarning
+    Type: raC_UDT_Event3
+    DataType: raC_UDT_Event3
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "3ca1b541e3f33c146e3d57137fc2a061",
+       "Namespace": 20
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     }
+    Children:
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstWarning.Type"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstWarning.ID"
+    - Name: Category
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstWarning.Category"
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstWarning.Action"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstWarning.Value"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstWarning.Message"
+    - Name: EventTime_L
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstWarning.EventTime_L"
+    - Name: EventTime_D
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Value: [0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstWarning.EventTime_D"
+  - Name: FirstFault
+    Type: raC_UDT_Event3
+    DataType: raC_UDT_Event3
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "3ca1b541e3f33c146e3d57137fc2a061",
+       "Namespace": 20
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     }
+    Children:
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstFault.Type"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstFault.ID"
+    - Name: Category
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstFault.Category"
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstFault.Action"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstFault.Value"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstFault.Message"
+    - Name: EventTime_L
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstFault.EventTime_L"
+    - Name: EventTime_D
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Value: [0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram._InstanceName_CtrlSts.FirstFault.EventTime_D"
+  - Name: eCmdFail
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.eCmdFail"
+  - Name: bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.bSts"
+  - Name: Physical
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.Physical"
+  - Name: Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.Virtual"
+  - Name: Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.Connected"
+  - Name: Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.Available"
+  - Name: Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.Warning"
+  - Name: Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.Faulted"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.Ready"
+  - Name: Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.Active"
+  - Name: ZeroSpeed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.ZeroSpeed"
+  - Name: NoMotion
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_CtrlSts.NoMotion"
+- Name: _InstanceName_Energy
+  Type: raC_Opr_PF527_Energy
+  DataType: raC_Opr_PF527_Energy
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "ce3dfb780479bd204745e940a128568b",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Sts_ER": false,
+     "Sts_ERR": 0,
+     "Sts_EXERR": 0,
+     "raC_Opr_PF527_Energy": false,
+     "Set_SampleInterval": 0.0,
+     "Set_Inertia": 0.0,
+     "Set_PowerNominal_kW": 0.0,
+     "Set_PowerNominal_RPM": 0.0,
+     "Inp_Speed_RPM": 0.0,
+     "Cmd_ResetOdometers": false,
+     "Sts_DataAcquisitionDuration": 0,
+     "Sts_Idle": false,
+     "Sts_AcquiringData": false,
+     "Sts_WaitingForDevice": false,
+     "Sts_WaitingForCtrlResource": false,
+     "Sts_OdometerResetServiced": false
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.EnableOut"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Sts_ER"
+  - Name: Sts_ERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Sts_ERR"
+  - Name: Sts_EXERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Sts_EXERR"
+  - Name: raC_Opr_PF527_Energy
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.raC_Opr_PF527_Energy"
+  - Name: Set_SampleInterval
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Set_SampleInterval"
+  - Name: Set_Inertia
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Set_Inertia"
+  - Name: Set_PowerNominal_kW
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Set_PowerNominal_kW"
+  - Name: Set_PowerNominal_RPM
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Set_PowerNominal_RPM"
+  - Name: Inp_Speed_RPM
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Inp_Speed_RPM"
+  - Name: Cmd_ResetOdometers
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Cmd_ResetOdometers"
+  - Name: Sts_DataAcquisitionDuration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Sts_DataAcquisitionDuration"
+  - Name: Sts_Idle
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Sts_Idle"
+  - Name: Sts_AcquiringData
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Sts_AcquiringData"
+  - Name: Sts_WaitingForDevice
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Sts_WaitingForDevice"
+  - Name: Sts_WaitingForCtrlResource
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Sts_WaitingForCtrlResource"
+  - Name: Sts_OdometerResetServiced
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_Energy.Sts_OdometerResetServiced"
+- Name: _InstanceName_EnergyBase
+  Type: raC_UDT_EnergyBaseObject2
+  DataType: raC_UDT_EnergyBaseObject2
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "798921b45eadaaa00b20c37e5312046e",
+     "Namespace": 20
+    },
+    "Body": {
+     "ResourceType": 0,
+     "Capabilities": 0,
+     "Accuracy": 0,
+     "AccuracyBasis": 0,
+     "FullScaleReading": 0.0,
+     "DataStatus": 0,
+     "ConsumedEnergyOdo": [0,0,0,0,0],
+     "GeneratedEnergyOdo": [0,0,0,0,0],
+     "TotalEnergyOdo": [0,0,0,0,0],
+     "EnergyTransferRate": 0.0
+    }
+   }
+  Children:
+  - Name: ResourceType
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.ResourceType"
+  - Name: Capabilities
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.Capabilities"
+  - Name: Accuracy
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.Accuracy"
+  - Name: AccuracyBasis
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.AccuracyBasis"
+  - Name: FullScaleReading
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.FullScaleReading"
+  - Name: DataStatus
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.DataStatus"
+  - Name: ConsumedEnergyOdo
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.ConsumedEnergyOdo"
+  - Name: GeneratedEnergyOdo
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.GeneratedEnergyOdo"
+  - Name: TotalEnergyOdo
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    ValueRank: OneDimension
+    ArrayDimensions: [5]
+    Value: [0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.TotalEnergyOdo"
+  - Name: EnergyTransferRate
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_EnergyBase.EnergyTransferRate"
+- Name: _InstanceName_StateMon
+  Type: raC_Tec_PwrMotionStateMonitor2
+  DataType: raC_Tec_PwrMotionStateMonitor2
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "b8839d9a68bd247e832edfea6d09272a",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Cmd_ClearCntActivation": false,
+     "Cmd_ClearMaxHrsActive": false,
+     "Cmd_ClearTotHrsActive": false,
+     "Cmd_ClearCntDisconnect": false,
+     "Cmd_ClearMaxHrsConnected": false,
+     "Cmd_ClearTotHrsConnected": false,
+     "Val_Activations": 0,
+     "Val_CurActiveHrs": 0.0,
+     "Val_MaxActiveHrs": 0.0,
+     "Val_TotActiveHrs": 0.0,
+     "Val_Disconnections": 0,
+     "Val_CurConnectedHrs": 0.0,
+     "Val_MaxConnectedHrs": 0.0,
+     "Val_TotConnectedHrs": 0.0,
+     "raC_Tec_PwrDiscreteStateMonitor": false
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.EnableOut"
+  - Name: Cmd_ClearCntActivation
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Cmd_ClearCntActivation"
+  - Name: Cmd_ClearMaxHrsActive
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Cmd_ClearMaxHrsActive"
+  - Name: Cmd_ClearTotHrsActive
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Cmd_ClearTotHrsActive"
+  - Name: Cmd_ClearCntDisconnect
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Cmd_ClearCntDisconnect"
+  - Name: Cmd_ClearMaxHrsConnected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Cmd_ClearMaxHrsConnected"
+  - Name: Cmd_ClearTotHrsConnected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Cmd_ClearTotHrsConnected"
+  - Name: Val_Activations
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Val_Activations"
+  - Name: Val_CurActiveHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Val_CurActiveHrs"
+  - Name: Val_MaxActiveHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Val_MaxActiveHrs"
+  - Name: Val_TotActiveHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Val_TotActiveHrs"
+  - Name: Val_Disconnections
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Val_Disconnections"
+  - Name: Val_CurConnectedHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Val_CurConnectedHrs"
+  - Name: Val_MaxConnectedHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Val_MaxConnectedHrs"
+  - Name: Val_TotConnectedHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.Val_TotConnectedHrs"
+  - Name: raC_Tec_PwrDiscreteStateMonitor
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram._InstanceName_StateMon.raC_Tec_PwrDiscreteStateMonitor"

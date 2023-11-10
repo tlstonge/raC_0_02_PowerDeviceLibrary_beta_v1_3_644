@@ -1,0 +1,5060 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: 'AB:Motion_Diagnostics:S:12'
+  Id: g=36fccd119a8ac793fc5db4d5f51b8035
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:Motion_Diagnostics:S:1",
+    "DataType": {
+     "IdType": 2,
+     "Id": "36fccd119a8ac793fc5db4d5f51b8035",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "LostControllerToDriveTransmissions",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "LateControllerToDriveTransmissions",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "LostDriveToControllerTransmissions",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "LateDriveToControllerTransmissions",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "LastControllerToDriveTime",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "AverageControllerToDriveTime",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MaximumControllerToDriveTime",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "LastDriveToControllerTime",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "AverageDriveToControllerTime",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MaximumDriveToControllerTime",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "LastSystemClockJitter",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AverageSystemClockJitter",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MaximumSystemClockJitter",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TimingStatisticsEnabled",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "ControllerToDriveConnectionSize",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DriveToControllerConnectionSize",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "NominalControllerToDriveTime",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "NominalDriveToControllerTime",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "CoarseUpdatePeriod",
+      "DataType": {
+       "Id": 4
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:Motion_Diagnostics:S:1"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: AXIS_CIP_DRIVE2
+  Id: g=78d56d4c7680a48805a5f101de369930
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AXIS_CIP_DRIVE",
+    "DataType": {
+     "IdType": 2,
+     "Id": "78d56d4c7680a48805a5f101de369930",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "AxisFault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "PhysicalAxisFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConfigFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GroupFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotionFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InitializationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "APRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ServoActionStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveEnableStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ShutdownStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConfigUpdateInProcess",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InhibitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DirectControlStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisUpdateStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotionStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AccelStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DecelStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MoveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "JogStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GearingStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HomingStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StoppingStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisHomedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PositionCamStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TimeCamStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PositionCamPendingStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TimeCamPendingStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GearingLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PositionCamLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TimeCamLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MasterOffsetMoveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CoordinatedMotionStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TransformStateStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlledByTransformStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DirectVelocityControlStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DirectTorqueControlStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MoveLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "JogLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MasterOffsetMoveLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MaximumSpeedExceeded",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotionAlarmStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "SoftTravelLimitPositiveAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftTravelLimitNegativeAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotionFaultStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "SoftTravelLimitPositiveFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftTravelLimitNegativeFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisEvent",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "WatchEventArmedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "WatchEventStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RegEvent1ArmedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RegEvent1Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RegEvent2ArmedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RegEvent2Status",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HomeEventArmedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HomeEventStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OutputCamStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "OutputCamPendingStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "OutputCamLockStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "OutputCamTransitionStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ActualPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StrobeActualPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StartActualPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AverageVelocity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActualVelocity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActualAcceleration",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "WatchPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Registration1Position",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Registration1PositiveEdgePosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Registration1NegativeEdgePosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Registration2Position",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Registration2PositiveEdgePosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Registration2NegativeEdgePosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Registration1Time",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Registration1PositiveEdgeTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Registration1NegativeEdgeTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Registration2Time",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Registration2PositiveEdgeTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Registration2NegativeEdgeTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "InterpolationTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "InterpolatedActualPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "InterpolatedCommandPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MasterOffset",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StrobeMasterOffset",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StartMasterOffset",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CommandPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StrobeCommandPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "StartCommandPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DirectCommandVelocity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CommandVelocity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CommandAcceleration",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CommandTorque",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ModuleFaults",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ControlSyncFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleSyncFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TimerEventFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleHardwareFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleConnFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConnFormatFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LocalModeFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CPUWatchdogFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClockJitterFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CyclicReadFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CyclicWriteFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClockSkewFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlConnFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClockSyncFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicWatchdogFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DuplicateAddressFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SystemConnectionFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleAlarmStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ControlSyncAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleSyncAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TimerEventAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CPUOverloadAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClockJitterAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OutOfRangeAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClockSkewAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClockSyncAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NodeAddressAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AttributeErrorCode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "AttributeErrorID",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "PositionFineCommand",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PositionReference",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PositionFeedback1",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "PositionFeedback2",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "PositionError",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PositionIntegratorOutput",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PositionLoopOutput",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityFineCommand",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityFeedforwardCommand",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityReference",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityError",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityIntegratorOutput",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityLoopOutput",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityLimitSource",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AccelerationFineCommand",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AccelerationFeedforwardCommand",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AccelerationReference",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AccelerationFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "LoadObserverAccelerationEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "LoadObserverTorqueEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueReference",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueReferenceFiltered",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueReferenceLimited",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilterFrequencyEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilterMagnitudeEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilterWidthEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilter2FrequencyEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilter2MagnitudeEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilter2WidthEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilter3FrequencyEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilter3MagnitudeEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilter3WidthEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilter4FrequencyEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilter4MagnitudeEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueNotchFilter4WidthEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueLowPassFilterBandwidthEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AdaptiveTuningGainScalingFactor",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CurrentCommand",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CurrentReference",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CurrentError",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "FluxCurrentReference",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "FluxCurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "FluxCurrentError",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OperativeCurrentLimit",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CurrentLimitSource",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MotorElectricalAngle",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SlipCompensation",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputFrequency",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ConverterOutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ConverterOutputPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DCBusVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "MotorCapacity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "InverterCapacity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ConverterCapacity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BusRegulatorCapacity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DigitalInputs",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AnalogInput1",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AnalogInput2",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ACLineFrequency",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ACLineCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ACLineVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BusVoltageReference",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BusVoltageFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BusVoltageError",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BusObserverVoltageRateEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BusObserverCurrentEstimate",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActiveCurrentReference",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActiveCurrentReferenceFiltered",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActiveCurrentReferenceCompensated",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ReactiveCurrentReference",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ReactiveCurrentReferenceCompensated",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActiveCurrentReferenceLimited",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ReactiveCurrentReferenceLimited",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActiveCurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActiveCurrentError",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ReactiveCurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ReactiveCurrentError",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ConverterOperativeCurrentLimit",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ConverterCurrentLimitSource",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ACLineElectricalAngle",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil1CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil2CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil3CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil4CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil5CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil6CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil7CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil8CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil9CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil10CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil11CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TrackSectionCoil12CurrentFeedback",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PositionTrim",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityTrim",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AccelerationTrim",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueTrim",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityFeedforwardGain",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AccelerationFeedforwardGain",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PositionLoopBandwidth",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "PositionIntegratorBandwidth",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityLoopBandwidth",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityIntegratorBandwidth",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "LoadObserverBandwidth",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "LoadObserverIntegratorBandwidth",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueLimitPositive",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueLimitNegative",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "VelocityLowPassFilterBandwidth",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "TorqueLowPassFilterBandwidth",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "SystemInertia",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CurrentDisturbance",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DigitalOutputs",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AnalogOutput1",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "AnalogOutput2",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "BusVoltageSetPoint",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActiveCurrentTrim",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "GuardStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "GuardOKStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardConfigLockedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardGateDriveOutputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopRequestStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopInProgressStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopDecelStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopStandstillStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopOutputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLimitedSpeedInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLimitedSpeedRequestStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLimitedSpeedMonitorInProgressStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLimitedSpeedOutputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardMaxSpeedMonitorInProgressStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardMaxAccelMonitorInProgressStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDirectionMonitorInProgressStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDoorControlLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDoorControlOutputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDoorMonitorInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDoorMonitorInProgressStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLockMonitorInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardEnablingSwitchInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardEnablingSwitchInProgressStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardResetInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardResetRequiredStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopInputCycleRequiredStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardFaults",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "GuardInternalFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardGateDriveFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardResetFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardFeedback1Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardFeedback2Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardFeedbackSpeedCompareFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardFeedbackPositionCompareFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopInputFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopOutputFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopDecelFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopStandstillFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardStopMotionFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLimitedSpeedInputFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLimitedSpeedOutputFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLimitedSpeedMonitorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardMaxSpeedMonitorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardMaxAccelMonitorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDirectionMonitorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDoorMonitorInputFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDoorMonitorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardDoorControlOutputFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLockMonitorInputFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardLockMonitorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardEnablingSwitchMonitorInputFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardEnablingSwitchMonitorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardFeedback1VoltageMonitorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GuardFeedback2VoltageMonitorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisState",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "CIPAxisStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "LocalControlStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AlarmStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DCBusUpStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PowerStructureEnabledStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorFluxUpStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TrackingCommandStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PositionLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityStandstillStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityThresholdStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AccelerationLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DecelerationLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueThresholdStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CurrentLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ThermalLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackIntegrityStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPShutdownStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InProcessStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DCBusUnload",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACPowerLossStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PositionControlModeStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityControlModeStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueControlModeStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisStatus2",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "MotoringStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RegeneratingStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RideThruStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineSyncStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusVoltageLockStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ReactivePowerOnlyModeStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VoltageControlModeStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PowerLossStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineVoltageSagStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLinePhaseLossStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineFrequencyChangeStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineSyncLossStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SinglePhaseStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusVoltageLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusVoltageRateLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ActiveCurrentRateLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ReactiveCurrentRateLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ReactivePowerLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ReactivePowerRateLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ActiveCurrentLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ReactiveCurrentLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotoringPowerLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RegenerativePowerLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterThermalLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisStatusRA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TorqueNotchFilterFrequencyDetectedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueNotchFilterTuneUnsuccessfulStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueNotchFilterMultipleFreqStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueNotchFilterFreqBelowLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueNotchFilterFreqAboveLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AdaptiveTuneGainStabilizationStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisStatus2RA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CIPAxisIOStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EnableInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HomeInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Registration1InputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Registration2InputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PositiveOvertravelInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NegativeOvertravelInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Feedback1ThermostatStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResistiveBrakeOutputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MechanicalBrakeOutputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorThermostatInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisIOStatusRA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "RegenerativePowerInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusCapacitorInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ShuntThermalSwitchInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ContactorEnableOuputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PreChargeInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineContactorInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RegenerativePowerOutputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusConditionerModuleInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterInputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterOutputStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisFaults",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "MotorOvercurrentFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorCommutationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOverspeedFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOverspeedULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOvertemperatureFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOvertemperatureULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorThermalOverloadFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorThermalOverloadULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorPhaseLossFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterOvercurrentFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterOvertemperatureFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterOvertemperatureULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterThermalOverloadFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterThermalOverloadULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterOvercurrentFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterGroundCurrentFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterGroundCurrentULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterOvertemperatureFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterOvertemperatureULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterThermalOverloadFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterThermalOverloadULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterACPowerLossFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterACSinglePhaseLossFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterACPhaseShortFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterPreChargeFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorOvertemperatureFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorOvertemperatureULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorThermalOverloadFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorThermalOverloadULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusModuleFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusUndervoltageFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusUndervoltageULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusOvervoltageFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusOvervoltageULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusPowerLossFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusPowerBlownFuseFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusPowerLeakageFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusPowerSharingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackSignalNoiseFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackSignalNoiseULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackSignalLossFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackSignalLossULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackDataLossFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackDataLossULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackDeviceFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SensorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BrakeSlipFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HardwareOvertravelPositiveFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HardwareOvertravelNegativeFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExcessivePositionErrorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExcessiveVelocityErrorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OvertorqueLimitFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UndertorqueLimitFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExcessiveBusVoltageErrorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AmbientTemperatureRiseFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IllegalControlModeFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableInputDeactivatedFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControllerInitiatedFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExternalInputFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisFaults2",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "ACLineOvervoltageFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineOvervoltageULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineUndervoltageFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineUndervoltageULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineHighFrequencyFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineHighFrequencyULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineLowFrequencyFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineLowFrequencyULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineVoltageUnbalanceFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineCurrentUnbalanceFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineVoltageSagFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineFrequencyChangeFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineSyncLossFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineSyncFailureFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterGroundCurrentFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterGroundCurrentULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterOutputPhaseShortFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AuxiliaryPowerSupplyFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AuxiliaryPowerSupplyULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisFaultsRA",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "CommutationStartupFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorVoltageMismatchFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackFilterNoiseFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackBatteryLossFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackBatteryLowFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackIncrementalCountErrorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlModuleOvertemperatureFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlModuleOvertemperatureULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterPreChargeOverloadFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterPreChargeOverloadULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExcessiveCurrentFeedbackOffsetFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RegenerativePowerSupplyFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PWMFrequencyReducedFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CurrentLimitReducedFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueProveFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DecelOverrideFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PreventativeMaintenanceFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorTestFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HardwareConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FirmwareChangeFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterPreChargeInputDeactivatedFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DCCommonBusFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RuntimeErrorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BackplaneCommunicationErrorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyModuleCommunicationErrorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineContactorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineResonanceFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineResonanceULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TrackStopFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LostMoverAssociationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnassociatedMoverFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralHardwareFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralHardwareULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralOverTemperatureFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralOverTemperatureULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralUnderTemperatureFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralUnderTemperatureULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralCommunicationFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralCommunicationULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AdapterCommunicationFLFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AdapterCommunicationULFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PhaseThermalImbalanceFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DCBusVoltageImbalanceFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProductSpecificFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisAlarms",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "MotorOvercurrentAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorCommutationAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOverspeedFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOverspeedULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOvertemperatureFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOvertemperatureULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorThermalOverloadFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorThermalOverloadULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorPhaseLossAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterOvercurrentAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterOvertemperatureFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterOvertemperatureULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterThermalOverloadFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterThermalOverloadULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterOvercurrentAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterGroundCurrentFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterGroundCurrentULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterOvertemperatureFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterOvertemperatureULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterThermalOverloadFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterThermalOverloadULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterACPowerLossAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterACSinglePhaseLossAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterACPhaseShortAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterPreChargeAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorOvertemperatureFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorOvertemperatureULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorThermalOverloadFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorThermalOverloadULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusRegulatorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusModuleAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusUndervoltageFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusUndervoltageULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusOvervoltageFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusOvervoltageULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusPowerLossAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusPowerBlownFuseAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusPowerLeakageAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BusPowerSharingAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackSignalNoiseFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackSignalNoiseULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackSignalLossFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackSignalLossULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackDataLossFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackDataLossULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackDeviceAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SensorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BrakeSlipAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HardwareOvertravelPositiveAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HardwareOvertravelNegativeAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExcessivePositionErrorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExcessiveVelocityErrorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OvertorqueLimitAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UndertorqueLimitAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExcessiveBusVoltageErrorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AmbientTemperatureRiseAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IllegalControlModeAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableInputDeactivatedAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControllerInitiatedAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExternalInputAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisAlarms2",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "ACLineOvervoltageFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineOvervoltageULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineUndervoltageFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineUndervoltageULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineHighFrequencyFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineHighFrequencyULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineLowFrequencyFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineLowFrequencyULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineVoltageUnbalanceAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineCurrentUnbalanceAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineVoltageSagAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineFrequencyChangeAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineSyncLossAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineSyncFailureAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterGroundCurrentFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterGroundCurrentULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InverterOutputPhaseShortAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AuxiliaryPowerSupplyFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AuxiliaryPowerSupplyULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAxisAlarmsRA",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "CommutationStartupAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorVoltageMismatchAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackFilterNoiseAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackBatteryLossAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackBatteryLowAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackIncrementalCountErrorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlModuleOvertemperatureFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ControlModuleOvertemperatureULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterPreChargeOverloadFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterPreChargeOverloadULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ExcessiveCurrentFeedbackOffsetAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RegenerativePowerSupplyAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PWMFrequencyReducedAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CurrentLimitReducedAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueProveAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DecelOverrideAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PreventativeMaintenanceAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorTestAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HardwareConfigurationAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FirmwareChangeAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterPreChargeInputDeactivatedAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DCCommonBusAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RuntimeErrorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BackplaneCommunicationErrorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyModuleCommunicationErrorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineContactorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineResonanceFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineResonanceULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TrackStopAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LostMoverAssociationAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnassociatedMoverAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralHardwareFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralHardwareULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralOverTemperatureFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralOverTemperatureULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralUnderTemperatureFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralUnderTemperatureULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralCommunicationFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PeripheralCommunicationULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AdapterCommunicationFLAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AdapterCommunicationULAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PhaseThermalImbalanceAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DCBusVoltageImbalanceAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ProductSpecificAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisSafetyAlarms",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "SafetyCoreAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyFeedbackAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeTorqueOffAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SS1Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SS2Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SOSAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SBCAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SMTAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SSMAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLSAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLAAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SDIAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SCAAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLPAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyValidatorAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyAbortAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisSafetyAlarmsRA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "SFXAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPInitializationFaults",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "BootBlockChecksumFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MainBlockChecksumFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NonvolatileMemoryChecksumFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPInitializationFaultsRA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "FeedbackDataCorruptionFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackDataRangeFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackCommunicationStartupFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackAbsoluteOverspeedFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackAbsolutePowerOffTravelFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackAbsoluteStartupSpeedFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommutationOffsetUninitializedFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InvalidFPGAImageFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InvalidBoardSupportPackageFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InvalidSafetyFirmwareFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PowerBoardFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IllegalOptionCardFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OptionStorageChecksumFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleVoltageMismatchFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnknownModuleFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FactoryConfigurationErrorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IllegalAddressFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SeriesMismatchFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OpenSlotFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MoverAxisAssignmentFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TrackBackplaneCommunicationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnassociatedSectionAxisFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TrackConfigurationFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPStartInhibits",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "AxisEnableInputInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorNotConfiguredInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackNotConfiguredInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommutationNotConfigured",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeTorqueOffActiveInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConverterBusUnloadInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPStartInhibitsRA",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "VoltsHertzCurveDefinitionInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorFeedbackRequiredInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SpeedLimitConfigurationInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TorqueProveConfigurationInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeTorqueOffInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyResetRequiredInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyNotConfiguredInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "StopCommandActiveInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackDeviceResetInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BrakeMalfunctionInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ACLineContactorInputInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TrackSectionNotEnabledInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TrackMoverMotorMismatchInhibit",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisSafetyState",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "AxisSafetyDataA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AxisSafetyDataB",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AxisSafetyStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "SafetyFaultStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyResetRequestStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyResetRequiredStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeTorqueOffActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeTorqueDisabledStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SBCActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SBCEngagedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SS1ActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SS2ActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SOSActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SOSStandstillStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SMTActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SMTOvertemperatureStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SSMActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SSMStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLSActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLSLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLAActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLALimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SDIActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SDILimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafePositiveMotionStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeNegativeMotionStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SCAActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SCAStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLPActiveStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLPLimitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyOutputConnectionClosedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyOutputConnectionIdleStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisSafetyStatusRA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "SafeBrakeIntegrityStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeFeedbackHomedStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisSafetyFaults",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "SafetyCoreFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyFeedbackFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeTorqueOffFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SS1Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SS2Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SOSFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SBCFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SMTFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SSMFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLSFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLAFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SDIFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SCAFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SLPFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyValidatorFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyAbortFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisSafetyFaultsRA",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "SFXFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAPRFaults",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "MemoryWriteErrorAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MemoryReadErrorAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackSerialNumberMismatchAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "BufferAllocationAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ScalingConfigurationChangedAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackModeChangedAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackIntegrityLossAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackPositionRangeChangedAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CIPAPRFaultsRA",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "PersistentMediaAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FirmwareErrorAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FeedbackBatteryLossAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MoverSequencingWithoutReferenceAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MoverAssignmentSequenceChangedAPRFault",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AXIS_CIP_DRIVE"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ControlResource_Message2
+  Id: g=4b6a909b6400a5d0f2bc180f0ec466c8
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ControlResource_Message",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4b6a909b6400a5d0f2bc180f0ec466c8",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "ResourceInUse",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SampleInterval",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ControlResource_Message"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_Dvc_PF527
+  Id: g=6a427f9cd0fd38ec8e0b4ba6e7b66deb
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Dvc_PF527",
+    "DataType": {
+     "IdType": 2,
+     "Id": "6a427f9cd0fd38ec8e0b4ba6e7b66deb",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Val_ActualVelocity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_ActualPosition",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Sts_Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Available",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_NoMotion",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ZeroSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "raC_Dvc_PF527",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_bNotReady",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Dvc_PF527"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_Tec_PwrMotionStateMonitor2
+  Id: g=b8839d9a68bd247e832edfea6d09272a
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Tec_PwrMotionStateMonitor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "b8839d9a68bd247e832edfea6d09272a",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearCntActivation",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearMaxHrsActive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearTotHrsActive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearCntDisconnect",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearMaxHrsConnected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearTotHrsConnected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Val_Activations",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Val_CurActiveHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_MaxActiveHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_TotActiveHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_Disconnections",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Val_CurConnectedHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_MaxConnectedHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_TotConnectedHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "raC_Tec_PwrDiscreteStateMonitor",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Tec_PwrMotionStateMonitor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_EnergyBaseObject2
+  Id: g=798921b45eadaaa00b20c37e5312046e
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_EnergyBaseObject",
+    "DataType": {
+     "IdType": 2,
+     "Id": "798921b45eadaaa00b20c37e5312046e",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "ResourceType",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Capabilities",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Accuracy",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "AccuracyBasis",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "FullScaleReading",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DataStatus",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ConsumedEnergyOdo",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [5]
+     },{
+      "Name": "GeneratedEnergyOdo",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [5]
+     },{
+      "Name": "TotalEnergyOdo",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [5]
+     },{
+      "Name": "EnergyTransferRate",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_EnergyBaseObject"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: MESSAGE2
+  Id: g=8840201bf997478aaea2cb111ac9bdf7
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MESSAGE",
+    "DataType": {
+     "IdType": 2,
+     "Id": "8840201bf997478aaea2cb111ac9bdf7",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Flags",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "EW",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ST",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN_CC",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ERR",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "EXERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ERR_SRC",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "DN_LEN",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "REQ_LEN",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DestinationLink",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DestinationNode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "SourceLink",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Class",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Attribute",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Instance",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "LocalIndex",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Channel",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Rack",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Group",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Slot",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Path",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "RemoteIndex",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "RemoteElement",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "UnconnectedTimeout",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ConnectionRate",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TimeoutMultiplier",
+      "DataType": {
+       "Id": 2
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MESSAGE"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: MOTION_GROUP2
+  Id: g=962fcf012a2fa5e2093eb2e52758efd3
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MOTION_GROUP",
+    "DataType": {
+     "IdType": 2,
+     "Id": "962fcf012a2fa5e2093eb2e52758efd3",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "GroupStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "InhibStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GroupSynced",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisInhibitStatus",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GroupFault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "GroupOverlapFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CSTLossFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GroupTaskLoadingFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClockSyncFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "GroupAlarm",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ClockSyncAlarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AxisFault",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "PhysicalAxisFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ModuleFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConfigFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TaskMaxScanTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TaskLastScanTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TaskLastIOTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TaskMaxIOTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TaskAverageScanTime",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TaskAverageIOTime",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MOTION_GROUP"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_PwrMotion_Inf2
+  Id: g=210709dd4de5d8ebb58a8d3d4955ad40
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_PwrMotion_Inf",
+    "DataType": {
+     "IdType": 2,
+     "Id": "210709dd4de5d8ebb58a8d3d4955ad40",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "ModulePath",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "bExtensionEnabled",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "bExtensionAlert",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "AxisID",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PwrMotion_Inf"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_Opr_PF527_Energy
+  Id: g=ce3dfb780479bd204745e940a128568b
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Opr_PF527_Energy",
+    "DataType": {
+     "IdType": 2,
+     "Id": "ce3dfb780479bd204745e940a128568b",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_EXERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "raC_Opr_PF527_Energy",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Set_SampleInterval",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Set_Inertia",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Set_PowerNominal_kW",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Set_PowerNominal_RPM",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Inp_Speed_RPM",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cmd_ResetOdometers",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_DataAcquisitionDuration",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Idle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_AcquiringData",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_WaitingForDevice",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_WaitingForCtrlResource",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_OdometerResetServiced",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Opr_PF527_Energy"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_Event3
+  Id: g=3ca1b541e3f33c146e3d57137fc2a061
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_Event",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3ca1b541e3f33c146e3d57137fc2a061",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Type",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ID",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Category",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Action",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Value",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Message",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "EventTime_L",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "EventTime_D",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_Event"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_PwrMotion_Cmd2
+  Id: g=da5e5ece726af7c65cf48dc12a8b5e12
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_PwrMotion_Cmd",
+    "DataType": {
+     "IdType": 2,
+     "Id": "da5e5ece726af7c65cf48dc12a8b5e12",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "bCmd",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Physical",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResetWarn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResetFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Activate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Deactivate",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PwrMotion_Cmd"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_PwrMotion_Set2
+  Id: g=1ad44ce04262ce243eb77b574c05cbaf
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_PwrMotion_Set",
+    "DataType": {
+     "IdType": 2,
+     "Id": "1ad44ce04262ce243eb77b574c05cbaf",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "bInhibit",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "InhibitCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InhibitSet",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InhibitCfg",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PwrMotion_Set"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_PwrMotion_Sts2
+  Id: g=57ceaead45b07a05be7f8b885e2155f0
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_PwrMotion_Sts",
+    "DataType": {
+     "IdType": 2,
+     "Id": "57ceaead45b07a05be7f8b885e2155f0",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "eState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "FirstWarning",
+      "DataType": {
+       "IdType": 2,
+       "Id": "3ca1b541e3f33c146e3d57137fc2a061",
+       "Namespace": 20
+      }
+     },{
+      "Name": "FirstFault",
+      "DataType": {
+       "IdType": 2,
+       "Id": "3ca1b541e3f33c146e3d57137fc2a061",
+       "Namespace": 20
+      }
+     },{
+      "Name": "eCmdFail",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "bSts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Physical",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Available",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ZeroSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "NoMotion",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PwrMotion_Sts"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_LookupMember_STR00823
+  Id: g=4201bcc4e23b7bde5056800300063dae
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_LookupMember_STR0082",
+    "DataType": {
+     "IdType": 2,
+     "Id": "4201bcc4e23b7bde5056800300063dae",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Code",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Desc",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_LookupMember_STR0082"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

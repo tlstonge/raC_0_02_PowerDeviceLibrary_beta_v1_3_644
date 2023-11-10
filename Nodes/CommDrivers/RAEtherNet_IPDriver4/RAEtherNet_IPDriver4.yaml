@@ -1,0 +1,4 @@
+Name: RAEtherNet_IPDriver4
+Type: RAEtherNetIPDriver
+Children:
+- File: PowerFlex/PowerFlex.yaml
