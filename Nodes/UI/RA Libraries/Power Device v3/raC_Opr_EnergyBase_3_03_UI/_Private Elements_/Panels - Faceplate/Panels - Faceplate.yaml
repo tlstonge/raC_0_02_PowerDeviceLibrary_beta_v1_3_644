@@ -1,7 +1,7 @@
 Name: 'Panels - Faceplate'
 Type: FolderType
 Children:
-- Name: raC_Opr_EnergyBase_3_03_Home1
+- Name: raC_Opr_EnergyBase_3_03_Home
   Id: g=d7e8009ce09d0dd4211fc48d07ffadad
   Supertype: Panel
   ReferenceType: HasComponent
@@ -45,7 +45,7 @@ Children:
     DataType: VerticalAlignment
     ModellingRule: Optional
     Value: 0
-  - Name: grp_DvcOutputPwrStructure
+  - Name: grp_DvcOutputEnergy
     Type: ColumnLayout
     Children:
     - Name: Width
@@ -88,7 +88,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 8.0
-    - Name: HorizontalLayout1
+    - Name: grp_ResourceType
       Type: RowLayout
       Children:
       - Name: Width
@@ -138,7 +138,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_eDvcAction"
+                Value: "{raSDK1_DialogBox}/Ref_Tag/ResourceType"
             - Name: Pairs
               Type: BaseObjectType
               Children:
@@ -152,7 +152,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "------"
+                  Value: "Generic"
               - Name: Pair1
                 Type: ValueMapPair
                 Children:
@@ -163,7 +163,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "Off"
+                  Value: "Electrical"
               - Name: Pair2
                 Type: ValueMapPair
                 Children:
@@ -174,7 +174,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "Zero Speed"
+                  Value: "Non-Electrical"
               - Name: Pair3
                 Type: ValueMapPair
                 Children:
@@ -185,18 +185,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "Forward"
-              - Name: Pair4
-                Type: ValueMapPair
-                Children:
-                - Name: Key
-                  Type: BaseDataVariableType
-                  DataType: UInt32
-                  Value: 4
-                - Name: Value
-                  Type: BaseDataVariableType
-                  DataType: String
-                  Value: "Reverse"
+                  Value: "Other"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -227,7 +216,12 @@ Children:
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 3
-    - Name: HorizontalLayout2
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+    - Name: grp_Capabilities
       Type: RowLayout
       Children:
       - Name: Width
@@ -277,7 +271,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_eDvcAction"
+                Value: "{raSDK1_DialogBox}/Ref_Tag/Capabilities"
             - Name: Pairs
               Type: BaseObjectType
               Children:
@@ -291,7 +285,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "------"
+                  Value: "Measured"
               - Name: Pair1
                 Type: ValueMapPair
                 Children:
@@ -302,7 +296,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "Off"
+                  Value: "Derived"
               - Name: Pair2
                 Type: ValueMapPair
                 Children:
@@ -313,7 +307,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "Zero Speed"
+                  Value: "Proxy"
               - Name: Pair3
                 Type: ValueMapPair
                 Children:
@@ -324,7 +318,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "Forward"
+                  Value: "Aggregated"
               - Name: Pair4
                 Type: ValueMapPair
                 Children:
@@ -335,7 +329,7 @@ Children:
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  Value: "Reverse"
+                  Value: "Energy Rate Fixed"
         - Name: Width
           Type: BaseVariableType
           DataType: Size
@@ -370,7 +364,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 15.0
     - Name: txt_Hdr_RealEnergy
       Type: Label
       Children:
@@ -388,13 +382,13 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 16.0
+        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
-    - Name: raSDK1_ND_LblValUnit_Stack1
+        Value: 15.0
+    - Name: nd_Consumed
       Type: raSDK1_ND_LblValUnit_Stack
       Children:
       - Name: Label
@@ -475,15 +469,26 @@ Children:
       - Name: Cfg_Label
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Label"}
+        Value: {"LocaleId":"en-US","Text":"Consumed"}
       - Name: Cfg_Units
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Units"}
+        Value: {"LocaleId":"en-US","Text":"kWh"}
       - Name: Inp_Value
         Type: BaseDataVariableType
         DataType: Float
         Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{raSDK1_DialogBox}/Ref_Tag/ConsumedEnergy"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: Set_DecimalPlaces
         Type: BaseDataVariableType
         DataType: Int32
@@ -501,7 +506,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: -4.0
+        Value: 0.0
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
@@ -511,8 +516,8 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
-    - Name: raSDK1_ND_LblValUnit_Stack2
+        Value: 15.0
+    - Name: nd_Generated
       Type: raSDK1_ND_LblValUnit_Stack
       Children:
       - Name: Label
@@ -597,11 +602,22 @@ Children:
       - Name: Cfg_Units
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Units"}
+        Value: {"LocaleId":"en-US","Text":"kWh"}
       - Name: Inp_Value
         Type: BaseDataVariableType
         DataType: Float
         Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{raSDK1_DialogBox}/Ref_Tag/GeneratedEnergy"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: Set_DecimalPlaces
         Type: BaseDataVariableType
         DataType: Int32
@@ -619,8 +635,8 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
-    - Name: raSDK1_ND_LblValUnit_Stack3
+        Value: 15.0
+    - Name: nd_Net
       Type: raSDK1_ND_LblValUnit_Stack
       Children:
       - Name: Label
@@ -705,11 +721,22 @@ Children:
       - Name: Cfg_Units
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Units"}
+        Value: {"LocaleId":"en-US","Text":"kWh"}
       - Name: Inp_Value
         Type: BaseDataVariableType
         DataType: Float
         Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{raSDK1_DialogBox}/Ref_Tag/TotalEnergy"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: Set_DecimalPlaces
         Type: BaseDataVariableType
         DataType: Int32
@@ -727,8 +754,8 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
-    - Name: raSDK1_ND_LblValUnit_Stack4
+        Value: 15.0
+    - Name: nd_TransferRate
       Type: raSDK1_ND_LblValUnit_Stack
       Children:
       - Name: Label
@@ -813,11 +840,22 @@ Children:
       - Name: Cfg_Units
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Units"}
+        Value: {"LocaleId":"en-US","Text":"kW"}
       - Name: Inp_Value
         Type: BaseDataVariableType
         DataType: Float
         Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{raSDK1_DialogBox}/Ref_Tag/EnergyTransferRate"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
       - Name: Set_DecimalPlaces
         Type: BaseDataVariableType
         DataType: Int32
@@ -835,4 +873,4 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 10.0
+        Value: 15.0

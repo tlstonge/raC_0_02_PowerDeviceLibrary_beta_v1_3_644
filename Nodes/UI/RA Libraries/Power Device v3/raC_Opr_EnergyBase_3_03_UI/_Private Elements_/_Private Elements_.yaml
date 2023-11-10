@@ -2,7 +2,7 @@ Name: <Private Elements>
 Type: FolderType
 Children:
 - File: 'Panels - Faceplate/Panels - Faceplate.yaml'
-- Name: raC_Opr_EnergyBase_3_03_InfLookup_Description1
+- Name: raC_Opr_EnergyBase_3_03_InfLookup_Description
   Id: g=57f7149f47313a8d4ef66c47c90e7825
   Supertype: ValueMapConverter
   Description: {"LocaleId":"en-US","Text":"Information loop-up table for fault table containing short descriptions for fault codes"}

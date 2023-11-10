@@ -1,7 +1,7 @@
 Name: Graphic Symbols
 Type: FolderType
 Children:
-- Name: raC_Opr_EnergyBase_3_03_Nav_Text1
+- Name: raC_Opr_EnergyBase_3_03_Nav_Text
   Id: g=9ab256fa5d72dc7c09bc4aa796b80b2e
   Supertype: Button
   DisplayName: {"LocaleId":"en-US","Text":"Text Button"}
@@ -118,7 +118,7 @@ Children:
     DataType: Boolean
     Description: {"LocaleId":"en-US","Text":"Close current DialogBox after opening new DialogBox"}
     Value: false
-- Name: raC_Opr_EnergyBase_3_03_Nav_Text_Chevron1
+- Name: raC_Opr_EnergyBase_3_03_Nav_Text_Chevron
   Id: g=c5787a29e479c472d7bff96e838752fd
   Supertype: Panel
   DisplayName: {"LocaleId":"en-US","Text":"Text Button Chevron"}

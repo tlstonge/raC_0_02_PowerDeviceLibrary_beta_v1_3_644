@@ -2,7 +2,7 @@ Name: raC_Opr_EnergyBase_3_03_UI
 Type: FolderType
 DisplayName: {"LocaleId":"en-US","Text":"raC_Opr_EnergyBase"}
 Children:
-- Name: raC_Opr_EnergyBase_3_03_Faceplate1
+- Name: raC_Opr_EnergyBase_3_03_Faceplate
   Id: g=ab26435c5a6cc387dc72d4dc949ce7b7
   Supertype: raSDK1_DialogBoxBase
   ReferenceType: HasComponent
@@ -207,7 +207,7 @@ Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Output Power"}
+              Value: {"LocaleId":"en-US","Text":""}
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
@@ -227,22 +227,6 @@ Children:
               DataType: ResourceUri
               ModellingRule: Optional
               Value: ""
-          - Name: Connection
-            Type: NavigationPanelItem
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Connection"}
-            - Name: Panel
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"IdType":2,"Id":"09fe129d3b5b9df801cf0619f4a4b1b5","Namespace":20}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":71,"Namespace":5}
         - Name: CurrentPanel
           Type: NodePointer
           DataType: NodeId
