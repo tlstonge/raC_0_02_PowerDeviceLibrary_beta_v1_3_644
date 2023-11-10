@@ -25,7 +25,7 @@ Children:
   - Name: CSVFile
     Type: BaseDataVariableType
     DataType: ResourceUri
-    Value: "file:///C:/Users/TLSt.Ong/OneDrive - Rockwell Automation, Inc/Documents - Device Object Library/Power Device Library/FT Optix Development/Faullt InfTables/Export.csv"
+    Value: "file:///C:/Users/SGaware/OneDrive - Rockwell Automation, Inc/Desktop/WIP/Optix/PF755_Faults.CSV"
   - Name: WrapFields
     Type: BaseDataVariableType
     DataType: Boolean
