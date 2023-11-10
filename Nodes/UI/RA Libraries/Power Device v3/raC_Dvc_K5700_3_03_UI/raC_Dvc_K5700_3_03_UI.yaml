@@ -2,7 +2,7 @@ Name: raC_Dvc_K5700_3_03_UI
 Type: FolderType
 DisplayName: {"LocaleId":"en-US","Text":"raC_Dvc_K5700"}
 Children:
-- Name: raC_Dvc_K5700_3_03_Faceplate1
+- Name: raC_Dvc_K5700_3_03_Faceplate
   Id: g=23cff208cbb728658643b1a3c170c8df
   Supertype: raSDK1_DialogBoxBase
   ReferenceType: HasComponent
