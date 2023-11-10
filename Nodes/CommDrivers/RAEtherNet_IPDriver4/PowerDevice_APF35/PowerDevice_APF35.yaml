@@ -1,5 +1,4 @@
 Name: PowerDevice_APF35
-Id: g=67e41405ace2de972874f1ed796321e1
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
