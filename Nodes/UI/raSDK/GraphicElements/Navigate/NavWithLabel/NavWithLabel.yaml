@@ -24,7 +24,7 @@ Children:
       Type: NetLogic
       Children:
       - Class: Reference
-        Target: g=f59d0e3d765c98561a37c98b99306761
+        Target: g=90a476d1d00bbeeb7c046c615e814704
         Direction: Forward
     - Name: MouseClickEventHandler1
       Type: EventHandler

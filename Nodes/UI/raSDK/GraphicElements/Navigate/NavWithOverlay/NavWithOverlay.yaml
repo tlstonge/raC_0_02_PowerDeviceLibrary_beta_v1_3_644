@@ -25,6 +25,7 @@ Children:
       Children:
       - Class: Reference
         Target: g=65c3e20218169e2100930efc849d071c
+        Direction: Forward
       - Class: Reference
         Target: g=798f49dcc0f2ae781fa6ebfab72b2240
         Direction: Forward

@@ -1,8 +1,8 @@
 Name: 'Panels - Faceplate'
 Type: FolderType
 Children:
-- Name: raC_Dvc_PF525_3_01_Home
-  Id: g=32edd0345f467ec7ba5b3fdd55d51c3b
+- Name: raC_Dvc_K5500_3_03_Home1
+  Id: g=39638320db1abd7eb622201f17037aa8
   Supertype: Panel
   ReferenceType: HasComponent
   Children:
@@ -65,7 +65,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 139.0
+        Value: 257.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -98,77 +98,61 @@ Children:
                 Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_eDvcAction"
             - Name: Pairs
               Type: BaseObjectType
-              ModellingRule: None
               Children:
               - Name: Pair
                 Type: ValueMapPair
-                ModellingRule: None
                 Children:
                 - Name: Key
                   Type: BaseDataVariableType
                   DataType: UInt32
-                  ModellingRule: None
                   Value: 0
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  ModellingRule: None
                   Value: "------"
               - Name: Pair1
                 Type: ValueMapPair
-                ModellingRule: None
                 Children:
                 - Name: Key
                   Type: BaseDataVariableType
                   DataType: UInt32
-                  ModellingRule: None
                   Value: 1
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  ModellingRule: None
                   Value: "Off"
               - Name: Pair2
                 Type: ValueMapPair
-                ModellingRule: None
                 Children:
                 - Name: Key
                   Type: BaseDataVariableType
                   DataType: UInt32
-                  ModellingRule: None
                   Value: 2
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  ModellingRule: None
                   Value: "Zero Speed"
               - Name: Pair3
                 Type: ValueMapPair
-                ModellingRule: None
                 Children:
                 - Name: Key
                   Type: BaseDataVariableType
                   DataType: UInt32
-                  ModellingRule: None
                   Value: 3
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  ModellingRule: None
                   Value: "Forward"
               - Name: Pair4
                 Type: ValueMapPair
-                ModellingRule: None
                 Children:
                 - Name: Key
                   Type: BaseDataVariableType
                   DataType: UInt32
-                  ModellingRule: None
                   Value: 4
                 - Name: Value
                   Type: BaseDataVariableType
                   DataType: String
-                  ModellingRule: None
                   Value: "Reverse"
         - Name: Width
           Type: BaseVariableType
@@ -190,571 +174,432 @@ Children:
           DataType: String
           ModellingRule: Optional
           Value: "Live Data"
-      - Name: nd_Val_FreqActual
-        Type: raSDK1_ND_LblValUnit
-        Children:
-        - Name: Label
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../Cfg_Label"
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: -1.0
-        - Name: HorizontalLayout
-          Type: RowLayout
-          Children:
-          - Name: Value
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: StringFormatter1
-                Type: StringFormatter
-                Children:
-                - Name: Source0
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../Inp_Value"
-                - Name: Source1
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../Set_DecimalPlaces"
-            - Name: Style
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Live Data"
-              Children:
-              - Name: ConditionalConverter1
-                Type: ConditionalConverter
-                Children:
-                - Name: Condition
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasSource
-                  Value: false
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../Cfg_DisplayAsPrimary"
-          - Name: Units
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../Cfg_Units"
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -1.0
-        - Name: Cfg_Label
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Speed"}
-        - Name: Cfg_Units
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Hz"}
-        - Name: Inp_Value
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_FreqActual"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Set_DecimalPlaces
-          Type: BaseDataVariableType
-          DataType: Int32
-          Value: 1
-        - Name: Cfg_DisplayAsPrimary
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: true
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 2
-      - Name: bg_Speed
-        Type: Panel
-        WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-        Children:
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 80.0
-        - Name: bg_scale
-          Type: LinearGauge
-          Children:
-          - Name: Value
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-          - Name: MinValue
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../Set_Min"
-          - Name: MaxValue
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../Set_Max"
-          - Name: WarningZones
-            Type: BaseObjectType
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            Value: 170.0
-            Children:
-            - Name: ExpressionEvaluator1
-              Type: ExpressionEvaluator
-              Children:
-              - Name: Expression
-                Type: BaseDataVariableType
-                DataType: String
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: "{0} - 20"
-              - Name: ns=3;Source0
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../Width"
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 35.0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 10.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 14.0
-          - Name: ValueChangeBehaviour
-            Type: BaseDataVariableType
-            DataType: ValueChangeBehaviour
-            ModellingRule: Optional
-            Value: 0
-          - Name: Editable
-            Type: BaseDataVariableType
-            DataType: Boolean
-            ModellingRule: Optional
-            Value: false
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 2
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 10.0
-          - Name: LabelVisible
-            Type: BaseDataVariableType
-            DataType: Boolean
-            ModellingRule: Optional
-            Value: false
-        - Name: Tag_PV
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_FreqActual"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Tag_SP
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_CmdSpeed"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Set_Min
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 0.0
-        - Name: Set_Max
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 60.0
-        - Name: bg_indicator
-          Type: Image
-          Children:
-          - Name: Path
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=20;%PROJECTDIR%/Cmd_LowerSP.svg"
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 18.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: DynamicColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-            Value: "#2a4191"
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            Value: 0.0
-            Children:
-            - Name: ExpressionEvaluator1
-              Type: ExpressionEvaluator
-              Children:
-              - Name: Expression
-                Type: BaseDataVariableType
-                DataType: String
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: "{3}*({0}-{1})/({2}-{1})"
-              - Name: ns=3;Source0
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../Tag_PV"
-              - Name: ns=3;Source1
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../Set_Min"
-              - Name: ns=3;Source2
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../Set_Max"
-              - Name: ns=3;Source3
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../bg_scale/Width"
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-        - Name: bg_indicatorSP
-          Type: Image
-          Children:
-          - Name: Path
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "ns=20;%PROJECTDIR%/Cmd_RaiseSP.svg"
-          - Name: Width
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 18.0
-          - Name: Height
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-          - Name: DynamicColor
-            Type: BaseDataVariableType
-            DataType: Color
-            ModellingRule: Optional
-            Value: "#6a6a6a"
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            Value: 0.0
-            Children:
-            - Name: ExpressionEvaluator1
-              Type: ExpressionEvaluator
-              Children:
-              - Name: Expression
-                Type: BaseDataVariableType
-                DataType: String
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: "{3}*({0}-{1})/({2}-{1})"
-              - Name: ns=3;Source0
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../Tag_SP"
-              - Name: ns=3;Source1
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../Set_Min"
-              - Name: ns=3;Source2
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../Set_Max"
-              - Name: ns=3;Source3
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                ReferenceType: HasSource
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../../bg_scale/Width"
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 20.0
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          Value: 190.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 10.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 2
-      - Name: nd_Val_CmdSpeed
-        Type: raSDK1_ND_LblValUnit
-        Children:
-        - Name: Label
-          Type: Label
-          Children:
-          - Name: Text
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "../../Cfg_Label"
-          - Name: FontSize
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: -1.0
-        - Name: HorizontalLayout
-          Type: RowLayout
-          Children:
-          - Name: Value
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: StringFormatter1
-                Type: StringFormatter
-                Children:
-                - Name: Source0
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../Inp_Value"
-                - Name: Source1
-                  Type: BaseDataVariableType
-                  DataType: BaseDataType
-                  ReferenceType: HasSource
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../Set_DecimalPlaces"
-            - Name: Style
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "Live Data"
-              Children:
-              - Name: ConditionalConverter1
-                Type: ConditionalConverter
-                Children:
-                - Name: Condition
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasSource
-                  Value: false
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../../../../Cfg_DisplayAsPrimary"
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -1.0
-            - Name: FontWeight
-              Type: BaseDataVariableType
-              DataType: FontWeightEnum
-              Value: 400
-          - Name: Units
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../Cfg_Units"
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -1.0
-            - Name: LeftMargin
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: 4.0
-        - Name: Cfg_Label
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Commanded"}
-        - Name: Cfg_Units
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Hz"}
-        - Name: Inp_Value
-          Type: BaseDataVariableType
-          DataType: Float
-          Value: 0.0
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_CmdSpeed"
-            Children:
-            - Name: Mode
-              Type: BaseVariableType
-              DataType: DynamicLinkMode
-              ModellingRule: Optional
-              Value: 2
-        - Name: Set_DecimalPlaces
-          Type: BaseDataVariableType
-          DataType: Int32
-          Value: 1
-        - Name: Cfg_DisplayAsPrimary
-          Type: BaseDataVariableType
-          DataType: Boolean
-          Value: false
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 2
       - Name: RightMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 8.0
+      - Name: nd_position
+        Type: raSDK1_ND_LblValUnit
+        Children:
+        - Name: Label
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Cfg_Label"
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+        - Name: HorizontalLayout
+          Type: RowLayout
+          Children:
+          - Name: Value
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: StringFormatter1
+                Type: StringFormatter
+                Children:
+                - Name: Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../Inp_Value"
+                - Name: Source1
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../Set_DecimalPlaces"
+            - Name: Style
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Live Data"
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../Cfg_DisplayAsPrimary"
+          - Name: Units
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Cfg_Units"
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+        - Name: Cfg_Label
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Position"}
+        - Name: Cfg_Units
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Units"}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Inp_Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_ActualPosition"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Set_DecimalPlaces
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 2
+        - Name: Cfg_DisplayAsPrimary
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+      - Name: nd_Velocity
+        Type: raSDK1_ND_LblValUnit
+        Children:
+        - Name: Label
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Cfg_Label"
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+        - Name: HorizontalLayout
+          Type: RowLayout
+          Children:
+          - Name: Value
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: StringFormatter1
+                Type: StringFormatter
+                Children:
+                - Name: Source0
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../Inp_Value"
+                - Name: Source1
+                  Type: BaseDataVariableType
+                  DataType: BaseDataType
+                  ReferenceType: HasSource
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../Set_DecimalPlaces"
+            - Name: Style
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Live Data"
+              Children:
+              - Name: ConditionalConverter1
+                Type: ConditionalConverter
+                Children:
+                - Name: Condition
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  ReferenceType: HasSource
+                  Value: false
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../../../../Cfg_DisplayAsPrimary"
+          - Name: Units
+            Type: Label
+            Children:
+            - Name: Text
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Cfg_Units"
+            - Name: FontSize
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+        - Name: Cfg_Label
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Velocity"}
+        - Name: Cfg_Units
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Units"}
+          Children:
+          - Name: StringFormatter1
+            Type: StringFormatter
+            Children:
+            - Name: Format
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: {"LocaleId":"en-US","Text":"{0}/sec"}
+            - Name: ns=3;Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"
+                Children:
+                - Name: Mode
+                  Type: BaseVariableType
+                  DataType: DynamicLinkMode
+                  ModellingRule: Optional
+                  Value: 2
+            - Name: Mode
+              Type: PropertyType
+              DataType: DynamicLinkMode
+              ReferenceType: HasComponent
+              ModellingRule: Optional
+              Value: 2
+        - Name: Inp_Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_ActualVelocity"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Set_DecimalPlaces
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 2
+        - Name: Cfg_DisplayAsPrimary
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+      - Name: sprk_Speed
+        Type: raSDK1_sprk_Lblsprk
+        Children:
+        - Name: sprk_Label
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Cfg_Label"
+        - Name: sprk_border
+          Type: Rectangle
+          Children:
+          - Name: sprk
+            Type: Sparkline
+            Children:
+            - Name: PenValue
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Inp_Value"
+            - Name: TimeWindow
+              Type: BaseDataVariableType
+              DataType: Duration
+              Value: "0:00:02:0.0000000"
+            - Name: PenColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#475ca7"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Cfg_PenColor"
+            - Name: YAxisMinimum
+              Type: BaseDataVariableType
+              DataType: Double
+              Value: 0.0
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Set_Min"
+            - Name: YAxisMaximum
+              Type: BaseDataVariableType
+              DataType: Double
+              Value: 0.0
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../Set_Max"
+        - Name: Cfg_Label
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Actual Velocity"}
+        - Name: Inp_Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_ActualVelocity"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Set_TimeWindow
+          Type: BaseDataVariableType
+          DataType: Duration
+          Value: "0:00:02:0.0000000"
+        - Name: Cfg_PenColor
+          Type: BaseDataVariableType
+          DataType: Color
+          Value: "#475ca7"
+        - Name: Set_Min
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_VelocityTrendMin"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Set_Max
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 100.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_VelocityTrendMax"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: -22.0
     - Name: grp_TrendsAndJog
       Type: ColumnLayout
       Children:
@@ -762,266 +607,115 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
+        Value: 319.0
       - Name: Height
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 50.0
-      - Name: grp_Trends
-        Type: RowLayout
+        Value: 260.0
+      - Name: grp_Toggle
+        Type: raSDK1_Tgl_LblTgl
         Children:
-        - Name: Width
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 50.0
-        - Name: Height
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 100.0
-        - Name: sprk_Speed
-          Type: raSDK1_sprk_Lblsprk
+        - Name: Cfg_Label
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Power"}
+        - Name: Ref_Variable
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
           Children:
-          - Name: sprk_Label
-            Type: Label
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Cmd_Activate"
             Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../Cfg_Label"
-          - Name: sprk_border
-            Type: Rectangle
-            Children:
-            - Name: sprk
-              Type: Sparkline
-              Children:
-              - Name: PenValue
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../Inp_Value"
-              - Name: TimeWindow
-                Type: BaseDataVariableType
-                DataType: Duration
-                Value: "0:00:02:0.0000000"
-              - Name: PenColor
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#475ca7"
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../Cfg_PenColor"
-              - Name: YAxisMinimum
-                Type: BaseDataVariableType
-                DataType: Double
-                Value: 0.0
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../Set_Min"
-              - Name: YAxisMaximum
-                Type: BaseDataVariableType
-                DataType: Double
-                Value: 0.0
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../Set_Max"
-          - Name: Cfg_Label
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Label
+          Type: Label
+          Children:
+          - Name: Text
             Type: BaseDataVariableType
             DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Speed (Hz)"}
-          - Name: Inp_Value
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{raSDK1_DialogBox}/Ref_Tag/Val_FreqActual"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: Set_TimeWindow
-            Type: BaseDataVariableType
-            DataType: Duration
-            Value: "0:00:02:0.0000000"
-          - Name: Cfg_PenColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#475ca7"
-          - Name: Set_Min
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_SpeedTrendMin"
-          - Name: Set_Max
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_SpeedTrendMax"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 4.0
-        - Name: sprk_Current
-          Type: raSDK1_sprk_Lblsprk
+              Value: "../../Cfg_Label"
+        - Name: Switch
+          Type: Switch
           Children:
-          - Name: sprk_Label
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../Cfg_Label"
-          - Name: sprk_border
-            Type: Rectangle
-            Children:
-            - Name: sprk
-              Type: Sparkline
-              Children:
-              - Name: PenValue
-                Type: BaseDataVariableType
-                DataType: BaseDataType
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../Inp_Value"
-              - Name: TimeWindow
-                Type: BaseDataVariableType
-                DataType: Duration
-                Value: "0:00:02:0.0000000"
-              - Name: PenColor
-                Type: BaseDataVariableType
-                DataType: Color
-                Value: "#475ca7"
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../Cfg_PenColor"
-              - Name: YAxisMinimum
-                Type: BaseDataVariableType
-                DataType: Double
-                Value: 0.0
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../Set_Min"
-              - Name: YAxisMaximum
-                Type: BaseDataVariableType
-                DataType: Double
-                Value: 0.0
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "../../../Set_Max"
-          - Name: Cfg_Label
+          - Name: Checked
             Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Current (%FLA)"}
-          - Name: Inp_Value
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
+            DataType: Boolean
+            Value: false
             Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{raSDK1_DialogBox}/Ref_Tag/Val_OutputCurrent"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: Set_TimeWindow
+              Value: "../../Ref_Variable"
+          - Name: Enabled
             Type: BaseDataVariableType
-            DataType: Duration
-            Value: "0:00:02:0.0000000"
-          - Name: Cfg_PenColor
-            Type: BaseDataVariableType
-            DataType: Color
-            Value: "#475ca7"
-          - Name: Set_Min
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
+            DataType: Boolean
+            Value: true
             Children:
             - Name: DynamicLink
               Type: DynamicLink
               DataType: NodePath
-              Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PercentFLATrendMin"
-          - Name: Set_Max
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 100.0
-            Children:
-            - Name: DynamicLink
-              Type: DynamicLink
-              DataType: NodePath
-              Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PercentFLATrendMax"
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 4.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 3
-        - Name: VerticalAlignment
-          Type: BaseVariableType
-          DataType: VerticalAlignment
-          ModellingRule: Optional
-          Value: 3
+              Value: "../../Set_Enabled"
+        - Name: Set_Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+        - Name: Sts_Checked
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Active"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
+          Value: 100.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
           Value: 0.0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 122.0
       - Name: grp_Jog
         Type: ColumnLayout
         Children:
@@ -1034,207 +728,7 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 100.0
-        - Name: ni_JogSetpoint
-          Type: raSDK1_NI_LblValUnits
-          Children:
-          - Name: Label
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../Cfg_Label"
-            - Name: HorizontalAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              ModellingRule: Optional
-              Value: 1
-          - Name: SpinBox
-            Type: SpinBox
-            Children:
-            - Name: Value
-              Type: BaseDataVariableType
-              DataType: Double
-              Value: 0.0
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{raSDK1_DialogBox}/Ref_Tag/Set_JogSpeed"
-            - Name: MinValue
-              Type: BaseDataVariableType
-              DataType: Double
-              Value: 0.0
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../Set_ValueMinimum"
-            - Name: MaxValue
-              Type: BaseDataVariableType
-              DataType: Double
-              Value: 100.0
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../Set_ValueMaximum"
-            - Name: Editable
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../Set_Enabled"
-            - Name: Enabled
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../Set_Enabled"
-            - Name: Format
-              Type: BaseDataVariableType
-              DataType: String
-              ModellingRule: Optional
-              Value: "f2"
-          - Name: Cfg_Label
-            Type: BaseDataVariableType
-            DataType: LocalizedText
-            Value: {"LocaleId":"en-US","Text":"Jog Setpoint"}
-          - Name: Ref_Value
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-          - Name: Set_Enabled
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-            Children:
-            - Name: ConditionalConverter1
-              Type: ConditionalConverter
-              Children:
-              - Name: Condition
-                Type: BaseDataVariableType
-                DataType: Boolean
-                ReferenceType: HasSource
-                Value: false
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitSet"
-              - Name: TrueValue
-                Type: BaseDataVariableType
-                DataType: Boolean
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: false
-              - Name: FalseValue
-                Type: BaseDataVariableType
-                DataType: Boolean
-                ReferenceType: HasParameter
-                ModellingRule: Optional
-                Value: true
-          - Name: Set_DecimalPlaces
-            Type: BaseDataVariableType
-            DataType: Int32
-            Value: 2
-          - Name: Set_ValueMinimum
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 0.0
-          - Name: Set_ValueMaximum
-            Type: BaseDataVariableType
-            DataType: Float
-            Value: 120.0
-          - Name: Cfg_EnableNotification
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: false
-          - Name: Cfg_NotificationImage
-            Type: BaseDataVariableType
-            DataType: ResourceUri
-            Value: "0"
-          - Name: Inp_Notification
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: false
-          - Name: Units
-            Type: Label
-            Children:
-            - Name: Text
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../Cfg_Units"
-            - Name: FontSize
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -1.0
-          - Name: Cfg_Units
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Hz"
-          - Name: HorizontalAlignment
-            Type: BaseVariableType
-            DataType: HorizontalAlignment
-            ModellingRule: Optional
-            Value: 2
-          - Name: VerticalAlignment
-            Type: BaseVariableType
-            DataType: VerticalAlignment
-            ModellingRule: Optional
-            Value: 0
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: RightMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-          - Name: BottomMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 0.0
-        - Name: LeftMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
-        - Name: TopMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 20.0
-        - Name: HorizontalAlignment
-          Type: BaseVariableType
-          DataType: HorizontalAlignment
-          ModellingRule: Optional
-          Value: 2
-        - Name: RightMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 0.0
+          Value: 54.0
         - Name: grp_cmd
           Type: Panel
           Children:
@@ -1455,7 +949,7 @@ Children:
                   DataType: String
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: "{0}||NOT{1}||NOT{2}"
+                  Value: "{0} OR NOT {1}  OR NOT  {2}"
                 - Name: ns=3;Source0
                   Type: BaseDataVariableType
                   DataType: BaseDataType
@@ -1581,36 +1075,6 @@ Children:
               DataType: VerticalAlignment
               ModellingRule: Optional
               Value: 1
-            - Name: Enabled
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: ConditionalConverter1
-                Type: ConditionalConverter
-                Children:
-                - Name: Condition
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasSource
-                  Value: false
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitCmd"
-                - Name: TrueValue
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: false
-                - Name: FalseValue
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: true
           - Name: cmd_JogFwd
             Type: raSDK1_Btn_Momentary_Icon
             Children:
@@ -1818,7 +1282,7 @@ Children:
                   DataType: String
                   ReferenceType: HasParameter
                   ModellingRule: Optional
-                  Value: "{0}||NOT{1}||NOT{2}"
+                  Value: "{0} OR NOT {1} OR NOT {2}"
                 - Name: ns=3;Source0
                   Type: BaseDataVariableType
                   DataType: BaseDataType
@@ -1827,7 +1291,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Ref_Tag}/Sts_InhibitCmd"
+                    Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitCmd"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -1848,7 +1312,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Ref_Tag}/Sts_Ready"
+                    Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Ready"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -1863,7 +1327,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "{Ref_Tag}/Sts_Available"
+                    Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Available"
                     Children:
                     - Name: Mode
                       Type: BaseVariableType
@@ -1954,36 +1418,11 @@ Children:
               DataType: VerticalAlignment
               ModellingRule: Optional
               Value: 1
-            - Name: Enabled
-              Type: BaseDataVariableType
-              DataType: Boolean
-              Value: true
-              Children:
-              - Name: ConditionalConverter1
-                Type: ConditionalConverter
-                Children:
-                - Name: Condition
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasSource
-                  Value: false
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitCmd"
-                - Name: TrueValue
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: false
-                - Name: FalseValue
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  ReferenceType: HasParameter
-                  ModellingRule: Optional
-                  Value: true
+            - Name: RightMargin
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: 0.0
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -1998,7 +1437,32 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
+            Value: -4.0
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
             Value: 0.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 2
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
         - Name: VerticalAlignment
           Type: BaseVariableType
           DataType: VerticalAlignment
@@ -2008,17 +1472,586 @@ Children:
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
-          Value: 0.0
+          Value: 10.0
       - Name: HorizontalAlignment
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
-        Value: 3
+        Value: 0
       - Name: VerticalAlignment
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
-        Value: 3
+        Value: 0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 12.0
+      - Name: ni_Vel
+        Type: raSDK1_NI_LblValUnits
+        Children:
+        - Name: Label
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Cfg_Label"
+        - Name: SpinBox
+          Type: SpinBox
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Ref_Value"
+          - Name: MinValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_ValueMinimum"
+          - Name: MaxValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 100.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_ValueMaximum"
+          - Name: Editable
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_Enabled"
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_Enabled"
+        - Name: Cfg_Label
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Velocity setpoint"}
+        - Name: Ref_Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Set_Velocity"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Set_Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitSet"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: false
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: true
+        - Name: Set_DecimalPlaces
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 2
+        - Name: Set_ValueMinimum
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: -999999.0
+        - Name: Set_ValueMaximum
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 999999.0
+        - Name: Cfg_EnableNotification
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+        - Name: Cfg_NotificationImage
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "0"
+        - Name: Inp_Notification
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+        - Name: Units
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Cfg_Unit"
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+          - Name: WordWrap
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 17.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: Cfg_Unit
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+      - Name: ni_Accel
+        Type: raSDK1_NI_LblValUnits
+        Children:
+        - Name: Label
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Cfg_Label"
+        - Name: SpinBox
+          Type: SpinBox
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Ref_Value"
+          - Name: MinValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_ValueMinimum"
+          - Name: MaxValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 100.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_ValueMaximum"
+          - Name: Editable
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_Enabled"
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_Enabled"
+        - Name: Cfg_Label
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Accel setpoint"}
+        - Name: Ref_Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Set_AccelTime"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Set_Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitSet"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: false
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: true
+        - Name: Set_DecimalPlaces
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 2
+        - Name: Set_ValueMinimum
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Set_ValueMaximum
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 10000.0
+        - Name: Cfg_EnableNotification
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+        - Name: Cfg_NotificationImage
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "0"
+        - Name: Inp_Notification
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+        - Name: Units
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Cfg_Unit"
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+          - Name: WordWrap
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 26.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 2.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: Cfg_Unit
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Sec"}
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+      - Name: ni_Decel
+        Type: raSDK1_NI_LblValUnits
+        Children:
+        - Name: Label
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Cfg_Label"
+        - Name: SpinBox
+          Type: SpinBox
+          Children:
+          - Name: Value
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Ref_Value"
+          - Name: MinValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 0.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_ValueMinimum"
+          - Name: MaxValue
+            Type: BaseDataVariableType
+            DataType: Double
+            Value: 100.0
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_ValueMaximum"
+          - Name: Editable
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_Enabled"
+          - Name: Enabled
+            Type: BaseDataVariableType
+            DataType: Boolean
+            Value: true
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Set_Enabled"
+        - Name: Cfg_Label
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Decel setpoint"}
+        - Name: Ref_Value
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Set_DecelTime"
+            Children:
+            - Name: Mode
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              ModellingRule: Optional
+              Value: 2
+        - Name: Set_Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: ConditionalConverter1
+            Type: ConditionalConverter
+            Children:
+            - Name: Condition
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasSource
+              Value: false
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitSet"
+            - Name: TrueValue
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: false
+            - Name: FalseValue
+              Type: BaseDataVariableType
+              DataType: Boolean
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: true
+        - Name: Set_DecimalPlaces
+          Type: BaseDataVariableType
+          DataType: Int32
+          Value: 2
+        - Name: Set_ValueMinimum
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Set_ValueMaximum
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 10000.0
+        - Name: Cfg_EnableNotification
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+        - Name: Cfg_NotificationImage
+          Type: BaseDataVariableType
+          DataType: ResourceUri
+          Value: "0"
+        - Name: Inp_Notification
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+        - Name: Units
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../Cfg_Unit"
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            Value: -1.0
+          - Name: WordWrap
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ModellingRule: Optional
+            Value: false
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 26.0
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 2.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
+        - Name: Cfg_Unit
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"LocaleId":"en-US","Text":"Sec"}
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 30.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -2049,8 +2082,1107 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
-- Name: raC_Dvc_PF525_3_01_Trend
-  Id: g=35d2cead49d097527f2ed84cce1b2cf4
+- Name: raC_Dvc_K5500_3_03_IO1
+  Id: g=c550d1b433731652404d016ba10628a0
+  Supertype: raSDK1_PanelBase
+  ReferenceType: HasComponent
+  Children:
+  - Name: Tag
+    Type: Alias
+    DataType: NodeId
+    Value: {"IdType":0,"Id":0,"Namespace":-1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "{raSDK1_DialogBox}/Ref_Tag@NodeId"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 574.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 309.0
+  - Name: grp_Stndstill
+    Type: raSDK1_BSD_IndLbl
+    Children:
+    - Name: Indicator
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#919191"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_InactiveBorderColor"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#475ca7"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_ActiveFillColor"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: Label
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Cfg_Label"
+    - Name: Cfg_Label
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Standstill"}
+    - Name: Inp_Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_ZeroSpeed"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Cfg_ActiveFillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#2a4191"
+    - Name: Cfg_InactiveBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#919191"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+  - Name: grp_Ref
+    Type: raSDK1_BSD_IndLbl
+    Children:
+    - Name: Indicator
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#919191"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_InactiveBorderColor"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#475ca7"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_ActiveFillColor"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: Label
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Cfg_Label"
+    - Name: Cfg_Label
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Referenced"}
+    - Name: Inp_Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_Referenced"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Cfg_ActiveFillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#2a4191"
+    - Name: Cfg_InactiveBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#919191"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+  - Name: grp_SafeOff
+    Type: raSDK1_BSD_IndLbl
+    Children:
+    - Name: Indicator
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#919191"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_InactiveBorderColor"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#475ca7"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_ActiveFillColor"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: Label
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Cfg_Label"
+    - Name: Cfg_Label
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"SafeOff"}
+    - Name: Inp_Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_bNotReady.4"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Cfg_ActiveFillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#2a4191"
+    - Name: Cfg_InactiveBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#919191"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: grp_Reg1
+    Type: raSDK1_BSD_IndLbl
+    Children:
+    - Name: Indicator
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#919191"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_InactiveBorderColor"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#475ca7"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_ActiveFillColor"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: Label
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Cfg_Label"
+    - Name: Cfg_Label
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"grp_Reg1"}
+    - Name: Inp_Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_bCIPAxisIOStatus.2"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Cfg_ActiveFillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#2a4191"
+    - Name: Cfg_InactiveBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#919191"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+  - Name: grp_Reg2
+    Type: raSDK1_BSD_IndLbl
+    Children:
+    - Name: Indicator
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#919191"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_InactiveBorderColor"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#475ca7"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_ActiveFillColor"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: Label
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Cfg_Label"
+    - Name: Cfg_Label
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Reg 2"}
+    - Name: Inp_Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_bCIPAxisIOStatus.3"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Cfg_ActiveFillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#2a4191"
+    - Name: Cfg_InactiveBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#919191"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+  - Name: grp_Enable
+    Type: raSDK1_BSD_IndLbl
+    Children:
+    - Name: Indicator
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#919191"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_InactiveBorderColor"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#475ca7"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_ActiveFillColor"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: Label
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Cfg_Label"
+    - Name: Cfg_Label
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Enable"}
+    - Name: Inp_Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_bCIPAxisIOStatus.0"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Cfg_ActiveFillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#2a4191"
+    - Name: Cfg_InactiveBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#919191"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+  - Name: grp_PosOT
+    Type: raSDK1_BSD_IndLbl
+    Children:
+    - Name: Indicator
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#919191"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_InactiveBorderColor"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#475ca7"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_ActiveFillColor"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: Label
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Cfg_Label"
+    - Name: Cfg_Label
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"PosOT"}
+    - Name: Inp_Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_bCIPAxisIOStatus.4"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Cfg_ActiveFillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#2a4191"
+    - Name: Cfg_InactiveBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#919191"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 360.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+  - Name: grp_NegOT
+    Type: raSDK1_BSD_IndLbl
+    Children:
+    - Name: Indicator
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#919191"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_InactiveBorderColor"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#475ca7"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_ActiveFillColor"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: Label
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Cfg_Label"
+    - Name: Cfg_Label
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"NegOT"}
+    - Name: Inp_Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_bCIPAxisIOStatus.5"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Cfg_ActiveFillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#2a4191"
+    - Name: Cfg_InactiveBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#919191"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 360.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 70.0
+  - Name: grp_Home
+    Type: raSDK1_BSD_IndLbl
+    Children:
+    - Name: Indicator
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#919191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: FalseValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#919191"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_InactiveBorderColor"
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#2a4191"
+        Children:
+        - Name: ConditionalConverter1
+          Type: ConditionalConverter
+          Children:
+          - Name: Condition
+            Type: BaseDataVariableType
+            DataType: Boolean
+            ReferenceType: HasSource
+            Value: false
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Inp_Active"
+          - Name: TrueValue
+            Type: BaseDataVariableType
+            DataType: Color
+            ReferenceType: HasParameter
+            Value: "#475ca7"
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../Cfg_ActiveFillColor"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        Value: 1.0
+      - Name: Rotation
+        Type: BaseVariableType
+        DataType: Size
+        Value: 0.0
+    - Name: Label
+      Type: Label
+      Children:
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../Cfg_Label"
+    - Name: Cfg_Label
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"LocaleId":"en-US","Text":"Home"}
+    - Name: Inp_Active
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_bCIPAxisIOStatus.1"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Cfg_ActiveFillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#2a4191"
+    - Name: Cfg_InactiveBorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#919191"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 360.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+- Name: raC_Dvc_K5500_3_03_Trend1
+  Id: g=c4841fb8732a93db0a39788d67a4fea2
   Supertype: Panel
   ReferenceType: HasComponent
   Children:
@@ -2105,12 +3237,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 16.0
+      Value: 8.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 16.0
+      Value: 8.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -2245,13 +3377,13 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 50.0
-    - Name: trnd_Speed
+    - Name: trnd_Position
       Type: Trend
       Children:
       - Name: Pens
         Type: BaseObjectType
         Children:
-        - Name: Actual Speed (Hz)
+        - Name: Actual Position (Revs)
           Type: TrendPen
           DataType: BaseDataType
           Children:
@@ -2267,83 +3399,19 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#02e4db"
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
-            Children:
-            - Name: Expression
-              Type: BaseDataVariableType
-              DataType: String
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "{0}*100"
-            - Name: ns=3;Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{raSDK1_DialogBox}/Ref_Tag/Val_FreqActual"
-                Children:
-                - Name: Mode
-                  Type: BaseVariableType
-                  DataType: DynamicLinkMode
-                  ModellingRule: Optional
-                  Value: 2
-            - Name: Mode
-              Type: PropertyType
-              DataType: DynamicLinkMode
-              ReferenceType: HasComponent
-              ModellingRule: Optional
-              Value: 2
+            Value: "#2a4191"
           - Name: Thresholds
             Type: BaseObjectType
-        - Name: Speed Setpoint (Hz)
-          Type: TrendPen
-          DataType: BaseDataType
-          Children:
-          - Name: Thickness
-            Type: BaseDataVariableType
-            DataType: Size
-            Value: -1.0
-          - Name: Enabled
-            Type: BaseDataVariableType
-            DataType: Boolean
-            Value: true
-          - Name: ExpressionEvaluator1
-            Type: ExpressionEvaluator
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_ActualPosition"
             Children:
-            - Name: Expression
-              Type: BaseDataVariableType
-              DataType: String
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: "{0}*100"
-            - Name: ns=3;Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{raSDK1_DialogBox}/Ref_Tag/Val_Cmd_Speed"
-                Children:
-                - Name: Mode
-                  Type: BaseVariableType
-                  DataType: DynamicLinkMode
-                  ModellingRule: Optional
-                  Value: 2
             - Name: Mode
-              Type: PropertyType
+              Type: BaseVariableType
               DataType: DynamicLinkMode
-              ReferenceType: HasComponent
               ModellingRule: Optional
               Value: 2
-          - Name: Thresholds
-            Type: BaseObjectType
       - Class: Reference
         Target: ns=5;i=1129
         Direction: Forward
@@ -2382,7 +3450,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_SpeedTrendMin"
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionTrendMin"
         - Name: MaxValue
           Type: BaseDataVariableType
           DataType: Size
@@ -2391,7 +3459,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_SpeedTrendMax"
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionTrendMax"
         - Name: AutoScale
           Type: BaseDataVariableType
           DataType: Boolean
@@ -2427,7 +3495,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
+        Value: 20.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -2474,13 +3542,13 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 36.0
-    - Name: trnd_Current
+    - Name: trnd_Velocity
       Type: Trend
       Children:
       - Name: Pens
         Type: BaseObjectType
         Children:
-        - Name: Current (%FLA)
+        - Name: Velocity (Revs_Sec)
           Type: TrendPen
           DataType: BaseDataType
           Children:
@@ -2495,7 +3563,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_OutputCurrent"
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Val_ActualVelocity"
             Children:
             - Name: Mode
               Type: BaseVariableType
@@ -2506,7 +3574,7 @@ Children:
             Type: BaseDataVariableType
             DataType: Color
             ModellingRule: Optional
-            Value: "#0235e4"
+            Value: "#2a4191"
           - Name: Thresholds
             Type: BaseObjectType
       - Class: Reference
@@ -2547,7 +3615,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PercentFLATrendMin"
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_VelocityTrendMin"
         - Name: MaxValue
           Type: BaseDataVariableType
           DataType: Size
@@ -2556,7 +3624,7 @@ Children:
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
-            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PercentFLATrendMax"
+            Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_VelocityTrendMax"
         - Name: AutoScale
           Type: BaseDataVariableType
           DataType: Boolean
@@ -2592,7 +3660,7 @@ Children:
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 0.0
+        Value: 20.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
@@ -2679,7 +3747,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=aedfe36e4193f826f22de35bd25b902f
+          Id: g=dadc71671c6659f5a0ff0a66cdb65259
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -2994,8 +4062,8 @@ Children:
             Type: BaseVariableType
             DataType: Size
             ModellingRule: Optional
-            Value: 50.0
-          - Name: grp_Speed
+            Value: 182.0
+          - Name: grp_Position
             Type: ColumnLayout
             Children:
             - Name: Width
@@ -3008,14 +4076,14 @@ Children:
               DataType: Size
               ModellingRule: Optional
               Value: -1.0
-            - Name: txt_Hdr_Speed
+            - Name: txt_Hdr_Position
               Type: Label
               Children:
               - Name: Text
                 Type: BaseDataVariableType
                 DataType: LocalizedText
                 ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Speed"}
+                Value: {"LocaleId":"en-US","Text":"Position"}
               - Name: FontWeight
                 Type: BaseDataVariableType
                 DataType: FontWeightEnum
@@ -3031,343 +4099,6 @@ Children:
                 DataType: String
                 ModellingRule: Optional
                 Value: "Static Text"
-            - Name: ni_cfg_SpeedTrendMin
-              Type: raSDK1_NI_LblValUnits
-              Children:
-              - Name: Label
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Cfg_Label"
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 50.0
-              - Name: SpinBox
-                Type: SpinBox
-                Children:
-                - Name: Value
-                  Type: BaseDataVariableType
-                  DataType: Double
-                  Value: 0.0
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Ref_Value"
-                - Name: MinValue
-                  Type: BaseDataVariableType
-                  DataType: Double
-                  Value: 0.0
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Set_ValueMinimum"
-                - Name: MaxValue
-                  Type: BaseDataVariableType
-                  DataType: Double
-                  Value: 100.0
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Set_ValueMaximum"
-                - Name: Editable
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Set_Enabled"
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Set_Enabled"
-              - Name: Cfg_Label
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"LocaleId":"en-US","Text":"Min"}
-              - Name: Ref_Value
-                Type: BaseDataVariableType
-                DataType: Float
-                Value: 0.0
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_SpeedTrendMin"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: Set_Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-                Children:
-                - Name: ConditionalConverter1
-                  Type: ConditionalConverter
-                  Children:
-                  - Name: Condition
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ReferenceType: HasSource
-                    Value: false
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitSet"
-                  - Name: TrueValue
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ReferenceType: HasParameter
-                    ModellingRule: Optional
-                    Value: false
-                  - Name: FalseValue
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ReferenceType: HasParameter
-                    ModellingRule: Optional
-                    Value: true
-              - Name: Set_DecimalPlaces
-                Type: BaseDataVariableType
-                DataType: Int32
-                Value: 0
-              - Name: Set_ValueMinimum
-                Type: BaseDataVariableType
-                DataType: Float
-                Value: 0.0
-              - Name: Set_ValueMaximum
-                Type: BaseDataVariableType
-                DataType: Float
-                Value: 200.0
-              - Name: Cfg_EnableNotification
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: false
-              - Name: Cfg_NotificationImage
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Value: "0"
-              - Name: Inp_Notification
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: false
-              - Name: Units
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Cfg_Units"
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: -1.0
-              - Name: Cfg_Units
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "Hz"
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 5.0
-            - Name: ni_cfg_SpeedTrendMax
-              Type: raSDK1_NI_LblValUnits
-              Children:
-              - Name: Label
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Cfg_Label"
-                - Name: HorizontalAlignment
-                  Type: BaseVariableType
-                  DataType: HorizontalAlignment
-                  ModellingRule: Optional
-                  Value: 1
-                - Name: Width
-                  Type: BaseVariableType
-                  DataType: Size
-                  ModellingRule: Optional
-                  Value: 50.0
-              - Name: SpinBox
-                Type: SpinBox
-                Children:
-                - Name: Value
-                  Type: BaseDataVariableType
-                  DataType: Double
-                  Value: 0.0
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Ref_Value"
-                - Name: MinValue
-                  Type: BaseDataVariableType
-                  DataType: Double
-                  Value: 0.0
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Set_ValueMinimum"
-                - Name: MaxValue
-                  Type: BaseDataVariableType
-                  DataType: Double
-                  Value: 100.0
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Set_ValueMaximum"
-                - Name: Editable
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Set_Enabled"
-                - Name: Enabled
-                  Type: BaseDataVariableType
-                  DataType: Boolean
-                  Value: true
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Set_Enabled"
-              - Name: Cfg_Label
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"LocaleId":"en-US","Text":"Max"}
-              - Name: Ref_Value
-                Type: BaseDataVariableType
-                DataType: Float
-                Value: 0.0
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_SpeedTrendMax"
-                  Children:
-                  - Name: Mode
-                    Type: BaseVariableType
-                    DataType: DynamicLinkMode
-                    ModellingRule: Optional
-                    Value: 2
-              - Name: Set_Enabled
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: true
-                Children:
-                - Name: ConditionalConverter1
-                  Type: ConditionalConverter
-                  Children:
-                  - Name: Condition
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ReferenceType: HasSource
-                    Value: false
-                    Children:
-                    - Name: DynamicLink
-                      Type: DynamicLink
-                      DataType: NodePath
-                      Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitSet"
-                  - Name: TrueValue
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ReferenceType: HasParameter
-                    ModellingRule: Optional
-                    Value: false
-                  - Name: FalseValue
-                    Type: BaseDataVariableType
-                    DataType: Boolean
-                    ReferenceType: HasParameter
-                    ModellingRule: Optional
-                    Value: true
-              - Name: Set_DecimalPlaces
-                Type: BaseDataVariableType
-                DataType: Int32
-                Value: 0
-              - Name: Set_ValueMinimum
-                Type: BaseDataVariableType
-                DataType: Float
-                Value: 0.0
-              - Name: Set_ValueMaximum
-                Type: BaseDataVariableType
-                DataType: Float
-                Value: 200.0
-              - Name: Cfg_EnableNotification
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: false
-              - Name: Cfg_NotificationImage
-                Type: BaseDataVariableType
-                DataType: ResourceUri
-                Value: "0"
-              - Name: Inp_Notification
-                Type: BaseDataVariableType
-                DataType: Boolean
-                Value: false
-              - Name: Units
-                Type: Label
-                Children:
-                - Name: Text
-                  Type: BaseDataVariableType
-                  DataType: LocalizedText
-                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                  Children:
-                  - Name: DynamicLink
-                    Type: DynamicLink
-                    DataType: NodePath
-                    Value: "../../Cfg_Units"
-                - Name: FontSize
-                  Type: BaseDataVariableType
-                  DataType: Size
-                  Value: -1.0
-              - Name: Cfg_Units
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "Hz"
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -3383,53 +4114,7 @@ Children:
               DataType: HorizontalAlignment
               ModellingRule: Optional
               Value: 3
-          - Name: LeftMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 18.0
-          - Name: TopMargin
-            Type: BaseVariableType
-            DataType: Size
-            ModellingRule: Optional
-            Value: 18.0
-          - Name: grp_Current
-            Type: ColumnLayout
-            Children:
-            - Name: Width
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: -1.0
-            - Name: Height
-              Type: BaseVariableType
-              DataType: Size
-              ModellingRule: Optional
-              Value: -1.0
-            - Name: txt_Hdr_Current
-              Type: Label
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                ModellingRule: Optional
-                Value: {"LocaleId":"en-US","Text":"Current"}
-              - Name: FontWeight
-                Type: BaseDataVariableType
-                DataType: FontWeightEnum
-                ModellingRule: Optional
-                Value: 700
-              - Name: BottomMargin
-                Type: BaseVariableType
-                DataType: Size
-                ModellingRule: Optional
-                Value: 5.0
-              - Name: Style
-                Type: BaseDataVariableType
-                DataType: String
-                ModellingRule: Optional
-                Value: "Static Text"
-            - Name: ni_cfg_CurrentTrendMin
+            - Name: ni_cfg_PositionTrendMin
               Type: raSDK1_NI_LblValUnits
               Children:
               - Name: Label
@@ -3519,7 +4204,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PercentFLATrendMin"
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionTrendMin"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
@@ -3559,15 +4244,15 @@ Children:
               - Name: Set_DecimalPlaces
                 Type: BaseDataVariableType
                 DataType: Int32
-                Value: 0
+                Value: 2
               - Name: Set_ValueMinimum
                 Type: BaseDataVariableType
                 DataType: Float
-                Value: 0.0
+                Value: -999999.0
               - Name: Set_ValueMaximum
                 Type: BaseDataVariableType
                 DataType: Float
-                Value: 100.0
+                Value: 999999.0
               - Name: Cfg_EnableNotification
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -3591,21 +4276,32 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../Cfg_Units"
+                    Value: "../../Cfg_Unit"
                 - Name: FontSize
                   Type: BaseDataVariableType
                   DataType: Size
                   Value: -1.0
-              - Name: Cfg_Units
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "Hz"
               - Name: BottomMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
                 Value: 5.0
-            - Name: ni_cfg_CurrentTrendMax
+              - Name: Cfg_Unit
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"0"}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+            - Name: ni_cfg_PositionTrendMax
               Type: raSDK1_NI_LblValUnits
               Children:
               - Name: Label
@@ -3690,7 +4386,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PercentFLATrendMax"
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionTrendMax"
                   Children:
                   - Name: Mode
                     Type: BaseVariableType
@@ -3730,7 +4426,7 @@ Children:
               - Name: Set_DecimalPlaces
                 Type: BaseDataVariableType
                 DataType: Int32
-                Value: 0
+                Value: 2
               - Name: Set_ValueMinimum
                 Type: BaseDataVariableType
                 DataType: Float
@@ -3738,7 +4434,7 @@ Children:
               - Name: Set_ValueMaximum
                 Type: BaseDataVariableType
                 DataType: Float
-                Value: 100.0
+                Value: 999999.0
               - Name: Cfg_EnableNotification
                 Type: BaseDataVariableType
                 DataType: Boolean
@@ -3762,15 +4458,589 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../Cfg_Units"
+                    Value: "../../Cfg_Unit"
                 - Name: FontSize
                   Type: BaseDataVariableType
                   DataType: Size
                   Value: -1.0
-              - Name: Cfg_Units
+              - Name: Cfg_Unit
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"0"}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+            - Name: ni_cfg_PositionEngUnits
+              Type: raSDK1_SI_LblVal
+              Children:
+              - Name: Label
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Cfg_Label"
+              - Name: Cfg_Label
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Eng. Units"}
+              - Name: Ref_String
                 Type: BaseDataVariableType
                 DataType: String
-                Value: "Hz"
+                Value: "0"
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: TextBox
+                Type: TextBox
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Ref_String"
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  Value: 150.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Cfg_Width"
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Set_Enabled"
+              - Name: Set_Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Value: false
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitSet"
+                  - Name: TrueValue
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: false
+                  - Name: FalseValue
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: true
+              - Name: Cfg_Width
+                Type: BaseDataVariableType
+                DataType: Int32
+                Value: 160
+              - Name: LeftMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 0.0
+              - Name: TopMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 6.0
+              - Name: Width
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 211.0
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 18.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 18.0
+          - Name: grp_Velocity
+            Type: ColumnLayout
+            Children:
+            - Name: Width
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -1.0
+            - Name: Height
+              Type: BaseVariableType
+              DataType: Size
+              ModellingRule: Optional
+              Value: -1.0
+            - Name: txt_Hdr_Velocity
+              Type: Label
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"Velocity"}
+              - Name: FontWeight
+                Type: BaseDataVariableType
+                DataType: FontWeightEnum
+                ModellingRule: Optional
+                Value: 700
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 5.0
+              - Name: Style
+                Type: BaseDataVariableType
+                DataType: String
+                ModellingRule: Optional
+                Value: "Static Text"
+            - Name: ni_cfg_VelocityTrendMin
+              Type: raSDK1_NI_LblValUnits
+              Children:
+              - Name: Label
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Cfg_Label"
+                - Name: TextHorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: TextHorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 0
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+              - Name: SpinBox
+                Type: SpinBox
+                Children:
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  Value: 0.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Ref_Value"
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  Value: 0.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Set_ValueMinimum"
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  Value: 100.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Set_ValueMaximum"
+                - Name: Editable
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Set_Enabled"
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Set_Enabled"
+              - Name: Cfg_Label
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Min"}
+              - Name: Ref_Value
+                Type: BaseDataVariableType
+                DataType: Float
+                Value: 0.0
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_VelocityTrendMin"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: Set_Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Value: false
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitSet"
+                  - Name: TrueValue
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: false
+                  - Name: FalseValue
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: true
+              - Name: Set_DecimalPlaces
+                Type: BaseDataVariableType
+                DataType: Int32
+                Value: 2
+              - Name: Set_ValueMinimum
+                Type: BaseDataVariableType
+                DataType: Float
+                Value: -999999.0
+              - Name: Set_ValueMaximum
+                Type: BaseDataVariableType
+                DataType: Float
+                Value: 999999.0
+              - Name: Cfg_EnableNotification
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+              - Name: Cfg_NotificationImage
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "0"
+              - Name: Inp_Notification
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+              - Name: Units
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Cfg_Unit"
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+              - Name: BottomMargin
+                Type: BaseVariableType
+                DataType: Size
+                ModellingRule: Optional
+                Value: 5.0
+              - Name: Cfg_Unit
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"0"}
+                Children:
+                - Name: StringFormatter1
+                  Type: StringFormatter
+                  Children:
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"en-US","Text":"{0}/Sec"}
+                  - Name: ns=3;Source0
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Mode
+                    Type: PropertyType
+                    DataType: DynamicLinkMode
+                    ReferenceType: HasComponent
+                    ModellingRule: Optional
+                    Value: 2
+            - Name: ni_cfg_VelocityTrendMax
+              Type: raSDK1_NI_LblValUnits
+              Children:
+              - Name: Label
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Cfg_Label"
+                - Name: HorizontalAlignment
+                  Type: BaseVariableType
+                  DataType: HorizontalAlignment
+                  ModellingRule: Optional
+                  Value: 1
+                - Name: Width
+                  Type: BaseVariableType
+                  DataType: Size
+                  ModellingRule: Optional
+                  Value: 50.0
+              - Name: SpinBox
+                Type: SpinBox
+                Children:
+                - Name: Value
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  Value: 0.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Ref_Value"
+                - Name: MinValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  Value: 0.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Set_ValueMinimum"
+                - Name: MaxValue
+                  Type: BaseDataVariableType
+                  DataType: Double
+                  Value: 100.0
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Set_ValueMaximum"
+                - Name: Editable
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Set_Enabled"
+                - Name: Enabled
+                  Type: BaseDataVariableType
+                  DataType: Boolean
+                  Value: true
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Set_Enabled"
+              - Name: Cfg_Label
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Max"}
+              - Name: Ref_Value
+                Type: BaseDataVariableType
+                DataType: Float
+                Value: 0.0
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_VelocityTrendMax"
+                  Children:
+                  - Name: Mode
+                    Type: BaseVariableType
+                    DataType: DynamicLinkMode
+                    ModellingRule: Optional
+                    Value: 2
+              - Name: Set_Enabled
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: true
+                Children:
+                - Name: ConditionalConverter1
+                  Type: ConditionalConverter
+                  Children:
+                  - Name: Condition
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasSource
+                    Value: false
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_InhibitSet"
+                  - Name: TrueValue
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: false
+                  - Name: FalseValue
+                    Type: BaseDataVariableType
+                    DataType: Boolean
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: true
+              - Name: Set_DecimalPlaces
+                Type: BaseDataVariableType
+                DataType: Int32
+                Value: 2
+              - Name: Set_ValueMinimum
+                Type: BaseDataVariableType
+                DataType: Float
+                Value: 0.0
+              - Name: Set_ValueMaximum
+                Type: BaseDataVariableType
+                DataType: Float
+                Value: 999999.0
+              - Name: Cfg_EnableNotification
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+              - Name: Cfg_NotificationImage
+                Type: BaseDataVariableType
+                DataType: ResourceUri
+                Value: "0"
+              - Name: Inp_Notification
+                Type: BaseDataVariableType
+                DataType: Boolean
+                Value: false
+              - Name: Units
+                Type: Label
+                Children:
+                - Name: Text
+                  Type: BaseDataVariableType
+                  DataType: LocalizedText
+                  Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                  Children:
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "../../Cfg_Unit"
+                - Name: FontSize
+                  Type: BaseDataVariableType
+                  DataType: Size
+                  Value: -1.0
+              - Name: Cfg_Unit
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"0"}
+                Children:
+                - Name: StringFormatter1
+                  Type: StringFormatter
+                  Children:
+                  - Name: Format
+                    Type: BaseDataVariableType
+                    DataType: LocalizedText
+                    ReferenceType: HasParameter
+                    ModellingRule: Optional
+                    Value: {"LocaleId":"en-US","Text":"{0}/Sec"}
+                  - Name: ns=3;Source0
+                    Type: BaseDataVariableType
+                    DataType: BaseDataType
+                    ReferenceType: HasSource
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"
+                      Children:
+                      - Name: Mode
+                        Type: BaseVariableType
+                        DataType: DynamicLinkMode
+                        ModellingRule: Optional
+                        Value: 2
+                  - Name: Mode
+                    Type: PropertyType
+                    DataType: DynamicLinkMode
+                    ReferenceType: HasComponent
+                    ModellingRule: Optional
+                    Value: 2
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -3863,529 +5133,8 @@ Children:
         Type: PropertyType
         DataType: NodeId
         Value: {"Id":71,"Namespace":5}
-- Name: raC_Dvc_PF525_3_01_Diagnostics
-  Id: g=eb237351454f5e5b5480eec16968ebb9
-  Supertype: Panel
-  ReferenceType: HasComponent
-  Children:
-  - Name: Width
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 574.0
-  - Name: Height
-    Type: BaseVariableType
-    DataType: Size
-    ModellingRule: Optional
-    Value: 309.0
-  - Name: Tag
-    Type: NodePointer
-    DataType: NodeId
-    Value: {"IdType":0,"Id":0,"Namespace":-1}
-    Children:
-    - Name: Kind
-      Type: PropertyType
-      DataType: NodeId
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
-    - Name: DynamicLink
-      Type: DynamicLink
-      DataType: NodePath
-      Value: "{raSDK1_DialogBoxBase}/Ref_Tag@NodeId"
-      Children:
-      - Name: Mode
-        Type: BaseVariableType
-        DataType: DynamicLinkMode
-        ModellingRule: Optional
-        Value: 2
-  - Name: grp_DriveInputStatus
-    Type: ColumnLayout
-    Children:
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 50.0
-    - Name: lbl_DriveInputStatus
-      Type: Label
-      Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"Drive Input Status"}
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: BottomMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 5.0
-      - Name: Style
-        Type: BaseDataVariableType
-        DataType: String
-        ModellingRule: Optional
-        Value: "Important Text"
-    - Name: msd_Sts_DI1
-      Type: raSDK1_BSD_IndLbl
-      Children:
-      - Name: Indicator
-        Type: Rectangle
-        Children:
-        - Name: BorderColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#919191"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Inp_Active"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              Value: "#919191"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Cfg_InactiveBorderColor"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#2a4191"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Inp_Active"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              Value: "#475ca7"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Cfg_ActiveFillColor"
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 1.0
-        - Name: Rotation
-          Type: BaseVariableType
-          DataType: Size
-          Value: 0.0
-      - Name: Label
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../Cfg_Label"
-      - Name: Cfg_Label
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Digital Input 1"}
-      - Name: Inp_Active
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_DI.1"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Cfg_ActiveFillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#2a4191"
-      - Name: Cfg_InactiveBorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#919191"
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 20.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-    - Name: msd_Sts_DI2
-      Type: raSDK1_BSD_IndLbl
-      Children:
-      - Name: Indicator
-        Type: Rectangle
-        Children:
-        - Name: BorderColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#919191"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Inp_Active"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              Value: "#919191"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Cfg_InactiveBorderColor"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#2a4191"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Inp_Active"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              Value: "#475ca7"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Cfg_ActiveFillColor"
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 1.0
-        - Name: Rotation
-          Type: BaseVariableType
-          DataType: Size
-          Value: 0.0
-      - Name: Label
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../Cfg_Label"
-      - Name: Cfg_Label
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Digital Input 2"}
-      - Name: Inp_Active
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_DI.2"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Cfg_ActiveFillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#2a4191"
-      - Name: Cfg_InactiveBorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#919191"
-    - Name: msd_Sts_DI3
-      Type: raSDK1_BSD_IndLbl
-      Children:
-      - Name: Indicator
-        Type: Rectangle
-        Children:
-        - Name: BorderColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#919191"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Inp_Active"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              Value: "#919191"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Cfg_InactiveBorderColor"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#2a4191"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Inp_Active"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              Value: "#475ca7"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Cfg_ActiveFillColor"
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 1.0
-        - Name: Rotation
-          Type: BaseVariableType
-          DataType: Size
-          Value: 0.0
-      - Name: Label
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../Cfg_Label"
-      - Name: Cfg_Label
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Digital Input 3"}
-      - Name: Inp_Active
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_DI.3"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Cfg_ActiveFillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#2a4191"
-      - Name: Cfg_InactiveBorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#919191"
-    - Name: msd_Sts_DI4
-      Type: raSDK1_BSD_IndLbl
-      Children:
-      - Name: Indicator
-        Type: Rectangle
-        Children:
-        - Name: BorderColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#919191"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Inp_Active"
-            - Name: FalseValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              Value: "#919191"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Cfg_InactiveBorderColor"
-        - Name: FillColor
-          Type: BaseDataVariableType
-          DataType: Color
-          Value: "#2a4191"
-          Children:
-          - Name: ConditionalConverter1
-            Type: ConditionalConverter
-            Children:
-            - Name: Condition
-              Type: BaseDataVariableType
-              DataType: Boolean
-              ReferenceType: HasSource
-              Value: false
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Inp_Active"
-            - Name: TrueValue
-              Type: BaseDataVariableType
-              DataType: Color
-              ReferenceType: HasParameter
-              Value: "#475ca7"
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../Cfg_ActiveFillColor"
-        - Name: BorderThickness
-          Type: BaseDataVariableType
-          DataType: Size
-          Value: 1.0
-        - Name: Rotation
-          Type: BaseVariableType
-          DataType: Size
-          Value: 0.0
-      - Name: Label
-        Type: Label
-        Children:
-        - Name: Text
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          Children:
-          - Name: DynamicLink
-            Type: DynamicLink
-            DataType: NodePath
-            Value: "../../Cfg_Label"
-      - Name: Cfg_Label
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"LocaleId":"en-US","Text":"Digital Input 4"}
-      - Name: Inp_Active
-        Type: BaseDataVariableType
-        DataType: Boolean
-        Value: false
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "{raSDK1_DialogBox}/Ref_Tag/Sts_DI.4"
-          Children:
-          - Name: Mode
-            Type: BaseVariableType
-            DataType: DynamicLinkMode
-            ModellingRule: Optional
-            Value: 2
-      - Name: Cfg_ActiveFillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#2a4191"
-      - Name: Cfg_InactiveBorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#919191"
-- Name: raC_Dvc_PF525_3_01_Fault
-  Id: g=98d7c206867867c6a9865f7374277d83
+- Name: raC_Dvc_K5500_3_03_Fault1
+  Id: g=d57e4b378f55b430e57ffb9cec9a4331
   Supertype: Panel
   ReferenceType: HasComponent
   Children:
@@ -5882,7 +6631,7 @@ Children:
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
                 - Name: Inf_Lookup_Description1
-                  Type: raC_Dvc_PF525_3_01_InfLookup_Description
+                  Type: raC_Dvc_K5500_3_03_InfLookup_Description1
                   Children:
                   - Name: Source
                     Type: BaseDataVariableType
@@ -7039,7 +7788,7 @@ Children:
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
                 - Name: raC_Dvc_PF525_3_01_InfLookup_Description1
-                  Type: raC_Dvc_PF525_3_01_InfLookup_Description
+                  Type: raC_Dvc_K5500_3_03_InfLookup_Description1
                   Children:
                   - Name: Source
                     Type: BaseDataVariableType
@@ -8063,7 +8812,7 @@ Children:
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
                 - Name: raC_Dvc_PF525_3_01_InfLookup_Description1
-                  Type: raC_Dvc_PF525_3_01_InfLookup_Description
+                  Type: raC_Dvc_K5500_3_03_InfLookup_Description1
                   Children:
                   - Name: Source
                     Type: BaseDataVariableType
@@ -9077,7 +9826,7 @@ Children:
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
                 - Name: raC_Dvc_PF525_3_01_InfLookup_Description1
-                  Type: raC_Dvc_PF525_3_01_InfLookup_Description
+                  Type: raC_Dvc_K5500_3_03_InfLookup_Description1
                   Children:
                   - Name: Source
                     Type: BaseDataVariableType
@@ -9326,7 +10075,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=2b7de34dcf6ab941ebc7aa40c29b3ccb
+          Id: g=3b0f18ce64f5585a495d5d8a4ae74259
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -9980,7 +10729,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: raC_Dvc_PF525_3_01_InfLookup_Details1
-                Type: raC_Dvc_PF525_3_01_InfLookup_Details
+                Type: raC_Dvc_K5500_3_03_InfLookup_Details1
                 Children:
                 - Name: Source
                   Type: BaseDataVariableType
@@ -10107,7 +10856,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=fe7925dbd4f42239af01220b170555da
+          Id: g=383a57720e452e546e435d21e90f7b5b
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -10761,7 +11510,7 @@ Children:
               Value: {"LocaleId":"en-US","Text":"R2 Lookup table here..."}
               Children:
               - Name: raC_Dvc_PF525_3_01_InfLookup_Details1
-                Type: raC_Dvc_PF525_3_01_InfLookup_Details
+                Type: raC_Dvc_K5500_3_03_InfLookup_Details1
                 Children:
                 - Name: Source
                   Type: BaseDataVariableType
@@ -10869,7 +11618,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=4b04b8789994521cb9e4f9715ecf04f2
+          Id: g=7b9c008e5577e06dbde767667470fbc6
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -11523,7 +12272,7 @@ Children:
               Value: {"LocaleId":"en-US","Text":"R3 Lookup table here..."}
               Children:
               - Name: raC_Dvc_PF525_3_01_InfLookup_Details1
-                Type: raC_Dvc_PF525_3_01_InfLookup_Details
+                Type: raC_Dvc_K5500_3_03_InfLookup_Details1
                 Children:
                 - Name: Source
                   Type: BaseDataVariableType
@@ -11622,7 +12371,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=0c2b95d73823fc17bb914bdbae923604
+          Id: g=1d65a0e9c61cdf957bcc6083a915f51a
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -12276,7 +13025,7 @@ Children:
               Value: {"LocaleId":"en-US","Text":"R4 Lookup table here..."}
               Children:
               - Name: raC_Dvc_PF525_3_01_InfLookup_Details1
-                Type: raC_Dvc_PF525_3_01_InfLookup_Details
+                Type: raC_Dvc_K5500_3_03_InfLookup_Details1
                 Children:
                 - Name: Source
                   Type: BaseDataVariableType
@@ -12365,8 +13114,8 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
-- Name: raC_Dvc_PF525_3_01_Extensions
-  Id: g=1afd57ce4321701c98e3b2cb31430312
+- Name: raC_Dvc_K5500_3_03_Extensions1
+  Id: g=5edfa45813bdd8e4b4dafaafc6702456
   Supertype: Panel
   ReferenceType: HasComponent
   Children:
@@ -12612,3 +13361,213 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "State Monitor"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+    - Name: btn_Energy
+      Type: raC_Tec_PwrVelocityStateMonitor_3_03_Nav_Text_Chevron
+      Children:
+      - Name: Button
+        Type: Button
+        Children:
+        - Name: TagLaunchBttn13
+          Type: NetLogic
+          Children:
+          - Class: Reference
+            Target: g=1623a91ea39550414db840d3c06825fd
+            Direction: Forward
+        - Name: Ref_Tag
+          Type: BaseDataVariableType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Ref_Tag@Pointer"
+        - Name: Cfg_DisplayType
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Faceplate"
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Cfg_DisplayType"
+        - Name: Cfg_CloseCurrentDisplay
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Cfg_CloseCurrentDisplay"
+        - Name: MouseClickEventHandler1
+          Type: EventHandler
+          Children:
+          - Name: ListenEventType
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":16,"Namespace":5}
+          - Name: MethodsToCall
+            Type: BaseObjectType
+            Children:
+            - Name: MethodContainer1
+              Type: BaseObjectType
+              Children:
+              - Name: ObjectPointer
+                Type: NodePointer
+                DataType: NodeId
+                Value: {"IdType":0,"Id":0,"Namespace":-1}
+                Children:
+                - Name: Kind
+                  Type: PropertyType
+                  DataType: NodeId
+                  Value: {"Id":58}
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../../TagLaunchBttn13@NodeId"
+              - Name: Method
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "TagNodeIdLaunchButton"
+          - Name: EventArguments
+            Type: MouseClickEvent
+            Children:
+            - Name: EventId
+              Type: PropertyType
+              DataType: ByteString
+              Value: ""
+            - Name: EventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceNode
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"IdType":0,"Id":0,"Namespace":-1}
+            - Name: SourceName
+              Type: PropertyType
+              DataType: String
+              Value: ""
+            - Name: Time
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: ReceiveTime
+              Type: PropertyType
+              DataType: UtcTime
+              Value: "1601-01-01T00:00:00.0000000"
+            - Name: Message
+              Type: PropertyType
+              DataType: LocalizedText
+              Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            - Name: Severity
+              Type: PropertyType
+              DataType: UInt16
+              Value: 0
+      - Name: HorizontalLayout
+        Type: RowLayout
+        Children:
+        - Name: Label1
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../Cfg_Label"
+        - Name: Chevron
+          Type: ScaleLayout
+          WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+          Children:
+          - Name: FillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#3f3f3f"
+          - Name: shape
+            Type: Image
+            Children:
+            - Name: Path
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              Value: "ns=20;%PROJECTDIR%/res/Chevron2.svg"
+            - Name: DynamicColor
+              Type: BaseDataVariableType
+              DataType: Color
+              Value: "#d1d3d4"
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../FillColor"
+      - Name: Cfg_CloseCurrentDisplay
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Ref_Tag
+        Type: BaseDataVariableType
+        DataType: NodeId
+        Value: {"IdType":2,"Id":"a30cbb7c6cd7a374f028d8c41184b98b","Namespace":20}
+        Children:
+        - Name: StringFormatter1
+          Type: StringFormatter
+          Children:
+          - Name: Format
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ReferenceType: HasParameter
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"{0}_Energy"}
+          - Name: ns=3;Source0
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "{raSDK1_DialogBox}/Ref_Tag"
+              Children:
+              - Name: Mode
+                Type: BaseVariableType
+                DataType: DynamicLinkMode
+                ModellingRule: Optional
+                Value: 2
+          - Name: Mode
+            Type: PropertyType
+            DataType: DynamicLinkMode
+            ReferenceType: HasComponent
+            ModellingRule: Optional
+            Value: 2
+      - Name: Cfg_DisplayType
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Faceplate"
+      - Name: Cfg_Label
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Energy"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 30.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
