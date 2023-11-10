@@ -413,6 +413,9 @@ Children:
       Children:
       - Class: Method
         Name: TagNodeIdLaunchButton
+      - Class: Reference
+        Target: g=f83fb79a3e41be23d36c5644c536eedd
+        Direction: Forward
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -614,6 +617,9 @@ Children:
       Children:
       - Class: Method
         Name: TagNodeIdLaunchButton
+      - Class: Reference
+        Target: g=f83fb79a3e41be23d36c5644c536eedd
+        Direction: Forward
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -714,6 +720,9 @@ Children:
       Children:
       - Class: Method
         Name: TagNodeIdLaunchButton
+      - Class: Reference
+        Target: g=f83fb79a3e41be23d36c5644c536eedd
+        Direction: Forward
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -862,6 +871,9 @@ Children:
       Children:
       - Class: Method
         Name: TagNodeIdLaunchButton
+      - Class: Reference
+        Target: g=f83fb79a3e41be23d36c5644c536eedd
+        Direction: Forward
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
