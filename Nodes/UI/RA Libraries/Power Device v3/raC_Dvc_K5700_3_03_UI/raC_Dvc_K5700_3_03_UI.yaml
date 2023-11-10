@@ -1,9 +1,9 @@
-Name: raC_Dvc_PF525_3_01_UI
+Name: raC_Dvc_K5700_3_03_UI
 Type: FolderType
-DisplayName: {"LocaleId":"en-US","Text":"raC_Dvc_PF525"}
+DisplayName: {"LocaleId":"en-US","Text":"raC_Dvc_K5700"}
 Children:
-- Name: raC_Dvc_PF525_3_01_Faceplate
-  Id: g=98edfda924820a6d7e1501b11f8c8f52
+- Name: raC_Dvc_K5700_3_03_Faceplate
+  Id: g=23cff208cbb728658643b1a3c170c8df
   Supertype: raSDK1_DialogBoxBase
   ReferenceType: HasComponent
   Children:
@@ -187,7 +187,7 @@ Children:
           DataType: Color
           Value: "#afafaf"
         - Name: MoveTarget
-          Id: g=4bb0e3c5b572feb09d073ee6ab281e59
+          Id: g=e5e09d04f8adbde54ac0bce767376e4b
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -1234,7 +1234,7 @@ Children:
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"32edd0345f467ec7ba5b3fdd55d51c3b","Namespace":20}
+              Value: {"IdType":2,"Id":"1f653024895f62b0240e6d3e2d5b19f5","Namespace":20}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -1250,6 +1250,27 @@ Children:
               DataType: Boolean
               ModellingRule: Optional
               Value: true
+          - Name: IO
+            Type: NavigationPanelItem
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":""}
+            - Name: Panel
+              Type: NodePointer
+              DataType: NodeId
+              Value: {"IdType":2,"Id":"137a64c5f7c41c868b6317cb3baf7db3","Namespace":20}
+              Children:
+              - Name: Kind
+                Type: PropertyType
+                DataType: NodeId
+                Value: {"Id":71,"Namespace":5}
+            - Name: ImagePath
+              Type: BaseDataVariableType
+              DataType: ResourceUri
+              ModellingRule: Optional
+              Value: "ns=20;%PROJECTDIR%/Nav_IO.png"
           - Name: Trend
             Type: NavigationPanelItem
             Children:
@@ -1260,7 +1281,7 @@ Children:
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"35d2cead49d097527f2ed84cce1b2cf4","Namespace":20}
+              Value: {"IdType":2,"Id":"8c58a2bb5088635ec3599ab1d5e0b871","Namespace":20}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -1270,28 +1291,7 @@ Children:
               Type: BaseDataVariableType
               DataType: ResourceUri
               ModellingRule: Optional
-              Value: "ns=20;%PROJECTDIR%/Nav_Trend.svg"
-          - Name: Diagnostics
-            Type: NavigationPanelItem
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":""}
-            - Name: Panel
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"IdType":2,"Id":"eb237351454f5e5b5480eec16968ebb9","Namespace":20}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":71,"Namespace":5}
-            - Name: ImagePath
-              Type: BaseDataVariableType
-              DataType: ResourceUri
-              ModellingRule: Optional
-              Value: "ns=20;%PROJECTDIR%/Nav_Diag.svg"
+              Value: "ns=20;%PROJECTDIR%/Nav_Trend.png"
           - Name: Fault
             Type: NavigationPanelItem
             Children:
@@ -1302,7 +1302,7 @@ Children:
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"98d7c206867867c6a9865f7374277d83","Namespace":20}
+              Value: {"IdType":2,"Id":"65cf4f42b88547fd2c519896111fedca","Namespace":20}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -1323,7 +1323,7 @@ Children:
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"1afd57ce4321701c98e3b2cb31430312","Namespace":20}
+              Value: {"IdType":2,"Id":"e54a6d51a09dc3f8c2546180a93ace06","Namespace":20}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -1399,6 +1399,16 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 0.0
+        - Name: AttachedPanelLoader
+          Type: NodePointer
+          DataType: NodeId
+          ModellingRule: Optional
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":183,"Namespace":5}
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
