@@ -1,7 +1,7 @@
 Name: 'Panels - Faceplate'
 Type: FolderType
 Children:
-- Name: raC_Dvc_K5500_3_03_Home1
+- Name: raC_Dvc_K5500_3_03_Home
   Id: g=39638320db1abd7eb622201f17037aa8
   Supertype: Panel
   ReferenceType: HasComponent
@@ -1670,10 +1670,15 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 30.0
-        - Name: Cfg_Unit
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 10.0
+        - Name: Cfg_Units
           Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"{raSDK1_DialogBox}/Ref_Tag/Cfg_PositionEU"}
+          DataType: String
+          Value: "0"
           Children:
           - Name: DynamicLink
             Type: DynamicLink
@@ -1685,11 +1690,6 @@ Children:
               DataType: DynamicLinkMode
               ModellingRule: Optional
               Value: 2
-        - Name: BottomMargin
-          Type: BaseVariableType
-          DataType: Size
-          ModellingRule: Optional
-          Value: 10.0
       - Name: ni_Accel
         Type: raSDK1_NI_LblValUnits
         Children:
@@ -1862,15 +1862,15 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 30.0
-        - Name: Cfg_Unit
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Sec"}
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
+        - Name: Cfg_Units
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sec"
       - Name: ni_Decel
         Type: raSDK1_NI_LblValUnits
         Children:
@@ -2043,15 +2043,15 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 30.0
-        - Name: Cfg_Unit
-          Type: BaseDataVariableType
-          DataType: LocalizedText
-          Value: {"LocaleId":"en-US","Text":"Sec"}
         - Name: BottomMargin
           Type: BaseVariableType
           DataType: Size
           ModellingRule: Optional
           Value: 30.0
+        - Name: Cfg_Units
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Sec"
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -2082,7 +2082,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
-- Name: raC_Dvc_K5500_3_03_IO1
+- Name: raC_Dvc_K5500_3_03_IO
   Id: g=c550d1b433731652404d016ba10628a0
   Supertype: raSDK1_PanelBase
   ReferenceType: HasComponent
@@ -3181,7 +3181,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 110.0
-- Name: raC_Dvc_K5500_3_03_Trend1
+- Name: raC_Dvc_K5500_3_03_Trend
   Id: g=c4841fb8732a93db0a39788d67a4fea2
   Supertype: Panel
   ReferenceType: HasComponent
@@ -3747,7 +3747,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=dadc71671c6659f5a0ff0a66cdb65259
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -4286,10 +4285,10 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 5.0
-              - Name: Cfg_Unit
+              - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"LocaleId":"en-US","Text":"0"}
+                DataType: String
+                Value: "0"
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
@@ -4463,10 +4462,10 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Size
                   Value: -1.0
-              - Name: Cfg_Unit
+              - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"LocaleId":"en-US","Text":"0"}
+                DataType: String
+                Value: "0"
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
@@ -4478,7 +4477,7 @@ Children:
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
-            - Name: ni_cfg_PositionEngUnits
+            - Name: si_cfg_PositionEngUnits
               Type: raSDK1_SI_LblVal
               Children:
               - Name: Label
@@ -4809,10 +4808,10 @@ Children:
                 DataType: Size
                 ModellingRule: Optional
                 Value: 5.0
-              - Name: Cfg_Unit
+              - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"LocaleId":"en-US","Text":"0"}
+                DataType: String
+                Value: "0"
                 Children:
                 - Name: StringFormatter1
                   Type: StringFormatter
@@ -5006,10 +5005,10 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Size
                   Value: -1.0
-              - Name: Cfg_Unit
+              - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"LocaleId":"en-US","Text":"0"}
+                DataType: String
+                Value: "0"
                 Children:
                 - Name: StringFormatter1
                   Type: StringFormatter
@@ -5133,7 +5132,7 @@ Children:
         Type: PropertyType
         DataType: NodeId
         Value: {"Id":71,"Namespace":5}
-- Name: raC_Dvc_K5500_3_03_Fault1
+- Name: raC_Dvc_K5500_3_03_Fault
   Id: g=d57e4b378f55b430e57ffb9cec9a4331
   Supertype: Panel
   ReferenceType: HasComponent
@@ -6631,7 +6630,7 @@ Children:
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
                 - Name: Inf_Lookup_Description1
-                  Type: raC_Dvc_K5500_3_03_InfLookup_Description1
+                  Type: raC_Dvc_K5500_3_03_InfLookup_Description
                   Children:
                   - Name: Source
                     Type: BaseDataVariableType
@@ -7788,7 +7787,7 @@ Children:
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
                 - Name: raC_Dvc_PF525_3_01_InfLookup_Description1
-                  Type: raC_Dvc_K5500_3_03_InfLookup_Description1
+                  Type: raC_Dvc_K5500_3_03_InfLookup_Description
                   Children:
                   - Name: Source
                     Type: BaseDataVariableType
@@ -8812,7 +8811,7 @@ Children:
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
                 - Name: raC_Dvc_PF525_3_01_InfLookup_Description1
-                  Type: raC_Dvc_K5500_3_03_InfLookup_Description1
+                  Type: raC_Dvc_K5500_3_03_InfLookup_Description
                   Children:
                   - Name: Source
                     Type: BaseDataVariableType
@@ -9826,7 +9825,7 @@ Children:
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
                 Children:
                 - Name: raC_Dvc_PF525_3_01_InfLookup_Description1
-                  Type: raC_Dvc_K5500_3_03_InfLookup_Description1
+                  Type: raC_Dvc_K5500_3_03_InfLookup_Description
                   Children:
                   - Name: Source
                     Type: BaseDataVariableType
@@ -10075,7 +10074,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=3b0f18ce64f5585a495d5d8a4ae74259
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -10729,7 +10727,7 @@ Children:
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: raC_Dvc_PF525_3_01_InfLookup_Details1
-                Type: raC_Dvc_K5500_3_03_InfLookup_Details1
+                Type: raC_Dvc_K5500_3_03_InfLookup_Details
                 Children:
                 - Name: Source
                   Type: BaseDataVariableType
@@ -10856,7 +10854,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=383a57720e452e546e435d21e90f7b5b
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -11510,7 +11507,7 @@ Children:
               Value: {"LocaleId":"en-US","Text":"R2 Lookup table here..."}
               Children:
               - Name: raC_Dvc_PF525_3_01_InfLookup_Details1
-                Type: raC_Dvc_K5500_3_03_InfLookup_Details1
+                Type: raC_Dvc_K5500_3_03_InfLookup_Details
                 Children:
                 - Name: Source
                   Type: BaseDataVariableType
@@ -11618,7 +11615,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=7b9c008e5577e06dbde767667470fbc6
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -12272,7 +12268,7 @@ Children:
               Value: {"LocaleId":"en-US","Text":"R3 Lookup table here..."}
               Children:
               - Name: raC_Dvc_PF525_3_01_InfLookup_Details1
-                Type: raC_Dvc_K5500_3_03_InfLookup_Details1
+                Type: raC_Dvc_K5500_3_03_InfLookup_Details
                 Children:
                 - Name: Source
                   Type: BaseDataVariableType
@@ -12371,7 +12367,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=1d65a0e9c61cdf957bcc6083a915f51a
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -13025,7 +13020,7 @@ Children:
               Value: {"LocaleId":"en-US","Text":"R4 Lookup table here..."}
               Children:
               - Name: raC_Dvc_PF525_3_01_InfLookup_Details1
-                Type: raC_Dvc_K5500_3_03_InfLookup_Details1
+                Type: raC_Dvc_K5500_3_03_InfLookup_Details
                 Children:
                 - Name: Source
                   Type: BaseDataVariableType
@@ -13114,7 +13109,7 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 16.0
-- Name: raC_Dvc_K5500_3_03_Extensions1
+- Name: raC_Dvc_K5500_3_03_Extensions
   Id: g=5edfa45813bdd8e4b4dafaafc6702456
   Supertype: Panel
   ReferenceType: HasComponent

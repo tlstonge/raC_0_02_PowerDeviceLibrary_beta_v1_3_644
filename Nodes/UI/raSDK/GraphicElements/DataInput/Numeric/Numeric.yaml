@@ -823,7 +823,7 @@ Children:
       - Name: DynamicLink
         Type: DynamicLink
         DataType: NodePath
-        Value: "../../../Cfg_Units"
+        Value: "../../Cfg_Units"
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
@@ -853,3 +853,7 @@ Children:
       DataType: String
       ModellingRule: Optional
       Value: "Unimportant Text"
+  - Name: Cfg_Units
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"

@@ -2,7 +2,7 @@ Name: <Private Elements>
 Type: FolderType
 Children:
 - File: 'Panels - Faceplate/Panels - Faceplate.yaml'
-- Name: raC_Dvc_K5500_3_03_InfLookup_Description1
+- Name: raC_Dvc_K5500_3_03_InfLookup_Description
   Id: g=3f88bb3b562c2934629705d8e0290190
   Supertype: ValueMapConverter
   Description: {"LocaleId":"en-US","Text":"Information loop-up table for fault table containing short descriptions for fault codes"}
@@ -3980,7 +3980,7 @@ Children:
     ReferenceType: HasComponent
     ModellingRule: Optional
     Value: 0
-- Name: raC_Dvc_K5500_3_03_InfLookup_Details1
+- Name: raC_Dvc_K5500_3_03_InfLookup_Details
   Id: g=eb8022a8e17cf0ea3e7e3b381af4177b
   Supertype: ValueMapConverter
   Description: {"LocaleId":"en-US","Text":"Information loop-up table for fault table containing long details/actions for fault codes"}

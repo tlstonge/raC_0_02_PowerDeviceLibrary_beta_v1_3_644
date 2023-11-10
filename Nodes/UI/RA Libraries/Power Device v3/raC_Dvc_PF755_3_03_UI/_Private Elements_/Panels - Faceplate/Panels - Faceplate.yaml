@@ -1186,10 +1186,6 @@ Children:
               Type: BaseDataVariableType
               DataType: Size
               Value: -1.0
-          - Name: Cfg_Units
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Hz"
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -1215,6 +1211,10 @@ Children:
             DataType: Size
             ModellingRule: Optional
             Value: 0.0
+          - Name: Cfg_Units
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "Hz"
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -2679,7 +2679,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=1d3fd9f2d9cb94f93ce9b15d9525c9b0
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -3193,15 +3192,15 @@ Children:
                   Type: BaseDataVariableType
                   DataType: Size
                   Value: -1.0
-              - Name: Cfg_Units
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "Hz"
               - Name: BottomMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
                 Value: 5.0
+              - Name: Cfg_Units
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Hz"
             - Name: ni_cfg_SpeedTrendMax
               Type: raSDK1_NI_LblValUnits
               Children:
@@ -3591,20 +3590,20 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../Cfg_Units"
+                    Value: "../../Cfg_Units"
                 - Name: FontSize
                   Type: BaseDataVariableType
                   DataType: Size
                   Value: -1.0
-              - Name: Cfg_Units
-                Type: BaseDataVariableType
-                DataType: String
-                Value: "Hz"
               - Name: BottomMargin
                 Type: BaseVariableType
                 DataType: Size
                 ModellingRule: Optional
                 Value: 5.0
+              - Name: Cfg_Units
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "%FLA"
             - Name: ni_cfg_CurrentTrendMax
               Type: raSDK1_NI_LblValUnits
               Children:
@@ -3762,7 +3761,7 @@ Children:
                   - Name: DynamicLink
                     Type: DynamicLink
                     DataType: NodePath
-                    Value: "../../../Cfg_Units"
+                    Value: "../../Cfg_Units"
                 - Name: FontSize
                   Type: BaseDataVariableType
                   DataType: Size
@@ -3770,7 +3769,7 @@ Children:
               - Name: Cfg_Units
                 Type: BaseDataVariableType
                 DataType: String
-                Value: "Hz"
+                Value: "%FLA"
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -9326,7 +9325,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=70633daa49a37a8ede4cab5c4dc5de73
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -10107,7 +10105,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=183ff934b9d4e8277e733b81825c3092
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -10869,7 +10866,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=a7d679fd4b5837db2e1bb6fedfc1162f
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -11622,7 +11618,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=94864e951921e57f7393844e00773ced
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}

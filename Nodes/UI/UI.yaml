@@ -191,107 +191,140 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#efefef"
-    - Name: K5500
-      Type: raC_Dvc_PF525_3_01_Nav_Text
+    - Name: raSDK1_NI_LblValUnits1
+      Type: raSDK1_NI_LblValUnits
       Children:
-      - Name: TagLaunchBttn13
-        Type: NetLogic
+      - Name: Label
+        Type: Label
         Children:
-        - Class: Reference
-          Target: g=c57338188f951ec4699316c72139c00e
-          Direction: Forward
-      - Name: MouseClickEventHandler1
-        Type: EventHandler
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Cfg_Label"
+      - Name: SpinBox
+        Type: SpinBox
         Children:
-        - Name: ListenEventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"Id":16,"Namespace":5}
-        - Name: MethodsToCall
-          Type: BaseObjectType
+        - Name: Value
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 0.0
           Children:
-          - Name: MethodContainer2
-            Type: BaseObjectType
-            Children:
-            - Name: ObjectPointer
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"IdType":0,"Id":0,"Namespace":-1}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":58}
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "../../../../TagLaunchBttn13@NodeId"
-            - Name: Method
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "TagNodeIdLaunchButton"
-        - Name: EventArguments
-          Type: MouseClickEvent
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Ref_Value"
+        - Name: MinValue
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 0.0
           Children:
-          - Name: EventId
-            Type: PropertyType
-            DataType: ByteString
-            Value: ""
-          - Name: EventType
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceNode
-            Type: PropertyType
-            DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
-          - Name: SourceName
-            Type: PropertyType
-            DataType: String
-            Value: ""
-          - Name: Time
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: ReceiveTime
-            Type: PropertyType
-            DataType: UtcTime
-            Value: "1601-01-01T00:00:00.0000000"
-          - Name: Message
-            Type: PropertyType
-            DataType: LocalizedText
-            Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-          - Name: Severity
-            Type: PropertyType
-            DataType: UInt16
-            Value: 0
-      - Name: Ref_Tag
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Set_ValueMinimum"
+        - Name: MaxValue
+          Type: BaseDataVariableType
+          DataType: Double
+          Value: 100.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Set_ValueMaximum"
+        - Name: Editable
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Set_Enabled"
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Set_Enabled"
+      - Name: Cfg_Label
         Type: BaseDataVariableType
-        DataType: NodeId
-        Value: {"IdType":2,"Id":"2909eacd037a36928500928b57ee7f7e","Namespace":20}
-      - Name: Cfg_DisplayType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Ref_Value
         Type: BaseDataVariableType
-        DataType: String
-        Value: "Faceplate"
-      - Name: Cfg_CloseCurrentDisplay
+        DataType: Float
+        Value: 0.0
+      - Name: Set_Enabled
         Type: BaseDataVariableType
         DataType: Boolean
         Value: false
+      - Name: Set_DecimalPlaces
+        Type: BaseDataVariableType
+        DataType: Int32
+        Value: 0
+      - Name: Set_ValueMinimum
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+      - Name: Set_ValueMaximum
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+      - Name: Cfg_EnableNotification
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Cfg_NotificationImage
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "0"
+      - Name: Inp_Notification
+        Type: BaseDataVariableType
+        DataType: Boolean
+        Value: false
+      - Name: Units
+        Type: Label
+        Children:
+        - Name: Text
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../Cfg_Units"
+        - Name: FontSize
+          Type: BaseDataVariableType
+          DataType: Size
+          Value: -1.0
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 300.0
+        Value: 0.0
       - Name: TopMargin
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
-        Value: 106.0
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
+        Value: 335.0
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
         ModellingRule: Optional
-        Value: {"LocaleId":"en-US","Text":"K5500"}
+        Value: 520.0
+      - Name: Cfg_Units
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "0"
   - Name: Label1
     Type: Label
     Children:
@@ -574,6 +607,107 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"PF525 State Mon"}
+  - Name: K5500
+    Type: raC_Dvc_PF525_3_01_Nav_Text
+    Children:
+    - Name: TagLaunchBttn13
+      Type: NetLogic
+      Children:
+      - Class: Reference
+        Target: g=c57338188f951ec4699316c72139c00e
+        Direction: Forward
+    - Name: MouseClickEventHandler1
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":16,"Namespace":5}
+      - Name: MethodsToCall
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer2
+          Type: BaseObjectType
+          Children:
+          - Name: ObjectPointer
+            Type: NodePointer
+            DataType: NodeId
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+            Children:
+            - Name: Kind
+              Type: PropertyType
+              DataType: NodeId
+              Value: {"Id":58}
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../TagLaunchBttn13@NodeId"
+          - Name: Method
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TagNodeIdLaunchButton"
+      - Name: EventArguments
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Type: PropertyType
+          DataType: ByteString
+          Value: ""
+        - Name: EventType
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceNode
+          Type: PropertyType
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: SourceName
+          Type: PropertyType
+          DataType: String
+          Value: ""
+        - Name: Time
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: ReceiveTime
+          Type: PropertyType
+          DataType: UtcTime
+          Value: "1601-01-01T00:00:00.0000000"
+        - Name: Message
+          Type: PropertyType
+          DataType: LocalizedText
+          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        - Name: Severity
+          Type: PropertyType
+          DataType: UInt16
+          Value: 0
+    - Name: Ref_Tag
+      Type: BaseDataVariableType
+      DataType: NodeId
+      Value: {"IdType":2,"Id":"2909eacd037a36928500928b57ee7f7e","Namespace":20}
+    - Name: Cfg_DisplayType
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Faceplate"
+    - Name: Cfg_CloseCurrentDisplay
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 340.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"K5500"}
   - Name: TextButton1
     Type: raC_Dvc_PF525_3_01_Nav_Text
     Children:
