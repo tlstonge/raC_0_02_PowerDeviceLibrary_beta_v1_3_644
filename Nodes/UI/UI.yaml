@@ -272,33 +272,33 @@ Children:
       ModellingRule: Optional
       Value: 80.0
   - Name: M102
-    Type: raC_Dvc_PF525_3_01_Nav_Text
+    Type: BaseObjectType
+    ReferenceType: HasOrderedComponent
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
       Children:
-      - Class: Reference
-        Target: g=c57338188f951ec4699316c72139c00e
-        Direction: Forward
+      - Class: Method
+        Name: TagNodeIdLaunchButton
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
-      - Name: ListenEventType
+      - Name: ns=3;ListenEventType
         Type: PropertyType
         DataType: NodeId
         Value: {"Id":16,"Namespace":5}
-      - Name: MethodsToCall
+      - Name: ns=3;MethodsToCall
         Type: BaseObjectType
         Children:
         - Name: MethodContainer2
           Type: BaseObjectType
           Children:
-          - Name: ObjectPointer
+          - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
-            - Name: Kind
+            - Name: ns=1;Kind
               Type: PropertyType
               DataType: NodeId
               Value: {"Id":58}
@@ -306,42 +306,42 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../TagLaunchBttn13@NodeId"
-          - Name: Method
+          - Name: ns=3;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "TagNodeIdLaunchButton"
       - Name: EventArguments
         Type: MouseClickEvent
         Children:
-        - Name: EventId
+        - Name: ns=0;EventId
           Type: PropertyType
           DataType: ByteString
           Value: ""
-        - Name: EventType
+        - Name: ns=0;EventType
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceNode
+        - Name: ns=0;SourceNode
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceName
+        - Name: ns=0;SourceName
           Type: PropertyType
           DataType: String
           Value: ""
-        - Name: Time
+        - Name: ns=0;Time
           Type: PropertyType
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: ReceiveTime
+        - Name: ns=0;ReceiveTime
           Type: PropertyType
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: Message
+        - Name: ns=0;Message
           Type: PropertyType
           DataType: LocalizedText
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        - Name: Severity
+        - Name: ns=0;Severity
           Type: PropertyType
           DataType: UInt16
           Value: 0
@@ -357,17 +357,17 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
-    - Name: LeftMargin
+    - Name: ns=5;LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 100.0
-    - Name: TopMargin
+    - Name: ns=5;TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 105.0
-    - Name: Text
+    - Name: ns=5;Text
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
@@ -474,33 +474,33 @@ Children:
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"PF525 State Mon"}
   - Name: TextButton1
-    Type: raC_Dvc_PF525_3_01_Nav_Text
+    Type: BaseObjectType
+    ReferenceType: HasOrderedComponent
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
       Children:
-      - Class: Reference
-        Target: g=c57338188f951ec4699316c72139c00e
-        Direction: Forward
+      - Class: Method
+        Name: TagNodeIdLaunchButton
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
-      - Name: ListenEventType
+      - Name: ns=3;ListenEventType
         Type: PropertyType
         DataType: NodeId
         Value: {"Id":16,"Namespace":5}
-      - Name: MethodsToCall
+      - Name: ns=3;MethodsToCall
         Type: BaseObjectType
         Children:
         - Name: MethodContainer2
           Type: BaseObjectType
           Children:
-          - Name: ObjectPointer
+          - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
             Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
-            - Name: Kind
+            - Name: ns=1;Kind
               Type: PropertyType
               DataType: NodeId
               Value: {"Id":58}
@@ -508,42 +508,42 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../TagLaunchBttn13@NodeId"
-          - Name: Method
+          - Name: ns=3;Method
             Type: BaseDataVariableType
             DataType: String
             Value: "TagNodeIdLaunchButton"
       - Name: EventArguments
         Type: MouseClickEvent
         Children:
-        - Name: EventId
+        - Name: ns=0;EventId
           Type: PropertyType
           DataType: ByteString
           Value: ""
-        - Name: EventType
+        - Name: ns=0;EventType
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceNode
+        - Name: ns=0;SourceNode
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceName
+        - Name: ns=0;SourceName
           Type: PropertyType
           DataType: String
           Value: ""
-        - Name: Time
+        - Name: ns=0;Time
           Type: PropertyType
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: ReceiveTime
+        - Name: ns=0;ReceiveTime
           Type: PropertyType
           DataType: UtcTime
           Value: "1601-01-01T00:00:00.0000000"
-        - Name: Message
+        - Name: ns=0;Message
           Type: PropertyType
           DataType: LocalizedText
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        - Name: Severity
+        - Name: ns=0;Severity
           Type: PropertyType
           DataType: UInt16
           Value: 0
@@ -559,17 +559,17 @@ Children:
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
-    - Name: LeftMargin
+    - Name: ns=5;LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 104.0
-    - Name: TopMargin
+    - Name: ns=5;TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 155.0
-    - Name: Text
+    - Name: ns=5;Text
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
