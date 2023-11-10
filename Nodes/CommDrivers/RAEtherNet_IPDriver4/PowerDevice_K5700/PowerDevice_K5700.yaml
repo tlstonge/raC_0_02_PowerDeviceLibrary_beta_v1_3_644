@@ -1,5 +1,4 @@
 Name: PowerDevice_K5700
-Id: g=a454b217b16105fcf1c4a936fc9f95d2
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
