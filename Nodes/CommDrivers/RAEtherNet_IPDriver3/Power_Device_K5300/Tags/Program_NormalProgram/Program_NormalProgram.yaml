@@ -1,0 +1,1336 @@
+Name: 'Program:NormalProgram'
+Type: FolderType
+Children:
+- Name: Dvc_K5300
+  Id: g=cf69603090cff49bac2195a1be5e59f3
+  Type: raC_Dvc_K5300
+  DataType: raC_Dvc_K5300
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "54f73f79b2d4c2c4405292ead8f7f1e9",
+     "Namespace": 20
+    },
+    "Body": {
+     "Cfg_PositionEU": "",
+     "Cfg_PositionTrendMax": 0,
+     "Cfg_PositionTrendMin": 0,
+     "Cfg_VelocityTrendMax": 0,
+     "Cfg_VelocityTrendMin": 0,
+     "Cmd_Activate": false,
+     "Cmd_Deactivate": false,
+     "Cmd_JogFwd": false,
+     "Cmd_JogRev": false,
+     "Cmd_ResetFault": false,
+     "EnableIn": false,
+     "EnableOut": false,
+     "HMI_Tab": 0,
+     "HMI_Version": false,
+     "Inf_DisplayName": "",
+     "Inf_Lib": "",
+     "Inf_Type": "",
+     "raC_Dvc_K5300": false,
+     "Set_AccelTime": 0.0,
+     "Set_DecelTime": 0.0,
+     "Set_Velocity": 0.0,
+     "Sts_Active": false,
+     "Sts_Available": false,
+     "Sts_bCIPAxisIOStatus": 0,
+     "Sts_bNotReady": 0,
+     "Sts_Connected": false,
+     "Sts_eDvcAction": 0,
+     "Sts_eEventType": [0,0,0,0],
+     "Sts_eEventValue": [0,0,0,0],
+     "Sts_eNotReady": 0,
+     "Sts_EventMessage": "",
+     "Sts_ExtensionEnabled": 0,
+     "Sts_Faulted": false,
+     "Sts_InhibitCmd": false,
+     "Sts_InhibitSet": false,
+     "Sts_NoMotion": false,
+     "Sts_Ready": false,
+     "Sts_Referenced": false,
+     "Sts_tEventTimeD0": [0,0,0,0,0,0,0],
+     "Sts_tEventTimeD1": [0,0,0,0,0,0,0],
+     "Sts_tEventTimeD2": [0,0,0,0,0,0,0],
+     "Sts_tEventTimeD3": [0,0,0,0,0,0,0],
+     "Sts_Virtual": false,
+     "Sts_Warning": false,
+     "Sts_ZeroSpeed": false,
+     "Val_ActualPosition": 0.0,
+     "Val_ActualVelocity": 0.0,
+     "Val_TSmax": 0,
+     "Val_TSmin": 0,
+     "Wrk_bSts": 0
+    }
+   }
+  Children:
+  - Name: Cfg_PositionEU
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cfg_PositionEU"
+  - Name: Cfg_PositionTrendMax
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cfg_PositionTrendMax"
+  - Name: Cfg_PositionTrendMin
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cfg_PositionTrendMin"
+  - Name: Cfg_VelocityTrendMax
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cfg_VelocityTrendMax"
+  - Name: Cfg_VelocityTrendMin
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cfg_VelocityTrendMin"
+  - Name: Cmd_Activate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cmd_Activate"
+  - Name: Cmd_Deactivate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cmd_Deactivate"
+  - Name: Cmd_JogFwd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cmd_JogFwd"
+  - Name: Cmd_JogRev
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cmd_JogRev"
+  - Name: Cmd_ResetFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Cmd_ResetFault"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.EnableOut"
+  - Name: HMI_Tab
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.HMI_Tab"
+  - Name: HMI_Version
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.HMI_Version"
+  - Name: Inf_DisplayName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Inf_DisplayName"
+  - Name: Inf_Lib
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Inf_Lib"
+  - Name: Inf_Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Inf_Type"
+  - Name: raC_Dvc_K5300
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.raC_Dvc_K5300"
+  - Name: Set_AccelTime
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Set_AccelTime"
+  - Name: Set_DecelTime
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Set_DecelTime"
+  - Name: Set_Velocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Set_Velocity"
+  - Name: Sts_Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_Active"
+  - Name: Sts_Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_Available"
+  - Name: Sts_bCIPAxisIOStatus
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_bCIPAxisIOStatus"
+  - Name: Sts_bNotReady
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_bNotReady"
+  - Name: Sts_Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_Connected"
+  - Name: Sts_eDvcAction
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_eDvcAction"
+  - Name: Sts_eEventType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: [0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_eEventType"
+  - Name: Sts_eEventValue
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [4]
+    Value: [0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_eEventValue"
+  - Name: Sts_eNotReady
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_eNotReady"
+  - Name: Sts_EventMessage
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_EventMessage"
+  - Name: Sts_ExtensionEnabled
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_ExtensionEnabled"
+  - Name: Sts_Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_Faulted"
+  - Name: Sts_InhibitCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_InhibitCmd"
+  - Name: Sts_InhibitSet
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_InhibitSet"
+  - Name: Sts_NoMotion
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_NoMotion"
+  - Name: Sts_Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_Ready"
+  - Name: Sts_Referenced
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_Referenced"
+  - Name: Sts_tEventTimeD0
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Value: [0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_tEventTimeD0"
+  - Name: Sts_tEventTimeD1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Value: [0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_tEventTimeD1"
+  - Name: Sts_tEventTimeD2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Value: [0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_tEventTimeD2"
+  - Name: Sts_tEventTimeD3
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [7]
+    Value: [0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_tEventTimeD3"
+  - Name: Sts_Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_Virtual"
+  - Name: Sts_Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_Warning"
+  - Name: Sts_ZeroSpeed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Sts_ZeroSpeed"
+  - Name: Val_ActualPosition
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Val_ActualPosition"
+  - Name: Val_ActualVelocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Val_ActualVelocity"
+  - Name: Val_TSmax
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Val_TSmax"
+  - Name: Val_TSmin
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Val_TSmin"
+  - Name: Wrk_bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300.Wrk_bSts"
+- Name: Dvc_K5300_CtrlCmd
+  Type: raC_UDT_ItfAD_PwrMotion_Cmd1
+  DataType: raC_UDT_ItfAD_PwrMotion_Cmd1
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "ceecf328a01617534e28083d71a3cb24",
+     "Namespace": 20
+    },
+    "Body": {
+     "Activate": false,
+     "bCmd": 0,
+     "Deactivate": false,
+     "Physical": false,
+     "ResetFault": false,
+     "ResetWarn": false,
+     "Virtual": false
+    }
+   }
+  Children:
+  - Name: Activate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlCmd.Activate"
+  - Name: bCmd
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlCmd.bCmd"
+  - Name: Deactivate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlCmd.Deactivate"
+  - Name: Physical
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlCmd.Physical"
+  - Name: ResetFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlCmd.ResetFault"
+  - Name: ResetWarn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlCmd.ResetWarn"
+  - Name: Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlCmd.Virtual"
+- Name: Dvc_K5300_CtrlInf
+  Type: raC_UDT_ItfAD_PwrMotion_Inf1
+  DataType: raC_UDT_ItfAD_PwrMotion_Inf1
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "674b7eeea3c05514a2de811a6531f308",
+     "Namespace": 20
+    },
+    "Body": {
+     "AxisID": 0,
+     "bExtensionAlert": 0,
+     "bExtensionEnabled": 0,
+     "ModulePath": ""
+    }
+   }
+  Children:
+  - Name: AxisID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlInf.AxisID"
+  - Name: bExtensionAlert
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlInf.bExtensionAlert"
+  - Name: bExtensionEnabled
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlInf.bExtensionEnabled"
+  - Name: ModulePath
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlInf.ModulePath"
+- Name: Dvc_K5300_CtrlSet
+  Type: raC_UDT_ItfAD_PwrMotion_Set1
+  DataType: raC_UDT_ItfAD_PwrMotion_Set1
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "953bf10916006ba686631e4eed6ea0b0",
+     "Namespace": 20
+    },
+    "Body": {
+     "bInhibit": 0,
+     "InhibitCfg": false,
+     "InhibitCmd": false,
+     "InhibitSet": false
+    }
+   }
+  Children:
+  - Name: bInhibit
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSet.bInhibit"
+  - Name: InhibitCfg
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSet.InhibitCfg"
+  - Name: InhibitCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSet.InhibitCmd"
+  - Name: InhibitSet
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSet.InhibitSet"
+- Name: Dvc_K5300_CtrlSts
+  Type: raC_UDT_ItfAD_PwrMotion_Sts1
+  DataType: raC_UDT_ItfAD_PwrMotion_Sts1
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "902a9a963b7579b5bb18f013983f4d8d",
+     "Namespace": 20
+    },
+    "Body": {
+     "Active": false,
+     "Available": false,
+     "bSts": 0,
+     "Connected": false,
+     "eCmdFail": 0,
+     "eState": 0,
+     "Faulted": false,
+     "FirstFault": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "77236e9690883ff414ca63793f709a14",
+       "Namespace": 20
+      },
+      "Body": {
+       "Action": 0,
+       "Category": 0,
+       "EventTime_D": [0,0,0,0,0,0,0],
+       "EventTime_L": 0,
+       "ID": 0,
+       "Message": "",
+       "Type": 0,
+       "Value": 0
+      }
+     },
+     "FirstWarning": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "77236e9690883ff414ca63793f709a14",
+       "Namespace": 20
+      },
+      "Body": {
+       "Action": 0,
+       "Category": 0,
+       "EventTime_D": [0,0,0,0,0,0,0],
+       "EventTime_L": 0,
+       "ID": 0,
+       "Message": "",
+       "Type": 0,
+       "Value": 0
+      }
+     },
+     "NoMotion": false,
+     "Physical": false,
+     "Ready": false,
+     "Virtual": false,
+     "Warning": false,
+     "ZeroSpeed": false
+    }
+   }
+  Children:
+  - Name: Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.Active"
+  - Name: Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.Available"
+  - Name: bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.bSts"
+  - Name: Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.Connected"
+  - Name: eCmdFail
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.eCmdFail"
+  - Name: eState
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.eState"
+  - Name: Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.Faulted"
+  - Name: FirstFault
+    Type: raC_UDT_Event2
+    DataType: raC_UDT_Event2
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "77236e9690883ff414ca63793f709a14",
+       "Namespace": 20
+      },
+      "Body": {
+       "Action": 0,
+       "Category": 0,
+       "EventTime_D": [0,0,0,0,0,0,0],
+       "EventTime_L": 0,
+       "ID": 0,
+       "Message": "",
+       "Type": 0,
+       "Value": 0
+      }
+     }
+    Children:
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstFault.Action"
+    - Name: Category
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstFault.Category"
+    - Name: EventTime_D
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Value: [0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstFault.EventTime_D"
+    - Name: EventTime_L
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstFault.EventTime_L"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstFault.ID"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstFault.Message"
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstFault.Type"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstFault.Value"
+  - Name: FirstWarning
+    Type: raC_UDT_Event2
+    DataType: raC_UDT_Event2
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "77236e9690883ff414ca63793f709a14",
+       "Namespace": 20
+      },
+      "Body": {
+       "Action": 0,
+       "Category": 0,
+       "EventTime_D": [0,0,0,0,0,0,0],
+       "EventTime_L": 0,
+       "ID": 0,
+       "Message": "",
+       "Type": 0,
+       "Value": 0
+      }
+     }
+    Children:
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstWarning.Action"
+    - Name: Category
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstWarning.Category"
+    - Name: EventTime_D
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Value: [0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstWarning.EventTime_D"
+    - Name: EventTime_L
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstWarning.EventTime_L"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstWarning.ID"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstWarning.Message"
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstWarning.Type"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.FirstWarning.Value"
+  - Name: NoMotion
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.NoMotion"
+  - Name: Physical
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.Physical"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.Ready"
+  - Name: Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.Virtual"
+  - Name: Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.Warning"
+  - Name: ZeroSpeed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_CtrlSts.ZeroSpeed"
+- Name: Dvc_K5300_StateMon
+  Type: raC_Tec_PwrMotionStateMonitor1
+  DataType: raC_Tec_PwrMotionStateMonitor1
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "1969b39492bd8856a22c5fd47fb900d3",
+     "Namespace": 20
+    },
+    "Body": {
+     "_bCmd": 0,
+     "Cmd_ClearCntActivation": false,
+     "Cmd_ClearCntDisconnect": false,
+     "Cmd_ClearMaxHrsActive": false,
+     "Cmd_ClearMaxHrsConnected": false,
+     "Cmd_ClearTotHrsActive": false,
+     "Cmd_ClearTotHrsConnected": false,
+     "EnableIn": false,
+     "EnableOut": false,
+     "HMI_Tab": 0,
+     "HMI_Version": false,
+     "Inf_Lib": "",
+     "Inf_Type": "",
+     "raC_Tec_PwrDiscreteStateMonitor": false,
+     "Sts_InhibitConfig": false,
+     "Val_Activations": 0,
+     "Val_CurActiveHrs": 0.0,
+     "Val_CurConnectedHrs": 0.0,
+     "Val_Disconnections": 0,
+     "Val_MaxActiveHrs": 0.0,
+     "Val_MaxConnectedHrs": 0.0,
+     "Val_TotActiveHrs": 0.0,
+     "Val_TotConnectedHrs": 0.0
+    }
+   }
+  Children:
+  - Name: _bCmd
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon._bCmd"
+  - Name: Cmd_ClearCntActivation
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Cmd_ClearCntActivation"
+  - Name: Cmd_ClearCntDisconnect
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Cmd_ClearCntDisconnect"
+  - Name: Cmd_ClearMaxHrsActive
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Cmd_ClearMaxHrsActive"
+  - Name: Cmd_ClearMaxHrsConnected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Cmd_ClearMaxHrsConnected"
+  - Name: Cmd_ClearTotHrsActive
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Cmd_ClearTotHrsActive"
+  - Name: Cmd_ClearTotHrsConnected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Cmd_ClearTotHrsConnected"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.EnableOut"
+  - Name: HMI_Tab
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.HMI_Tab"
+  - Name: HMI_Version
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.HMI_Version"
+  - Name: Inf_Lib
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Inf_Lib"
+  - Name: Inf_Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Inf_Type"
+  - Name: raC_Tec_PwrDiscreteStateMonitor
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.raC_Tec_PwrDiscreteStateMonitor"
+  - Name: Sts_InhibitConfig
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Sts_InhibitConfig"
+  - Name: Val_Activations
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Val_Activations"
+  - Name: Val_CurActiveHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Val_CurActiveHrs"
+  - Name: Val_CurConnectedHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Val_CurConnectedHrs"
+  - Name: Val_Disconnections
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Val_Disconnections"
+  - Name: Val_MaxActiveHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Val_MaxActiveHrs"
+  - Name: Val_MaxConnectedHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Val_MaxConnectedHrs"
+  - Name: Val_TotActiveHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Val_TotActiveHrs"
+  - Name: Val_TotConnectedHrs
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:NormalProgram.Dvc_K5300_StateMon.Val_TotConnectedHrs"

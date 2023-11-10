@@ -1,8 +1,8 @@
 Name: Graphic Symbols
 Type: FolderType
 Children:
-- Name: raC_Dvc_PF525_3_01_Nav_Text
-  Id: g=c759e55fb51b6604b3ba7d18452a64cd
+- Name: raC_Dvc_K5300_3_03_Nav_Text
+  Id: g=ce33514f5a23a84bd8656392c6fa13d2
   Supertype: Button
   DisplayName: {"LocaleId":"en-US","Text":"Text Button"}
   ReferenceType: HasComponent
@@ -17,7 +17,6 @@ Children:
     Children:
     - Class: Method
       Name: TagNodeIdLaunchButton
-      Id: g=f83fb79a3e41be23d36c5644c536eedd
   - Name: MouseClickEventHandler1
     Type: EventHandler
     Children:
