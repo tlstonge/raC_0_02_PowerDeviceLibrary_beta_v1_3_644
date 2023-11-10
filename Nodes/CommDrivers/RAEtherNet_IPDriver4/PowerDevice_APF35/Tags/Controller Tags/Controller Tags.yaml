@@ -1,0 +1,2629 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: raC_Dvc_APF35_InfTable
+  Type: raC_UDT_LookupMember_STR00823
+  DataType: raC_UDT_LookupMember_STR00823
+  ValueRank: OneDimension
+  ArrayDimensions: [49]
+  Value: [{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}},{"TypeId":{"IdType":2,"Id":"f9189e8d52999ebd62f52893cfb43769","Namespace":20},"Body":{"Code":0,"Desc":""}}]
+  Children:
+  - Name: 0
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[0].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[0].Desc"
+  - Name: 1
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[1].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[1].Desc"
+  - Name: 2
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[2].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[2].Desc"
+  - Name: 3
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[3].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[3].Desc"
+  - Name: 4
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[4].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[4].Desc"
+  - Name: 5
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[5].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[5].Desc"
+  - Name: 6
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[6].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[6].Desc"
+  - Name: 7
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[7].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[7].Desc"
+  - Name: 8
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[8].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[8].Desc"
+  - Name: 9
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[9].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[9].Desc"
+  - Name: 10
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[10].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[10].Desc"
+  - Name: 11
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[11].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[11].Desc"
+  - Name: 12
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[12].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[12].Desc"
+  - Name: 13
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[13].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[13].Desc"
+  - Name: 14
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[14].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[14].Desc"
+  - Name: 15
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[15].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[15].Desc"
+  - Name: 16
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[16].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[16].Desc"
+  - Name: 17
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[17].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[17].Desc"
+  - Name: 18
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[18].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[18].Desc"
+  - Name: 19
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[19].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[19].Desc"
+  - Name: 20
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[20].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[20].Desc"
+  - Name: 21
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[21].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[21].Desc"
+  - Name: 22
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[22].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[22].Desc"
+  - Name: 23
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[23].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[23].Desc"
+  - Name: 24
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[24].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[24].Desc"
+  - Name: 25
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[25].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[25].Desc"
+  - Name: 26
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[26].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[26].Desc"
+  - Name: 27
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[27].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[27].Desc"
+  - Name: 28
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[28].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[28].Desc"
+  - Name: 29
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[29].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[29].Desc"
+  - Name: 30
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[30].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[30].Desc"
+  - Name: 31
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[31].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[31].Desc"
+  - Name: 32
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[32].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[32].Desc"
+  - Name: 33
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[33].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[33].Desc"
+  - Name: 34
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[34].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[34].Desc"
+  - Name: 35
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[35].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[35].Desc"
+  - Name: 36
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[36].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[36].Desc"
+  - Name: 37
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[37].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[37].Desc"
+  - Name: 38
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[38].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[38].Desc"
+  - Name: 39
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[39].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[39].Desc"
+  - Name: 40
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[40].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[40].Desc"
+  - Name: 41
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[41].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[41].Desc"
+  - Name: 42
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[42].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[42].Desc"
+  - Name: 43
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[43].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[43].Desc"
+  - Name: 44
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[44].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[44].Desc"
+  - Name: 45
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[45].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[45].Desc"
+  - Name: 46
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[46].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[46].Desc"
+  - Name: 47
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[47].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[47].Desc"
+  - Name: 48
+    Type: raC_UDT_LookupMember_STR00823
+    DataType: raC_UDT_LookupMember_STR00823
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f9189e8d52999ebd62f52893cfb43769",
+       "Namespace": 20
+      },
+      "Body": {
+       "Code": 0,
+       "Desc": ""
+      }
+     }
+    Children:
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[48].Code"
+    - Name: Desc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "raC_Dvc_APF35_InfTable[48].Desc"
+- Name: _InstanceName_ProdCode_Msg
+  Type: MESSAGE2
+  DataType: MESSAGE2
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "6397d68649206c5a9e6addff2766d3ba",
+     "Namespace": 20
+    },
+    "Body": {
+     "Attribute": 0,
+     "Channel": 0,
+     "Class": 0,
+     "ConnectionRate": 0,
+     "DestinationLink": 0,
+     "DestinationNode": 0,
+     "DN": false,
+     "DN_LEN": 0,
+     "EN": false,
+     "EN_CC": false,
+     "ER": false,
+     "ERR": 0,
+     "ERR_SRC": 0,
+     "EW": false,
+     "EXERR": 0,
+     "Flags": 0,
+     "Group": 0,
+     "Instance": 0,
+     "LocalIndex": 0,
+     "Path": "",
+     "Rack": 0,
+     "RemoteElement": "",
+     "RemoteIndex": 0,
+     "REQ_LEN": 0,
+     "Slot": 0,
+     "SourceLink": 0,
+     "ST": false,
+     "TimeoutMultiplier": 0,
+     "TO": false,
+     "UnconnectedTimeout": 0
+    }
+   }
+  Children:
+  - Name: Attribute
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.Attribute"
+  - Name: Channel
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.Channel"
+  - Name: Class
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.Class"
+  - Name: ConnectionRate
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.ConnectionRate"
+  - Name: DestinationLink
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.DestinationLink"
+  - Name: DestinationNode
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.DestinationNode"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.DN"
+  - Name: DN_LEN
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.DN_LEN"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.EN"
+  - Name: EN_CC
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.EN_CC"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.ER"
+  - Name: ERR
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.ERR"
+  - Name: ERR_SRC
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.ERR_SRC"
+  - Name: EW
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.EW"
+  - Name: EXERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.EXERR"
+  - Name: Flags
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.Flags"
+  - Name: Group
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.Group"
+  - Name: Instance
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.Instance"
+  - Name: LocalIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.LocalIndex"
+  - Name: Path
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.Path"
+  - Name: Rack
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.Rack"
+  - Name: RemoteElement
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.RemoteElement"
+  - Name: RemoteIndex
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.RemoteIndex"
+  - Name: REQ_LEN
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.REQ_LEN"
+  - Name: Slot
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.Slot"
+  - Name: SourceLink
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.SourceLink"
+  - Name: ST
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.ST"
+  - Name: TimeoutMultiplier
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.TimeoutMultiplier"
+  - Name: TO
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.TO"
+  - Name: UnconnectedTimeout
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "_InstanceName_ProdCode_Msg.UnconnectedTimeout"
+- Name: _InstanceName_ProdCode_MsgData
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [1]
+  Value: [0]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "_InstanceName_ProdCode_MsgData"
+- Name: 'Mod_Dvc_APF35E:I'
+  Type: 'AB:35_APF_Drive:I:0'
+  DataType: 'AB:35_APF_Drive:I:0'
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "0f2b327594974fecc61b3a6e9d80c694",
+     "Namespace": 20
+    },
+    "Body": {
+     "Accelerating": false,
+     "ActualDirection": false,
+     "Alarm": false,
+     "AtReferenceSpeed": false,
+     "CommandedDirection": false,
+     "ConnectionFaulted": false,
+     "DCBusVoltage": 0.0,
+     "Decelerating": false,
+     "DisconnectClosed": false,
+     "DriveHeatsinkTemperature": 0.0,
+     "DriveStatus": 0,
+     "EMBrakeReleased": false,
+     "EncoderCounts": 0,
+     "Fault": false,
+     "In_0": false,
+     "In_1": false,
+     "In_2": false,
+     "In_3": false,
+     "IO_0": false,
+     "IO_1": false,
+     "KeypadButtonF0": false,
+     "KeypadButtonF1": false,
+     "KeypadButtonF2": false,
+     "KeypadHandMode": false,
+     "MotorOverloadLevel": 0.0,
+     "OutputCurrent": 0.0,
+     "OutputFrequency": 0.0,
+     "OutputPower": 0.0,
+     "OutputVoltage": 0.0,
+     "Ready": false,
+     "RunMode": false,
+     "Running": false,
+     "SafeTorqueEnabled": false,
+     "SafetyFault": false,
+     "SafetyIn0Monitor": false,
+     "SafetyIn1Monitor": false,
+     "SafetyIn2Monitor": false,
+     "SafetyIn3Monitor": false,
+     "SafetyOutMonitor": false,
+     "ThreePhaseACPowerPresent": false,
+     "TripFaultCode": 0,
+     "Velocity": 0.0
+    }
+   }
+  Children:
+  - Name: Accelerating
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.Accelerating"
+  - Name: ActualDirection
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.ActualDirection"
+  - Name: Alarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.Alarm"
+  - Name: AtReferenceSpeed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.AtReferenceSpeed"
+  - Name: CommandedDirection
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.CommandedDirection"
+  - Name: ConnectionFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.ConnectionFaulted"
+  - Name: DCBusVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.DCBusVoltage"
+  - Name: Decelerating
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.Decelerating"
+  - Name: DisconnectClosed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.DisconnectClosed"
+  - Name: DriveHeatsinkTemperature
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.DriveHeatsinkTemperature"
+  - Name: DriveStatus
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.DriveStatus"
+  - Name: EMBrakeReleased
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.EMBrakeReleased"
+  - Name: EncoderCounts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.EncoderCounts"
+  - Name: Fault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.Fault"
+  - Name: In_0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.In_0"
+  - Name: In_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.In_1"
+  - Name: In_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.In_2"
+  - Name: In_3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.In_3"
+  - Name: IO_0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.IO_0"
+  - Name: IO_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.IO_1"
+  - Name: KeypadButtonF0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.KeypadButtonF0"
+  - Name: KeypadButtonF1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.KeypadButtonF1"
+  - Name: KeypadButtonF2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.KeypadButtonF2"
+  - Name: KeypadHandMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.KeypadHandMode"
+  - Name: MotorOverloadLevel
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.MotorOverloadLevel"
+  - Name: OutputCurrent
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.OutputCurrent"
+  - Name: OutputFrequency
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.OutputFrequency"
+  - Name: OutputPower
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.OutputPower"
+  - Name: OutputVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.OutputVoltage"
+  - Name: Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.Ready"
+  - Name: RunMode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.RunMode"
+  - Name: Running
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.Running"
+  - Name: SafeTorqueEnabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.SafeTorqueEnabled"
+  - Name: SafetyFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.SafetyFault"
+  - Name: SafetyIn0Monitor
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.SafetyIn0Monitor"
+  - Name: SafetyIn1Monitor
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.SafetyIn1Monitor"
+  - Name: SafetyIn2Monitor
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.SafetyIn2Monitor"
+  - Name: SafetyIn3Monitor
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.SafetyIn3Monitor"
+  - Name: SafetyOutMonitor
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.SafetyOutMonitor"
+  - Name: ThreePhaseACPowerPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.ThreePhaseACPowerPresent"
+  - Name: TripFaultCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.TripFaultCode"
+  - Name: Velocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:I.Velocity"
+- Name: 'Mod_Dvc_APF35E:O'
+  Type: 'AB:35_APF_Drive:O:0'
+  DataType: 'AB:35_APF_Drive:O:0'
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "0367f64a97676ca7bb7b175e61b53a01",
+     "Namespace": 20
+    },
+    "Body": {
+     "AccelRefSelect_0": false,
+     "AccelRefSelect_1": false,
+     "AccelRefSelect_2": false,
+     "ClearFault": false,
+     "CommandedVelocity": 0.0,
+     "DirectionCmd_0": false,
+     "DirectionCmd_1": false,
+     "EMBrakeRelease": false,
+     "IO_0": false,
+     "IO_1": false,
+     "Jog": false,
+     "LogicCommand": 0,
+     "Run": false,
+     "Start": false,
+     "Stop": false,
+     "VelocityRefSelect_0": false,
+     "VelocityRefSelect_1": false,
+     "VelocityRefSelect_2": false
+    }
+   }
+  Children:
+  - Name: AccelRefSelect_0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.AccelRefSelect_0"
+  - Name: AccelRefSelect_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.AccelRefSelect_1"
+  - Name: AccelRefSelect_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.AccelRefSelect_2"
+  - Name: ClearFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.ClearFault"
+  - Name: CommandedVelocity
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.CommandedVelocity"
+  - Name: DirectionCmd_0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.DirectionCmd_0"
+  - Name: DirectionCmd_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.DirectionCmd_1"
+  - Name: EMBrakeRelease
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.EMBrakeRelease"
+  - Name: IO_0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.IO_0"
+  - Name: IO_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.IO_1"
+  - Name: Jog
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.Jog"
+  - Name: LogicCommand
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.LogicCommand"
+  - Name: Run
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.Run"
+  - Name: Start
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.Start"
+  - Name: Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.Stop"
+  - Name: VelocityRefSelect_0
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.VelocityRefSelect_0"
+  - Name: VelocityRefSelect_1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.VelocityRefSelect_1"
+  - Name: VelocityRefSelect_2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Mod_Dvc_APF35E:O.VelocityRefSelect_2"

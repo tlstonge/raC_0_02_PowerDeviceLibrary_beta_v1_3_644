@@ -1,0 +1,1714 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: raC_Tec_PwrVelocityStateMonitor1
+  Id: g=5fa35869d5268f2942e4bbe46a70d015
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Tec_PwrVelocityStateMonitor",
+    "DataType": {
+     "IdType": 2,
+     "Id": "5fa35869d5268f2942e4bbe46a70d015",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "_bCmd",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Cmd_ClearCntActivation",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearCntDisconnect",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearMaxHrsActive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearMaxHrsConnected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearTotHrsActive",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ClearTotHrsConnected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_Tab",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "HMI_Version",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inf_Lib",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_Type",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inp_InhibitCfg",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "raC_Tec_PwrVelocityStateMonitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_InhibitConfig",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Val_Activations",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Val_CurActiveHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_CurConnectedHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_Disconnections",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Val_MaxActiveHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_MaxConnectedHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_TotActiveHrs",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_TotConnectedHrs",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Tec_PwrVelocityStateMonitor"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_PwrVelocity_Inf1
+  Id: g=493e526068533020ad7c67958c9edf93
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_PwrVelocity_Inf",
+    "DataType": {
+     "IdType": 2,
+     "Id": "493e526068533020ad7c67958c9edf93",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "bExtensionAlert",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "bExtensionEnabled",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "ModulePath",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PwrVelocity_Inf"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_PwrVelocity_Set1
+  Id: g=551a709c1088508e07951fffc6c1b2a7
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_PwrVelocity_Set",
+    "DataType": {
+     "IdType": 2,
+     "Id": "551a709c1088508e07951fffc6c1b2a7",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "bInhibit",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "InhibitCfg",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InhibitCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InhibitSet",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Speed",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PwrVelocity_Set"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_PwrVelocity_Cmd1
+  Id: g=aa6d54fe1b63e8a15354091d35bbaeb1
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_PwrVelocity_Cmd",
+    "DataType": {
+     "IdType": 2,
+     "Id": "aa6d54fe1b63e8a15354091d35bbaeb1",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Activate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "bCmd",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CmdDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Deactivate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Physical",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResetFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResetWarn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PwrVelocity_Cmd"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_LookupMember_STR00823
+  Id: g=f9189e8d52999ebd62f52893cfb43769
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_LookupMember_STR0082",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f9189e8d52999ebd62f52893cfb43769",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Code",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Desc",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_LookupMember_STR0082"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_APF35_Inp
+  Id: g=63b8b0c3af92940e09c118fd3669c553
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_APF35_Inp",
+    "DataType": {
+     "IdType": 2,
+     "Id": "63b8b0c3af92940e09c118fd3669c553",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Accelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ActualDirection",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AtReferenceSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommandedDirection",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DCBusVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Decelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DisconnectClosed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveHeatsinkTemperature",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DriveStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EMBrakeReleased",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EncoderCounts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In_3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IO_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IO_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "KeypadButtonF0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "KeypadButtonF1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "KeypadButtonF2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "KeypadHandMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOverloadLevel",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputFrequency",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RunMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Running",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeTorqueEnabled",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyIn0Monitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyIn1Monitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyIn2Monitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyIn3Monitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyOutMonitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ThreePhaseACPowerPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TripFaultCode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Velocity",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_APF35_Inp"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_PwrVelocity_Sts1
+  Id: g=fe3a0f1419a60551887eac9bcccf3883
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_PwrVelocity_Sts",
+    "DataType": {
+     "IdType": 2,
+     "Id": "fe3a0f1419a60551887eac9bcccf3883",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Accelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ActDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AtSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Available",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "bSts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CmdDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Decelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "eCmdFail",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "eState",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "FirstFault",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f0ae9ba7f780825787347555f6957ba9",
+       "Namespace": 20
+      }
+     },{
+      "Name": "FirstWarning",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f0ae9ba7f780825787347555f6957ba9",
+       "Namespace": 20
+      }
+     },{
+      "Name": "ObjCtrl",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Physical",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Speed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ZeroSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_PwrVelocity_Sts"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_Dvc_APF35
+  Id: g=3a53119ab6eda1b0460535e6a9e659e4
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_Dvc_APF35",
+    "DataType": {
+     "IdType": 2,
+     "Id": "3a53119ab6eda1b0460535e6a9e659e4",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Cfg_PercentFLATrendMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_PercentFLATrendMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_SpeedTrendMax",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cfg_SpeedTrendMin",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cmd_Activate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_Deactivate",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_JogFwd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_JogRev",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Cmd_ResetFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_Tab",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "HMI_Version",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Inf_Lib",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inf_Type",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Inp_MotorFLA",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "raC_Dvc_APF35",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Set_JogSpeed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Sts_ActDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Active",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Available",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_bNotReady",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_CmdDir",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Connected",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_eDvcAction",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_eEventType",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [4]
+     },{
+      "Name": "Sts_eEventValue",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [4]
+     },{
+      "Name": "Sts_eNotReady",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_EventMessage",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Sts_ExtensionEnabled",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Sts_Faulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_InhibitCmd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_InhibitSet",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_PT00",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_PT01",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_PT02",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_PT03",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_PT04",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_PT05",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_SafetyPT00",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_SafetyPT01",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_SafetyPT02",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_SafetyPT03",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_tEventTimeD0",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_tEventTimeD1",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_tEventTimeD2",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_tEventTimeD3",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "Sts_Virtual",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_Warning",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Sts_ZeroSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Val_CmdSpeed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_CmdSpeed1",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_FreqActual",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_MotorFLA",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_OutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_PercentFLA",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_PercentThermCapacityUsed",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Val_ProdCode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Wrk_bCmd",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Wrk_bSts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Wrk_WarningValue",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Wrk_ZeroSpd",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_Dvc_APF35"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_ItfAD_APF35_Out
+  Id: g=11fa7b94cf90fed7803c42a045c7b585
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_ItfAD_APF35_Out",
+    "DataType": {
+     "IdType": 2,
+     "Id": "11fa7b94cf90fed7803c42a045c7b585",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "AccelRefSelect_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AccelRefSelect_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AccelRefSelect_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClearFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommandedVelocity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DirectionCmd_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DirectionCmd_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EMBrakeRelease",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IO_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IO_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Jog",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Run",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Stop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityRefSelect_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityRefSelect_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityRefSelect_2",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_ItfAD_APF35_Out"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: raC_UDT_Event3
+  Id: g=f0ae9ba7f780825787347555f6957ba9
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "raC_UDT_Event",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f0ae9ba7f780825787347555f6957ba9",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Action",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Category",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EventTime_D",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [7]
+     },{
+      "Name": "EventTime_L",
+      "DataType": {
+       "Id": 8
+      }
+     },{
+      "Name": "ID",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Message",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Type",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Value",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"raC_UDT_Event"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:35_APF_Drive:O:0'
+  Id: g=0367f64a97676ca7bb7b175e61b53a01
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:35_APF_Drive:O:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "0367f64a97676ca7bb7b175e61b53a01",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "AccelRefSelect_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AccelRefSelect_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AccelRefSelect_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ClearFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommandedVelocity",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DirectionCmd_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DirectionCmd_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EMBrakeRelease",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IO_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IO_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Jog",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "LogicCommand",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Run",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Start",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Stop",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityRefSelect_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityRefSelect_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "VelocityRefSelect_2",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:35_APF_Drive:O:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'AB:35_APF_Drive:I:0'
+  Id: g=0f2b327594974fecc61b3a6e9d80c694
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AB:35_APF_Drive:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "0f2b327594974fecc61b3a6e9d80c694",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Accelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ActualDirection",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Alarm",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "AtReferenceSpeed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommandedDirection",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ConnectionFaulted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DCBusVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Decelerating",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DisconnectClosed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DriveHeatsinkTemperature",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "DriveStatus",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "EMBrakeReleased",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EncoderCounts",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Fault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In_2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In_3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IO_0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "IO_1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "KeypadButtonF0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "KeypadButtonF1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "KeypadButtonF2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "KeypadHandMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MotorOverloadLevel",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputCurrent",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputFrequency",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputPower",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "OutputVoltage",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Ready",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "RunMode",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Running",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafeTorqueEnabled",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyFault",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyIn0Monitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyIn1Monitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyIn2Monitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyIn3Monitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SafetyOutMonitor",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ThreePhaseACPowerPresent",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TripFaultCode",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Velocity",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AB:35_APF_Drive:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: MESSAGE2
+  Id: g=6397d68649206c5a9e6addff2766d3ba
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "MESSAGE",
+    "DataType": {
+     "IdType": 2,
+     "Id": "6397d68649206c5a9e6addff2766d3ba",
+     "Namespace": 20
+    },
+    "Fields": [{
+      "Name": "Attribute",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Channel",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Class",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ConnectionRate",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DestinationLink",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DestinationNode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "DN_LEN",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN_CC",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ER",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ERR",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ERR_SRC",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "EW",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EXERR",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Flags",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Group",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "Instance",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "LocalIndex",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Path",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Rack",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "RemoteElement",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "RemoteIndex",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "REQ_LEN",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Slot",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "SourceLink",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ST",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TimeoutMultiplier",
+      "DataType": {
+       "Id": 2
+      }
+     },{
+      "Name": "TO",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "UnconnectedTimeout",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"MESSAGE"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
