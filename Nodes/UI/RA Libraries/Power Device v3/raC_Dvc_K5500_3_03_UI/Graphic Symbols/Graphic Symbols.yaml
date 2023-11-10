@@ -1,7 +1,7 @@
 Name: Graphic Symbols
 Type: FolderType
 Children:
-- Name: raC_Dvc_K5500_3_03_Nav_Text2
+- Name: raC_Dvc_K5500_3_03_Nav_Text
   Id: g=4da7f0f6244d3b09fd2bfd49a79800d1
   Supertype: Button
   DisplayName: {"LocaleId":"en-US","Text":"Text Button"}

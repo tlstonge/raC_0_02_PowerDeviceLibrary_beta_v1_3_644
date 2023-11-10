@@ -1664,6 +1664,11 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
+        - Name: Cfg_Units
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+          Value: {"LocaleId":"en-US","Text":"Units"}
       - Name: ni_Accel
         Type: raSDK1_NI_LblValUnits
         Children:
@@ -1819,6 +1824,11 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 10.0
+        - Name: Cfg_Units
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+          Value: {"LocaleId":"en-US","Text":"Units"}
       - Name: ni_Decel
         Type: raSDK1_NI_LblValUnits
         Children:
@@ -1974,6 +1984,11 @@ Children:
           DataType: Size
           ModellingRule: Optional
           Value: 30.0
+        - Name: Cfg_Units
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+          Value: {"LocaleId":"en-US","Text":"Units"}
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -3767,6 +3782,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=5e8f31c0b9180dc9dbf41313e64587ac
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -4320,6 +4336,11 @@ Children:
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
+              - Name: Cfg_Units
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+                Value: {"LocaleId":"en-US","Text":"Units"}
             - Name: ni_cfg_PositionTrendMax
               Type: raSDK1_NI_LblValUnits
               Children:
@@ -4497,6 +4518,11 @@ Children:
                     DataType: DynamicLinkMode
                     ModellingRule: Optional
                     Value: 2
+              - Name: Cfg_Units
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+                Value: {"LocaleId":"en-US","Text":"Units"}
             - Name: ni_cfg_PositionEngUnits
               Type: raSDK1_SI_LblVal
               Children:
@@ -4863,6 +4889,11 @@ Children:
                     ReferenceType: HasComponent
                     ModellingRule: Optional
                     Value: 2
+              - Name: Cfg_Units
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+                Value: {"LocaleId":"en-US","Text":"Units"}
             - Name: ni_cfg_VelocityTrendMax
               Type: raSDK1_NI_LblValUnits
               Children:
@@ -5060,6 +5091,11 @@ Children:
                     ReferenceType: HasComponent
                     ModellingRule: Optional
                     Value: 2
+              - Name: Cfg_Units
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+                Value: {"LocaleId":"en-US","Text":"Units"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -10615,6 +10651,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=440f871ba0df0b301d444a8b04e74159
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -11395,6 +11432,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=ae84856108456ea2a559b1d5efa910c6
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -12156,6 +12194,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=e1c77810a2b2f48fc347af17939c40df
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -12908,6 +12947,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=7def34cd062df45ad20046a1174d6f37
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
