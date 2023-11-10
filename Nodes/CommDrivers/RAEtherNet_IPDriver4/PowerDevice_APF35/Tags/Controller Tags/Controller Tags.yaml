@@ -1674,6 +1674,24 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "raC_Dvc_APF35_InfTable[48].Desc"
+  - Name: Code
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Code"
+  - Name: Desc
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Desc"
 - Name: _InstanceName_ProdCode_Msg
   Type: MESSAGE2
   DataType: MESSAGE2

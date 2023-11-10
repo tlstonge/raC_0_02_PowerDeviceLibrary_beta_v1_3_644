@@ -188,6 +188,7 @@ Children:
           DataType: Color
           Value: "#afafaf"
         - Name: MoveTarget
+          Id: g=bc75c87e05236c94fb67b77250046d86
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -1291,7 +1292,7 @@ Children:
               Type: BaseDataVariableType
               DataType: ResourceUri
               ModellingRule: Optional
-              Value: "ns=20;%PROJECTDIR%/Nav_Trend.png"
+              Value: "ns=20;%PROJECTDIR%/Nav_Trend.svg"
           - Name: Fault
             Type: NavigationPanelItem
             Children:
