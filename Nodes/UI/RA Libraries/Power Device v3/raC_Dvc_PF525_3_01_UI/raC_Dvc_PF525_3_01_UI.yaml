@@ -187,6 +187,7 @@ Children:
           DataType: Color
           Value: "#afafaf"
         - Name: MoveTarget
+          Id: g=ec58c56c15bdfe2940c60ba25397dc3e
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
