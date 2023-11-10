@@ -12587,18 +12587,6 @@ Children:
               Type: DynamicLink
               DataType: NodePath
               Value: "{raSDK1_DialogBox}/Ref_Tag"
-              Children:
-              - Name: Mode
-                Type: BaseVariableType
-                DataType: DynamicLinkMode
-                ModellingRule: Optional
-                Value: 2
-          - Name: Mode
-            Type: PropertyType
-            DataType: DynamicLinkMode
-            ReferenceType: HasComponent
-            ModellingRule: Optional
-            Value: 2
       - Name: Cfg_DisplayType
         Type: BaseDataVariableType
         DataType: String
@@ -12607,3 +12595,13 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "State Monitor"
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
