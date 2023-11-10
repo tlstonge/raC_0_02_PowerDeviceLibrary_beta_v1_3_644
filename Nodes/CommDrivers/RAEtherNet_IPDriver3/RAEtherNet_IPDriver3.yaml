@@ -1,0 +1,4 @@
+Name: RAEtherNet_IPDriver3
+Type: RAEtherNetIPDriver
+Children:
+- File: Power_Device_K5300/Power_Device_K5300.yaml

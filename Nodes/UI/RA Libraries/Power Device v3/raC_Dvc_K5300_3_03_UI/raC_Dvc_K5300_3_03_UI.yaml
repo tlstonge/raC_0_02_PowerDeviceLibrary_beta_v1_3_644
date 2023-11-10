@@ -51,7 +51,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "PowerFlex 525"
+                Value: "/Objects/raC_0_02_PowerDeviceLibrary_beta_v1_3_644/UI/RA Libraries/Power Device v3/raC_Dvc_K5300_3_03_UI@DisplayName"
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
@@ -187,7 +187,6 @@ Children:
           DataType: Color
           Value: "#afafaf"
         - Name: MoveTarget
-          Id: g=cecff6596585341d3aa415f87906f469
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -1234,7 +1233,7 @@ Children:
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"5bb14609cf1a398ffd573e96be1d9975","Namespace":20}
+              Value: {"IdType":2,"Id":"f4c7a223e4ba9b920a18568e99a3a831","Namespace":20}
               Children:
               - Name: Kind
                 Type: PropertyType
