@@ -13,6 +13,7 @@ Children:
   Children:
   - Class: Reference
     Target: ns=5;i=519
+    Direction: Forward
   - Name: raSDK1_DialogBox
     Type: Alias
     DataType: NodeId
@@ -301,8 +302,10 @@ Children:
           Value: 0
         - Class: Reference
           Target: ns=5;i=1183
+          Direction: Forward
         - Class: Reference
           Target: ns=5;i=1181
+          Direction: Forward
     - Name: Border
       Type: Rectangle
       Children:
