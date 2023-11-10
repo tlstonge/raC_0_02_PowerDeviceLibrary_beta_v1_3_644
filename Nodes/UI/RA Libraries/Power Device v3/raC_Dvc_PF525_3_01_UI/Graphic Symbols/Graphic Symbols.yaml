@@ -17,6 +17,7 @@ Children:
     Children:
     - Class: Method
       Name: TagNodeIdLaunchButton
+      Id: g=cf57571088f75b3008b244dd92d8ebb1
   - Name: MouseClickEventHandler1
     Type: EventHandler
     Children:
