@@ -411,6 +411,9 @@ Children:
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
+      Children:
+      - Class: Method
+        Name: TagNodeIdLaunchButton
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -609,6 +612,9 @@ Children:
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
+      Children:
+      - Class: Method
+        Name: TagNodeIdLaunchButton
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -707,6 +713,9 @@ Children:
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
+      Children:
+      - Class: Method
+        Name: TagNodeIdLaunchButton
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
@@ -852,6 +861,9 @@ Children:
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
+      Children:
+      - Class: Method
+        Name: TagNodeIdLaunchButton
     - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:

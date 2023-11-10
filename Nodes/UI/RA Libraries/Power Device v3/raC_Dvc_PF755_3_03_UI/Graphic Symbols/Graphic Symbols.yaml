@@ -2,7 +2,7 @@ Name: Graphic Symbols
 Type: FolderType
 Children:
 - Name: raC_Dvc_PF525_3_01_Nav_Text1
-  Id: g=9d1a984061c0fa0eab5fe02f61430d71
+  Id: g=bf60f49068ddb1989ba03f090790b254
   Supertype: Button
   DisplayName: {"LocaleId":"en-US","Text":"Text Button"}
   ReferenceType: HasComponent
