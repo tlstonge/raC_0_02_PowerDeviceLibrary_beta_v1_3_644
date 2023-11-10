@@ -38,4 +38,3 @@ Project:
  Nodes:
  - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/PowerLibraryEcho/TagImporter.yaml
  - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver2/PowerDevice_K5500/TagImporter.yaml
- - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver3/Power_Device_K5300/TagImporter.yaml

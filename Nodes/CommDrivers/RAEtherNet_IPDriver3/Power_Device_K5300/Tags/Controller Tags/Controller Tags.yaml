@@ -18006,3 +18006,21 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "raC_Dvc_K5300_InfTable[283].Desc"
+  - Name: Code
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Code"
+  - Name: Desc
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Desc"
