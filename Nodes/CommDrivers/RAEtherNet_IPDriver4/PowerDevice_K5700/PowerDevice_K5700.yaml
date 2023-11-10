@@ -1,10 +1,10 @@
-Name: PowerDevice_APF35
+Name: PowerDevice_K5700
 Type: RAEtherNetIPStation
 Children:
 - Name: Route
   Type: BaseDataVariableType
   DataType: String
-  Value: "192.168.1.100"
+  Value: "10.112.131.147\\Backplane\\7"
 - Name: StationStatusVariables
   Type: PropertyGroup
   Children:

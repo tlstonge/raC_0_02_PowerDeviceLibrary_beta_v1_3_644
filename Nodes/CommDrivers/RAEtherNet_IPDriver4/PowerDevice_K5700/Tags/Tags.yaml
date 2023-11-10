@@ -2,4 +2,4 @@ Name: Tags
 Type: FolderType
 Children:
 - File: Controller Tags/Controller Tags.yaml
-- File: Program_MainProgram/Program_MainProgram.yaml
+- File: Program_NormalProgram/Program_NormalProgram.yaml
