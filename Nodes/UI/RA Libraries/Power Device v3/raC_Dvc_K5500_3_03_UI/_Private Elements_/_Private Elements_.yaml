@@ -4087,7 +4087,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Operate within the continuous torque rating for the ambient temp. Lower ambient temperature"
+        Value: "1. Operate within the continuous torque rating for the ambient temp. Lower ambient temperature, increase motor cooling.\n2. Check motor wiring at MF connector on the drive module.\n3. Verify the proper motor has been selected."
     - Name: Pair8
       Type: ValueMapPair
       ModellingRule: None
@@ -4101,7 +4101,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Verify the user-defined value. 2. Operate within the continuous torque rating for ambient temperature. 3. Lower ambient temp"
+        Value: "1. Verify the user-defined value.\n2. Operate within the continuous torque rating for ambient temperature.\n3. Lower ambient temp, increase motor cooling.\n4. Verify the proper motor has been selected."
     - Name: Pair9
       Type: ValueMapPair
       ModellingRule: None
@@ -4157,7 +4157,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Operate within continuous torque rating for ambient temp. 2. Lower ambient temperature"
+        Value: "1. Operate within continuous torque rating for ambient temp.\n2. Lower ambient temperature, increase panel cooling.\n3. Verify the proper drive has been selected.  \n4. Verify fans are clear of obstructions."
     - Name: Pair13
       Type: ValueMapPair
       ModellingRule: None
@@ -4171,7 +4171,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Operate within the continuous torque rating for the ambient temp. 2. Lower ambient temperature"
+        Value: "1. Operate within the continuous torque rating for the ambient temp.\n2. Lower ambient temperature, increase panel cooling.\n3. Verify the proper drive has been selected."
     - Name: Pair14
       Type: ValueMapPair
       ModellingRule: None
@@ -4185,7 +4185,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Verify the user-defined value. 2. Operate within the continuous torque rating for the ambient temperature. 3. Lower ambient temperature"
+        Value: "1. Verify the user-defined value.\n2. Operate within the continuous torque rating for the ambient temperature.\n3. Lower ambient temperature, increase panel cooling.\n4. Verify the proper drive has been selected."
     - Name: Pair15
       Type: ValueMapPair
       ModellingRule: None
@@ -4199,7 +4199,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Limit of 100% has been reached. 1. Operate within continuous torque rating for the ambient temperature. 2. Lower ambient temp"
+        Value: "Limit of 100% has been reached.\n1. Operate within continuous torque rating for the ambient temperature.\n2. Lower ambient temp, increase panel cooling.\n3. Verify the proper drive has been selected."
     - Name: Pair16
       Type: ValueMapPair
       ModellingRule: None
@@ -4213,7 +4213,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Limit of 110% has been reached. 1. Verify the user-defined value. 2. Operate within the continuous torque rating for the ambient temperature. 3. Lower ambient temperature"
+        Value: "Limit of 110% has been reached.\n1. Verify the user-defined value.\n2. Operate within the continuous torque rating for the ambient temperature.\n3. Lower ambient temperature, increase panel cooling.\n4. Verify the proper drive has been selected."
     - Name: Pair17
       Type: ValueMapPair
       ModellingRule: None
@@ -4227,7 +4227,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Current has exceeded peak or instantaneous limits. 1. Operate within the continuous power rating for the ambient temperature. 2. Lower ambient temperature"
+        Value: "Current has exceeded peak or instantaneous limits.\n1. Operate within the continuous power rating for the ambient temperature.\n2. Lower ambient temperature, increase panel cooling.\n3. Verify the proper power supply has been selected."
     - Name: Pair18
       Type: ValueMapPair
       ModellingRule: None
@@ -4381,7 +4381,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Operate within the deceleration rating for the ambient temperature. 2. Lower ambient temperature"
+        Value: "1. Operate within the deceleration rating for the ambient temperature.\n2. Lower ambient temperature, increase panel cooling.\n3. Verify the proper regulator has been selected."
     - Name: Pair29
       Type: ValueMapPair
       ModellingRule: None
@@ -4395,7 +4395,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Verify the user-defined value. 2. Operate within the deceleration rating for the ambient temperature. 3. Lower ambient temperature"
+        Value: "1. Verify the user-defined value.\n2. Operate within the deceleration rating for the ambient temperature.\n3. Lower ambient temperature, increase panel cooling.\n4. Verify the proper regulator has been selected."
     - Name: Pair30
       Type: ValueMapPair
       ModellingRule: None
@@ -4521,7 +4521,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"DC Bus voltage below Bus Power Loss Threshold. 1. Verify the threshold setting"
+        Value: "DC Bus voltage below Bus Power Loss Threshold.\n1. Verify the threshold setting, check AC input power."
     - Name: Pair39
       Type: ValueMapPair
       ModellingRule: None
@@ -4773,7 +4773,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Controller has specified an unsupported control or feedback mode. 1. If you are messaging the device"
+        Value: "Controller has specified an unsupported control or feedback mode.\n1. If you are messaging the device, verify the mode selection in the programming manual."
     - Name: Pair57
       Type: ValueMapPair
       ModellingRule: None
@@ -5081,7 +5081,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"The Motor Test procedure has failed. 1. Check motor wiring"
+        Value: "The Motor Test procedure has failed.\n1. Check motor wiring, feedback wiring.  \n2. Verify that brake is released.  \n3. Check parameters of the motor test."
     - Name: Pair79
       Type: ValueMapPair
       ModellingRule: None
@@ -5417,7 +5417,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Safety firmware not compatible with drive firmware"
+        Value: "Safety firmware not compatible with drive firmware, or missing.\n1. Flash Control module with correct revision of Safety firmware."
     - Name: Pair103
       Type: ValueMapPair
       ModellingRule: None
@@ -5865,7 +5865,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"An update operation targeting an axis configuration attribute of an associated 1756-ENxT module has failed. 1. Verify all drive and motor selections in Logix software"
+        Value: "An update operation targeting an axis configuration attribute of an associated 1756-ENxT module has failed.\n1. Verify all drive and motor selections in Logix software, including firmware selections."
     - Name: Pair135
       Type: ValueMapPair
       ModellingRule: None
@@ -6705,7 +6705,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Operate within the continuous torque rating for ambient temperature. 2. Lower ambient temp"
+        Value: "1. Operate within the continuous torque rating for ambient temperature.\n2. Lower ambient temp, increase motor cooling.\n3. Check motor wiring at MF connector on the drive module.\n4. Verify the proper motor has been selected."
     - Name: Pair195
       Type: ValueMapPair
       ModellingRule: None
@@ -6719,7 +6719,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Verify the user-defined value. 2. Operate within the continuous torque rating for ambient temperature. 3. Lower ambient temp"
+        Value: "1. Verify the user-defined value.\n2. Operate within the continuous torque rating for ambient temperature.\n3. Lower ambient temp, increase motor cooling.\n4. Verify the proper motor has been selected."
     - Name: Pair196
       Type: ValueMapPair
       ModellingRule: None
@@ -6733,7 +6733,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Approaching limit of 100%. 1. Operate within continuous torque rating for the ambient temperature. 2. Lower ambient temperature"
+        Value: "Approaching limit of 100%.\n1. Operate within continuous torque rating for the ambient temperature.\n2. Lower ambient temperature, increase panel cooling.\n3. Verify the proper drive has been selected."
     - Name: Pair197
       Type: ValueMapPair
       ModellingRule: None
@@ -6747,7 +6747,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Approaching limit of 110%. 1. Verify the user-defined value. 2. Operate within the continuous torque rating for the ambient temperature. 3. Lower ambient temperature"
+        Value: "Approaching limit of 110%.\n1. Verify the user-defined value.\n2. Operate within the continuous torque rating for the ambient temperature.\n3. Lower ambient temperature, increase panel cooling.\n4. Verify the proper drive has been selected."
     - Name: Pair198
       Type: ValueMapPair
       ModellingRule: None
@@ -6761,7 +6761,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"The current in one or more motor phases is lost"
+        Value: "The current in one or more motor phases is lost, or below a factory set threshold or configured Motor Phase Loss Limit.\n1. Check input supply to drive for three phases.\n2. Check motor power cables for damage."
     - Name: Pair199
       Type: ValueMapPair
       ModellingRule: None
@@ -6775,7 +6775,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Current is approaching peak or instantaneous current limit. 1. Operate within the continuous torque rating for the ambient temperature. 2. Lower ambient temp"
+        Value: "Current is approaching peak or instantaneous current limit.\n1. Operate within the continuous torque rating for the ambient temperature.\n2. Lower ambient temp, increase panel cooling.\n3. Verify the proper drive has been selected.  \n4. Verify fans are clear of obstructions."
     - Name: Pair200
       Type: ValueMapPair
       ModellingRule: None
@@ -6789,7 +6789,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Operate within the continuous torque rating for the ambient temperature. 2. Lower ambient temperature"
+        Value: "1. Operate within the continuous torque rating for the ambient temperature.\n2. Lower ambient temperature, increase panel cooling.\n3. Verify the proper drive has been selected."
     - Name: Pair201
       Type: ValueMapPair
       ModellingRule: None
@@ -6803,7 +6803,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Verify the user-defined value. 2. Operate within the continuous torque rating for the ambient temperature. 3. Lower ambient temperature"
+        Value: "1. Verify the user-defined value.\n2. Operate within the continuous torque rating for the ambient temperature.\n3. Lower ambient temperature, increase panel cooling.\n4. Verify the proper drive has been selected."
     - Name: Pair202
       Type: ValueMapPair
       ModellingRule: None
@@ -6817,7 +6817,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Approaching limit of 100%. 1. Operate within continuous torque rating for the ambient temperature. 2. Lower ambient temp"
+        Value: "Approaching limit of 100%.\n1. Operate within continuous torque rating for the ambient temperature.\n2. Lower ambient temp, increase panel cooling.\n3. Verify the proper drive has been selected."
     - Name: Pair203
       Type: ValueMapPair
       ModellingRule: None
@@ -6831,7 +6831,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Approaching limit of 110%. 1. Verify the user-defined value. 2. Operate within the continuous torque rating for the ambient temperature. 3. Lower ambient temperature"
+        Value: "Approaching limit of 110%.\n1. Verify the user-defined value.\n2. Operate within the continuous torque rating for the ambient temperature.\n3. Lower ambient temperature, increase panel cooling.\n4. Verify the proper drive has been selected."
     - Name: Pair204
       Type: ValueMapPair
       ModellingRule: None
@@ -6845,7 +6845,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Current has exceeded peak or instantaneous limits. 1. Operate within the continuous power rating for the ambient temperature. 2. Lower ambient temperature"
+        Value: "Current has exceeded peak or instantaneous limits.\n1. Operate within the continuous power rating for the ambient temperature.\n2. Lower ambient temperature, increase panel cooling.\n3. Verify the proper power supply has been selected."
     - Name: Pair205
       Type: ValueMapPair
       ModellingRule: None
@@ -6999,7 +6999,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Operate within the deceleration rating for the ambient temperature. 2. Lower ambient temperature"
+        Value: "1. Operate within the deceleration rating for the ambient temperature.\n2. Lower ambient temperature, increase panel cooling.\n3. Verify the proper regulator has been selected."
     - Name: Pair216
       Type: ValueMapPair
       ModellingRule: None
@@ -7013,7 +7013,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"1. Verify the user-defined value. 2. Operate within the deceleration rating for the ambient temperature. 3. Lower ambient temperature"
+        Value: "1. Verify the user-defined value.\n2. Operate within the deceleration rating for the ambient temperature.\n3. Lower ambient temperature, increase panel cooling.\n4. Verify the proper regulator has been selected."
     - Name: Pair217
       Type: ValueMapPair
       ModellingRule: None
@@ -7139,7 +7139,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"DC Bus voltage level is below the Bus Power Loss Threshold for more than the timeout period specified Bus Power Loss Time value. 1. Verify the threshold setting"
+        Value: "DC Bus voltage level is below the Bus Power Loss Threshold for more than the timeout period specified Bus Power Loss Time value.\n1. Verify the threshold setting, check AC input power."
     - Name: Pair226
       Type: ValueMapPair
       ModellingRule: None
@@ -7223,7 +7223,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"One or more A/B channel signals from feedback device are open"
+        Value: "One or more A/B channel signals from feedback device are open, shorted, missing, or severely attenuated.\n1. Check motor encoder wiring.\n2. Run Hookup test in Logix software."
     - Name: Pair232
       Type: ValueMapPair
       ModellingRule: None
@@ -7237,7 +7237,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"One or more A/B channel signals from feedback device are open"
+        Value: "One or more A/B channel signals from feedback device are open, shorted, missing, or severely attenuated.\n1. Check motor encoder wiring.\n2. Run Hookup test in Logix software."
     - Name: Pair233
       Type: ValueMapPair
       ModellingRule: None
@@ -7391,7 +7391,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Controller has specified an unsupported control or feedback mode. 1. If you are messaging the device"
+        Value: "Controller has specified an unsupported control or feedback mode.\n1. If you are messaging the device, verify the mode selection in the programming manual."
     - Name: Pair244
       Type: ValueMapPair
       ModellingRule: None
@@ -7699,7 +7699,7 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         ModellingRule: None
-        Value: "\"Motor Test procedure is nearing failure. 1. Check motor wiring"
+        Value: "Motor Test procedure is nearing failure.\n1. Check motor wiring, feedback wiring.  \n2. Verify that brake is released.  \n3. Check parameters of the motor test."
     - Name: Pair266
       Type: ValueMapPair
       ModellingRule: None
