@@ -811,8 +811,8 @@ Children:
               Value: -1.0
           - Name: Cfg_Units
             Type: BaseDataVariableType
-            DataType: String
-            Value: ""
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Units"}
             Children:
             - Name: DynamicLink
               Type: DynamicLink
@@ -1048,8 +1048,8 @@ Children:
               Value: -1.0
           - Name: Cfg_Units
             Type: BaseDataVariableType
-            DataType: String
-            Value: "sec"
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Units"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -1244,8 +1244,8 @@ Children:
               Value: -1.0
           - Name: Cfg_Units
             Type: BaseDataVariableType
-            DataType: String
-            Value: "sec"
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Units"}
           - Name: HorizontalAlignment
             Type: BaseVariableType
             DataType: HorizontalAlignment
@@ -2774,6 +2774,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=cf0ec355aa411ca97ed7e0d416b36be5
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -3289,8 +3290,8 @@ Children:
                   Value: -1.0
               - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: String
-                Value: ""
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Units"}
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
@@ -3471,8 +3472,8 @@ Children:
                   Value: -1.0
               - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: String
-                Value: ""
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Units"}
                 Children:
                 - Name: DynamicLink
                   Type: DynamicLink
@@ -3864,6 +3865,11 @@ Children:
                     ReferenceType: HasComponent
                     ModellingRule: Optional
                     Value: 2
+              - Name: Cfg_Units
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+                Value: {"LocaleId":"en-US","Text":"Units"}
             - Name: ni_cfg_VelocityTrendMax
               Type: raSDK1_NI_LblValUnits
               Children:
@@ -4061,6 +4067,11 @@ Children:
                     ReferenceType: HasComponent
                     ModellingRule: Optional
                     Value: 2
+              - Name: Cfg_Units
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+                Value: {"LocaleId":"en-US","Text":"Units"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -10234,6 +10245,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=019bc5dd98de8273b0ad5584fbb42cd8
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -11014,6 +11026,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=c4c730117500c7cf15c212178752a8b3
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -11775,6 +11788,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=05869eaff4113f44f806c8c9820f5a32
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -12527,6 +12541,7 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
+          Id: g=f01730180873703c1bd786b90d754f3d
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
