@@ -406,8 +406,7 @@ Children:
       ModellingRule: Optional
       Value: 80.0
   - Name: M102
-    Type: BaseObjectType
-    ReferenceType: HasOrderedComponent
+    Type: raC_Dvc_PF525_3_01_Nav_Text
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
@@ -608,7 +607,7 @@ Children:
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"PF525 State Mon"}
   - Name: K5500
-    Type: BaseObjectType
+    Type: raC_Dvc_PF525_3_01_Nav_Text
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
@@ -708,8 +707,7 @@ Children:
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"K5500"}
   - Name: TextButton1
-    Type: BaseObjectType
-    ReferenceType: HasOrderedComponent
+    Type: raC_Dvc_PF525_3_01_Nav_Text
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
@@ -857,7 +855,7 @@ Children:
       ModellingRule: Optional
       Value: 60.0
   - Name: K5300
-    Type: BaseObjectType
+    Type: raC_Dvc_PF525_3_01_Nav_Text
     Children:
     - Name: TagLaunchBttn13
       Type: NetLogic
