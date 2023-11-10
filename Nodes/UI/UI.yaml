@@ -257,7 +257,7 @@ Children:
       - Name: Cfg_Label
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Value: {"LocaleId":"en-US","Text":"Label"}
       - Name: Ref_Value
         Type: BaseDataVariableType
         DataType: Float
@@ -265,7 +265,7 @@ Children:
       - Name: Set_Enabled
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
+        Value: true
       - Name: Set_DecimalPlaces
         Type: BaseDataVariableType
         DataType: Int32
@@ -323,8 +323,8 @@ Children:
         Value: 520.0
       - Name: Cfg_Units
         Type: BaseDataVariableType
-        DataType: String
-        Value: "0"
+        DataType: LocalizedText
+        Value: {"LocaleId":"en-US","Text":"Units"}
   - Name: Label1
     Type: Label
     Children:
@@ -684,7 +684,7 @@ Children:
     - Name: Ref_Tag
       Type: BaseDataVariableType
       DataType: NodeId
-      Value: {"IdType":2,"Id":"2909eacd037a36928500928b57ee7f7e","Namespace":20}
+      Value: {"IdType":2,"Id":"be1668d14a16c789182b2a115434201c","Namespace":20}
     - Name: Cfg_DisplayType
       Type: BaseDataVariableType
       DataType: String

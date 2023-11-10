@@ -1,8 +1,9 @@
 Name: raC_Dvc_K5500_3_03_UI
+Id: g=6b2be0b174902fc8a8a84d2e3e956f0a
 Type: FolderType
 DisplayName: {"LocaleId":"en-US","Text":"raC_Dvc_K5500"}
 Children:
-- Name: raC_Dvc_K5500_3_03_Faceplate1
+- Name: raC_Dvc_K5500_3_03_Faceplate
   Id: g=0d46c11d72fb4b9d30396740a33458c5
   Supertype: raSDK1_DialogBoxBase
   ReferenceType: HasComponent
@@ -51,7 +52,7 @@ Children:
               - Name: DynamicLink
                 Type: DynamicLink
                 DataType: NodePath
-                Value: "{NodeId:ns=20;g=db8cde8e-c244-9840-64ed-09c62fa123ad}@DisplayName"
+                Value: "{NodeId:ns=20;g=6b2be0b1-7490-2fc8-a8a8-4d2e3e956f0a}@DisplayName"
             - Name: TextColor
               Type: BaseDataVariableType
               DataType: Color
@@ -187,7 +188,6 @@ Children:
           DataType: Color
           Value: "#afafaf"
         - Name: MoveTarget
-          Id: g=e338448a2abafff7e3a5d4c12991a8e5
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}

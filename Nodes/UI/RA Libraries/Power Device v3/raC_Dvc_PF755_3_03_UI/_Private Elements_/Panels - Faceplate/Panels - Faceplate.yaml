@@ -1213,8 +1213,8 @@ Children:
             Value: 0.0
           - Name: Cfg_Units
             Type: BaseDataVariableType
-            DataType: String
-            Value: "Hz"
+            DataType: LocalizedText
+            Value: {"LocaleId":"en-US","Text":"Hz"}
         - Name: LeftMargin
           Type: BaseVariableType
           DataType: Size
@@ -2679,7 +2679,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=1d3fd9f2d9cb94f93ce9b15d9525c9b0
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -3200,8 +3199,8 @@ Children:
                 Value: 5.0
               - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: String
-                Value: "Hz"
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Hz"}
             - Name: ni_cfg_SpeedTrendMax
               Type: raSDK1_NI_LblValUnits
               Children:
@@ -3366,8 +3365,8 @@ Children:
                   Value: -1.0
               - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: String
-                Value: "Hz"
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"Hz"}
             - Name: RightMargin
               Type: BaseVariableType
               DataType: Size
@@ -3603,8 +3602,8 @@ Children:
                 Value: 5.0
               - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: String
-                Value: "%FLA"
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"%FLA"}
             - Name: ni_cfg_CurrentTrendMax
               Type: raSDK1_NI_LblValUnits
               Children:
@@ -3769,8 +3768,8 @@ Children:
                   Value: -1.0
               - Name: Cfg_Units
                 Type: BaseDataVariableType
-                DataType: String
-                Value: "%FLA"
+                DataType: LocalizedText
+                Value: {"LocaleId":"en-US","Text":"%FLA"}
             - Name: LeftMargin
               Type: BaseVariableType
               DataType: Size
@@ -9326,7 +9325,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=70633daa49a37a8ede4cab5c4dc5de73
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -10107,7 +10105,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=183ff934b9d4e8277e733b81825c3092
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -10869,7 +10866,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=a7d679fd4b5837db2e1bb6fedfc1162f
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -11622,7 +11618,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=94864e951921e57f7393844e00773ced
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}

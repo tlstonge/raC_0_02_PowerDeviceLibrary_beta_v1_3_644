@@ -774,7 +774,8 @@ Children:
   - Name: Cfg_Label
     Type: BaseDataVariableType
     DataType: LocalizedText
-    Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    Description: {"LocaleId":"en-US","Text":"Text description of entered/displayed value."}
+    Value: {"LocaleId":"en-US","Text":"Label"}
   - Name: HorizontalAlignment
     Type: BaseVariableType
     DataType: HorizontalAlignment
@@ -783,34 +784,42 @@ Children:
   - Name: Ref_Value
     Type: BaseDataVariableType
     DataType: Float
+    Description: {"LocaleId":"en-US","Text":"Numeric value to be entered/displayed."}
     Value: 0.0
   - Name: Set_Enabled
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
+    Description: {"LocaleId":"en-US","Text":"Enables / disables interaction with the user: False = Disabled, True = Enabled."}
+    Value: true
   - Name: Set_DecimalPlaces
     Type: BaseDataVariableType
     DataType: Int32
+    Description: {"LocaleId":"en-US","Text":"Number of decimal places to be displayed."}
     Value: 0
   - Name: Set_ValueMinimum
     Type: BaseDataVariableType
     DataType: Float
+    Description: {"LocaleId":"en-US","Text":"Minimum value accepted for entry."}
     Value: 0.0
   - Name: Set_ValueMaximum
     Type: BaseDataVariableType
     DataType: Float
+    Description: {"LocaleId":"en-US","Text":"Maximum value accepted for entry."}
     Value: 0.0
   - Name: Cfg_EnableNotification
     Type: BaseDataVariableType
     DataType: Boolean
+    Description: {"LocaleId":"en-US","Text":"Enable user notification: False = Notification disabled, True = Notification enabled."}
     Value: false
   - Name: Cfg_NotificationImage
     Type: BaseDataVariableType
     DataType: ResourceUri
+    Description: {"LocaleId":"en-US","Text":"Image used for user notification."}
     Value: "0"
   - Name: Inp_Notification
     Type: BaseDataVariableType
     DataType: Boolean
+    Description: {"LocaleId":"en-US","Text":"Active notification present: False = Hide notification image, True = Show notification image."}
     Value: false
   - Name: Units
     Type: Label
@@ -855,5 +864,6 @@ Children:
       Value: "Unimportant Text"
   - Name: Cfg_Units
     Type: BaseDataVariableType
-    DataType: String
-    Value: "0"
+    DataType: LocalizedText
+    Description: {"LocaleId":"en-US","Text":"Text description of displayed value unit of measure."}
+    Value: {"LocaleId":"en-US","Text":"Units"}
