@@ -1,9 +1,9 @@
-Name: raC_Tec_PwrVelocityStateMonitor_3_03_UI
+Name: raC_Opr_EnergyBase_3_03_UI
 Type: FolderType
-DisplayName: {"LocaleId":"en-US","Text":"raC_Tec_PwrDvcStateMonitor"}
+DisplayName: {"LocaleId":"en-US","Text":"raC_Opr_EnergyBase"}
 Children:
-- Name: raC_Tec_PwrVelocityStateMonitor_3_03_Faceplate
-  Id: g=ece322b8dd93799025145bfdd7913f15
+- Name: raC_Opr_EnergyBase_3_03_Faceplate
+  Id: g=cacd0fefa0ae57c83b8238ee78161790
   Supertype: raSDK1_DialogBoxBase
   ReferenceType: HasComponent
   Children:
@@ -211,7 +211,7 @@ Children:
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"376eef12ee5bdb52ac4f00881b363960","Namespace":20}
+              Value: {"IdType":2,"Id":"eb594ed0e71e0891406c1af62b2fa88a","Namespace":20}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -237,7 +237,7 @@ Children:
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"59624394af66b4fa282be5a9329419d2","Namespace":20}
+              Value: {"IdType":2,"Id":"09fe129d3b5b9df801cf0619f4a4b1b5","Namespace":20}
               Children:
               - Name: Kind
                 Type: PropertyType
