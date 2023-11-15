@@ -2774,7 +2774,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=5eb34583dec549ee24ca09496dfe7bf3
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -10245,7 +10244,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=d5f77da763d22a8ddb2e2b1e89e62364
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -11026,7 +11024,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=396cc38dfc809d78dff252a08268839e
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -11788,7 +11785,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=cdd02d8d8ae6a19b4565176b3a04a651
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -12541,7 +12537,6 @@ Children:
         Type: Rectangle
         Children:
         - Name: MoveTarget
-          Id: g=4819459ccfee173c4ec5b357f9233a5a
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
