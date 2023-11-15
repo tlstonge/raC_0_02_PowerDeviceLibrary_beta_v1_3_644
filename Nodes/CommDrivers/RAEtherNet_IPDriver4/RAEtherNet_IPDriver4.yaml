@@ -1,0 +1,4 @@
+Name: RAEtherNet_IPDriver4
+Type: RAEtherNetIPDriver
+Children:
+- File: PowerDevice_K5700/PowerDevice_K5700.yaml

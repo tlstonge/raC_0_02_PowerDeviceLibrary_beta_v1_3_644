@@ -1,9 +1,9 @@
-Name: raC_Tec_PwrVelocityStateMonitor_3_03_UI
+Name: raC_Opr_EnergyBase_3_03_UI
 Type: FolderType
-DisplayName: {"LocaleId":"en-US","Text":"raC_Tec_PwrDvcStateMonitor"}
+DisplayName: {"LocaleId":"en-US","Text":"raC_Opr_EnergyBase"}
 Children:
-- Name: raC_Tec_PwrVelocityStateMonitor_3_03_Faceplate
-  Id: g=ece322b8dd93799025145bfdd7913f15
+- Name: raC_Opr_EnergyBase_3_03_Faceplate
+  Id: g=ab26435c5a6cc387dc72d4dc949ce7b7
   Supertype: raSDK1_DialogBoxBase
   ReferenceType: HasComponent
   Children:
@@ -187,7 +187,7 @@ Children:
           DataType: Color
           Value: "#afafaf"
         - Name: MoveTarget
-          Id: g=c6b02b7e9074b5a79870c0ddb52b73ca
+          Id: g=5b9ac4f656fb4d8f339b24bf5217eb6e
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -208,11 +208,11 @@ Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Output Power"}
+              Value: {"LocaleId":"en-US","Text":""}
             - Name: Panel
               Type: NodePointer
               DataType: NodeId
-              Value: {"IdType":2,"Id":"376eef12ee5bdb52ac4f00881b363960","Namespace":20}
+              Value: {"IdType":2,"Id":"d7e8009ce09d0dd4211fc48d07ffadad","Namespace":20}
               Children:
               - Name: Kind
                 Type: PropertyType
@@ -228,22 +228,6 @@ Children:
               DataType: ResourceUri
               ModellingRule: Optional
               Value: ""
-          - Name: Connection
-            Type: NavigationPanelItem
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"Connection"}
-            - Name: Panel
-              Type: NodePointer
-              DataType: NodeId
-              Value: {"IdType":2,"Id":"59624394af66b4fa282be5a9329419d2","Namespace":20}
-              Children:
-              - Name: Kind
-                Type: PropertyType
-                DataType: NodeId
-                Value: {"Id":71,"Namespace":5}
         - Name: CurrentPanel
           Type: NodePointer
           DataType: NodeId
