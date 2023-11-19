@@ -21,7 +21,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":15,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -31,12 +31,12 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: ns=3;Method
             Type: BaseDataVariableType
             DataType: String
@@ -131,7 +131,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":14,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -141,12 +141,12 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: ns=3;Method
             Type: BaseDataVariableType
             DataType: String
@@ -381,7 +381,7 @@ Children:
     - Name: ListenEventType
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":14,"Namespace":5}
+      Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
     - Name: MethodsToCall
       Type: BaseObjectType
       Children:
@@ -391,12 +391,12 @@ Children:
         - Name: ns=3;ObjectPointer
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":22,"Namespace":3}
+          Value: "/Objects/Commands/VariableCommands"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":58}
+            Value: "/Types/ObjectTypes/BaseObjectType"
         - Name: ns=3;Method
           Type: BaseDataVariableType
           DataType: String
@@ -472,7 +472,7 @@ Children:
     - Name: ListenEventType
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":15,"Namespace":5}
+      Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
     - Name: MethodsToCall
       Type: BaseObjectType
       Children:
@@ -482,12 +482,12 @@ Children:
         - Name: ns=3;ObjectPointer
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":22,"Namespace":3}
+          Value: "/Objects/Commands/VariableCommands"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":58}
+            Value: "/Types/ObjectTypes/BaseObjectType"
         - Name: ns=3;Method
           Type: BaseDataVariableType
           DataType: String
@@ -592,7 +592,7 @@ Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":15,"Namespace":5}
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -602,12 +602,12 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"Id":22,"Namespace":3}
+            Value: "/Objects/Commands/VariableCommands"
             Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":58}
+              Value: "/Types/ObjectTypes/BaseObjectType"
           - Name: ns=3;Method
             Type: BaseDataVariableType
             DataType: String
@@ -861,7 +861,7 @@ Children:
     - Name: ListenEventType
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":15,"Namespace":5}
+      Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseUpEvent"
     - Name: MethodsToCall
       Type: BaseObjectType
       Children:
@@ -871,12 +871,12 @@ Children:
         - Name: ns=3;ObjectPointer
           Type: NodePointer
           DataType: NodeId
-          Value: {"Id":22,"Namespace":3}
+          Value: "/Objects/Commands/VariableCommands"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":58}
+            Value: "/Types/ObjectTypes/BaseObjectType"
         - Name: ns=3;Method
           Type: BaseDataVariableType
           DataType: String

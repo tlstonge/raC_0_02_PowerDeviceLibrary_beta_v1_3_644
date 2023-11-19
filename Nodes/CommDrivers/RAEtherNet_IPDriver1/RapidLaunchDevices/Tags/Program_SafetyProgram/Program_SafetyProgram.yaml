@@ -1,0 +1,4855 @@
+Name: 'Program:SafetyProgram'
+Type: FolderType
+Children:
+- Name: ActuateCmd
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.ActuateCmd"
+- Name: Cmd_Reset
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Cmd_Reset"
+- Name: CROUT_Fdbk1
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.CROUT_Fdbk1"
+- Name: CROUT_Fdbk1_Sts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.CROUT_Fdbk1_Sts"
+- Name: CROUT_Fdbk2
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.CROUT_Fdbk2"
+- Name: CROUT_Fdbk2_Sts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.CROUT_Fdbk2_Sts"
+- Name: CROUT_Out1
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.CROUT_Out1"
+- Name: CROUT_Out1_Sts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.CROUT_Out1_Sts"
+- Name: CROUT_Out2
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.CROUT_Out2"
+- Name: CROUT_Out2_Sts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.CROUT_Out2_Sts"
+- Name: DCSTL_ChA
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTL_ChA"
+- Name: DCSTL_ChA_Sts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTL_ChA_Sts"
+- Name: DCSTL_ChB
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTL_ChB"
+- Name: DCSTL_ChB_Sts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTL_ChB_Sts"
+- Name: DCSTL_HazardStopped
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTL_HazardStopped"
+- Name: DCSTL_LockFeedback
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTL_LockFeedback"
+- Name: DCSTM_ChA
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTM_ChA"
+- Name: DCSTM_ChA_Sts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTM_ChA_Sts"
+- Name: DCSTM_ChB
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTM_ChB"
+- Name: DCSTM_ChB_Sts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTM_ChB_Sts"
+- Name: DCSTM_MuteInput
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTM_MuteInput"
+- Name: DCSTM_MuteInput_Sts
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCSTM_MuteInput_Sts"
+- Name: DCS_ChA
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCS_ChA"
+- Name: DCS_ChB
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.DCS_ChB"
+- Name: Dvc_CROUT
+  Type: raC_Dvc_CROUT
+  DataType: raC_Dvc_CROUT
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "4d10ce384e4646ccfc6f4676eff51513",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Sts_SafetyDemand": false,
+     "Sts_ResetRequired": false,
+     "Sts_DiagnosticPresent": false,
+     "Sts_FaultPresent": false,
+     "raC_Dvc_CROUT": false,
+     "Sts_Ready": false,
+     "Sts_eReady": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT.EnableOut"
+  - Name: Sts_SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT.Sts_SafetyDemand"
+  - Name: Sts_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT.Sts_ResetRequired"
+  - Name: Sts_DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT.Sts_DiagnosticPresent"
+  - Name: Sts_FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT.Sts_FaultPresent"
+  - Name: raC_Dvc_CROUT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT.raC_Dvc_CROUT"
+  - Name: Sts_Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT.Sts_Ready"
+  - Name: Sts_eReady
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT.Sts_eReady"
+- Name: Dvc_CROUT_CROUT
+  Type: CONFIGURABLE_ROUT
+  DataType: CONFIGURABLE_ROUT
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "50bae4cbb69d28303aea53b14498dacf",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "Actuate": false,
+     "FeedbackType": false,
+     "Feedback1": false,
+     "Feedback2": false,
+     "InputStatus": false,
+     "OutputStatus": false,
+     "Reset": false,
+     "FeedbackReactionTime": 0,
+     "EnableOut": false,
+     "O1": false,
+     "O2": false,
+     "FP": false,
+     "FaultCode": 0,
+     "DiagnosticCode": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.EnableIn"
+  - Name: Actuate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.Actuate"
+  - Name: FeedbackType
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.FeedbackType"
+  - Name: Feedback1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.Feedback1"
+  - Name: Feedback2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.Feedback2"
+  - Name: InputStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.InputStatus"
+  - Name: OutputStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.OutputStatus"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.Reset"
+  - Name: FeedbackReactionTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.FeedbackReactionTime"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.EnableOut"
+  - Name: O1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.O1"
+  - Name: O2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.O2"
+  - Name: FP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.FP"
+  - Name: FaultCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.FaultCode"
+  - Name: DiagnosticCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_CROUT.DiagnosticCode"
+- Name: Dvc_CROUT_Inf
+  Type: raC_UDT_Itf_SafetyDevice_Inf
+  DataType: raC_UDT_Itf_SafetyDevice_Inf
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "8ba7e9590d32e885e479a0d90eb3f4be",
+     "Namespace": 20
+    },
+    "Body": {
+     "Type": "",
+     "DisplayName": "",
+     "eClass": 0
+    }
+   }
+  Children:
+  - Name: Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Inf.Type"
+  - Name: DisplayName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Inf.DisplayName"
+  - Name: eClass
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Inf.eClass"
+- Name: Dvc_CROUT_InputStatus
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_CROUT_InputStatus"
+- Name: Dvc_CROUT_OutputStatus
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_CROUT_OutputStatus"
+- Name: Dvc_CROUT_Sts
+  Type: raC_UDT_Itf_SafetyDevice_Sts
+  DataType: raC_UDT_Itf_SafetyDevice_Sts
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "da6cd3e24514bf30fb6c7df289966386",
+     "Namespace": 20
+    },
+    "Body": {
+     "bSts": 0,
+     "DeviceSuspended": false,
+     "SafetyDemand": false,
+     "ResetRequired": false,
+     "DiagnosticPresent": false,
+     "FaultPresent": false,
+     "Muted": false
+    }
+   }
+  Children:
+  - Name: bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Sts.bSts"
+  - Name: DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Sts.DeviceSuspended"
+  - Name: SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Sts.SafetyDemand"
+  - Name: ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Sts.ResetRequired"
+  - Name: DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Sts.DiagnosticPresent"
+  - Name: FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Sts.FaultPresent"
+  - Name: Muted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_CROUT_Sts.Muted"
+- Name: Dvc_DCS
+  Type: raC_Dvc_DCS
+  DataType: raC_Dvc_DCS
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "c26b62a23063bd1324544477ec91ed01",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Inp_Suspend": false,
+     "Sts_DeviceSuspended": false,
+     "Sts_SafetyDemand": false,
+     "Sts_ResetRequired": false,
+     "Sts_DiagnosticPresent": false,
+     "Sts_FaultPresent": false,
+     "raC_Dvc_DCS": false,
+     "Sts_Ready": false,
+     "Sts_eReady": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.EnableOut"
+  - Name: Inp_Suspend
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.Inp_Suspend"
+  - Name: Sts_DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.Sts_DeviceSuspended"
+  - Name: Sts_SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.Sts_SafetyDemand"
+  - Name: Sts_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.Sts_ResetRequired"
+  - Name: Sts_DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.Sts_DiagnosticPresent"
+  - Name: Sts_FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.Sts_FaultPresent"
+  - Name: raC_Dvc_DCS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.raC_Dvc_DCS"
+  - Name: Sts_Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.Sts_Ready"
+  - Name: Sts_eReady
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS.Sts_eReady"
+- Name: Dvc_DCSTL
+  Type: raC_Dvc_DCSTL
+  DataType: raC_Dvc_DCSTL
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "5fde199056e10f0a11d7d85f32f09987",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Inp_Suspend": false,
+     "Sts_DeviceSuspended": false,
+     "Sts_SafetyDemand": false,
+     "Sts_ResetRequired": false,
+     "Sts_DiagnosticPresent": false,
+     "Sts_FaultPresent": false,
+     "raC_Dvc_DCSTL": false,
+     "Sts_Ready": false,
+     "Sts_eReady": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.EnableOut"
+  - Name: Inp_Suspend
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.Inp_Suspend"
+  - Name: Sts_DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.Sts_DeviceSuspended"
+  - Name: Sts_SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.Sts_SafetyDemand"
+  - Name: Sts_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.Sts_ResetRequired"
+  - Name: Sts_DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.Sts_DiagnosticPresent"
+  - Name: Sts_FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.Sts_FaultPresent"
+  - Name: raC_Dvc_DCSTL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.raC_Dvc_DCSTL"
+  - Name: Sts_Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.Sts_Ready"
+  - Name: Sts_eReady
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL.Sts_eReady"
+- Name: Dvc_DCSTL_ChATest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTL_ChATest"
+- Name: Dvc_DCSTL_ChBTest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTL_ChBTest"
+- Name: Dvc_DCSTL_DCSTL
+  Type: DCI_STOP_TEST_LOCK
+  DataType: DCI_STOP_TEST_LOCK
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "395b143d0989ce08c3b6a32ada009e96",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "ChannelA": false,
+     "ChannelB": false,
+     "InputStatus": false,
+     "Reset": false,
+     "RestartType": false,
+     "ColdStartType": false,
+     "TestRequest": false,
+     "UnlockRequest": false,
+     "LockFeedback": false,
+     "HazardStopped": false,
+     "SafetyFunction": 0,
+     "InputType": 0,
+     "DiscrepancyTime": 0,
+     "EnableOut": false,
+     "O1": false,
+     "FP": false,
+     "TC": false,
+     "ULC": false,
+     "FaultCode": 0,
+     "DiagnosticCode": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.EnableIn"
+  - Name: ChannelA
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.ChannelA"
+  - Name: ChannelB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.ChannelB"
+  - Name: InputStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.InputStatus"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.Reset"
+  - Name: RestartType
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.RestartType"
+  - Name: ColdStartType
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.ColdStartType"
+  - Name: TestRequest
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.TestRequest"
+  - Name: UnlockRequest
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.UnlockRequest"
+  - Name: LockFeedback
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.LockFeedback"
+  - Name: HazardStopped
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.HazardStopped"
+  - Name: SafetyFunction
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.SafetyFunction"
+  - Name: InputType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.InputType"
+  - Name: DiscrepancyTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.DiscrepancyTime"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.EnableOut"
+  - Name: O1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.O1"
+  - Name: FP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.FP"
+  - Name: TC
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.TC"
+  - Name: ULC
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.ULC"
+  - Name: FaultCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.FaultCode"
+  - Name: DiagnosticCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_DCSTL.DiagnosticCode"
+- Name: Dvc_DCSTL_Inf
+  Type: raC_UDT_Itf_SafetyDevice_Inf
+  DataType: raC_UDT_Itf_SafetyDevice_Inf
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "8ba7e9590d32e885e479a0d90eb3f4be",
+     "Namespace": 20
+    },
+    "Body": {
+     "Type": "",
+     "DisplayName": "",
+     "eClass": 0
+    }
+   }
+  Children:
+  - Name: Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Inf.Type"
+  - Name: DisplayName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Inf.DisplayName"
+  - Name: eClass
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Inf.eClass"
+- Name: Dvc_DCSTL_InputStatus
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTL_InputStatus"
+- Name: Dvc_DCSTL_LockFeedback
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTL_LockFeedback"
+- Name: Dvc_DCSTL_Sts
+  Type: raC_UDT_Itf_SafetyDevice_Sts
+  DataType: raC_UDT_Itf_SafetyDevice_Sts
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "da6cd3e24514bf30fb6c7df289966386",
+     "Namespace": 20
+    },
+    "Body": {
+     "bSts": 0,
+     "DeviceSuspended": false,
+     "SafetyDemand": false,
+     "ResetRequired": false,
+     "DiagnosticPresent": false,
+     "FaultPresent": false,
+     "Muted": false
+    }
+   }
+  Children:
+  - Name: bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Sts.bSts"
+  - Name: DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Sts.DeviceSuspended"
+  - Name: SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Sts.SafetyDemand"
+  - Name: ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Sts.ResetRequired"
+  - Name: DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Sts.DiagnosticPresent"
+  - Name: FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Sts.FaultPresent"
+  - Name: Muted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTL_Sts.Muted"
+- Name: Dvc_DCSTL_TestRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTL_TestRequest"
+- Name: Dvc_DCSTL_TestRequestONS
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTL_TestRequestONS"
+- Name: Dvc_DCSTL_UnlockRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTL_UnlockRequest"
+- Name: Dvc_DCSTM
+  Type: raC_Dvc_DCSTM
+  DataType: raC_Dvc_DCSTM
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "fccb06751d619b5685f5fb9dabd9ba34",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Inp_Suspend": false,
+     "Sts_DeviceSuspended": false,
+     "Sts_SafetyDemand": false,
+     "Sts_ResetRequired": false,
+     "Sts_DiagnosticPresent": false,
+     "Sts_FaultPresent": false,
+     "raC_Dvc_DCSTM": false,
+     "Sts_Ready": false,
+     "Sts_eReady": 0,
+     "Sts_Muted": false
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.EnableOut"
+  - Name: Inp_Suspend
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.Inp_Suspend"
+  - Name: Sts_DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.Sts_DeviceSuspended"
+  - Name: Sts_SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.Sts_SafetyDemand"
+  - Name: Sts_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.Sts_ResetRequired"
+  - Name: Sts_DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.Sts_DiagnosticPresent"
+  - Name: Sts_FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.Sts_FaultPresent"
+  - Name: raC_Dvc_DCSTM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.raC_Dvc_DCSTM"
+  - Name: Sts_Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.Sts_Ready"
+  - Name: Sts_eReady
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.Sts_eReady"
+  - Name: Sts_Muted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM.Sts_Muted"
+- Name: Dvc_DCSTM_ChATest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTM_ChATest"
+- Name: Dvc_DCSTM_ChBTest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTM_ChBTest"
+- Name: Dvc_DCSTM_DCSTM
+  Type: DCI_STOP_TEST_MUTE
+  DataType: DCI_STOP_TEST_MUTE
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "81d1d4dcf286553aed2cd280392df5d6",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "ChannelA": false,
+     "ChannelB": false,
+     "InputStatus": false,
+     "Reset": false,
+     "RestartType": false,
+     "ColdStartType": false,
+     "TestRequest": false,
+     "Mute": false,
+     "MutingLampStatus": false,
+     "SafetyFunction": 0,
+     "InputType": 0,
+     "DiscrepancyTime": 0,
+     "TestType": 0,
+     "TestTime": 0,
+     "EnableOut": false,
+     "O1": false,
+     "FP": false,
+     "TC": false,
+     "ML": false,
+     "SS": false,
+     "FaultCode": 0,
+     "DiagnosticCode": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.EnableIn"
+  - Name: ChannelA
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.ChannelA"
+  - Name: ChannelB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.ChannelB"
+  - Name: InputStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.InputStatus"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.Reset"
+  - Name: RestartType
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.RestartType"
+  - Name: ColdStartType
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.ColdStartType"
+  - Name: TestRequest
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.TestRequest"
+  - Name: Mute
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.Mute"
+  - Name: MutingLampStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.MutingLampStatus"
+  - Name: SafetyFunction
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.SafetyFunction"
+  - Name: InputType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.InputType"
+  - Name: DiscrepancyTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.DiscrepancyTime"
+  - Name: TestType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.TestType"
+  - Name: TestTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.TestTime"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.EnableOut"
+  - Name: O1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.O1"
+  - Name: FP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.FP"
+  - Name: TC
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.TC"
+  - Name: ML
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.ML"
+  - Name: SS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.SS"
+  - Name: FaultCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.FaultCode"
+  - Name: DiagnosticCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_DCSTM.DiagnosticCode"
+- Name: Dvc_DCSTM_Inf
+  Type: raC_UDT_Itf_SafetyDevice_Inf
+  DataType: raC_UDT_Itf_SafetyDevice_Inf
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "8ba7e9590d32e885e479a0d90eb3f4be",
+     "Namespace": 20
+    },
+    "Body": {
+     "Type": "",
+     "DisplayName": "",
+     "eClass": 0
+    }
+   }
+  Children:
+  - Name: Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Inf.Type"
+  - Name: DisplayName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Inf.DisplayName"
+  - Name: eClass
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Inf.eClass"
+- Name: Dvc_DCSTM_InputStatus
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTM_InputStatus"
+- Name: Dvc_DCSTM_Mute
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTM_Mute"
+- Name: Dvc_DCSTM_Sts
+  Type: raC_UDT_Itf_SafetyDevice_Sts
+  DataType: raC_UDT_Itf_SafetyDevice_Sts
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "da6cd3e24514bf30fb6c7df289966386",
+     "Namespace": 20
+    },
+    "Body": {
+     "bSts": 0,
+     "DeviceSuspended": false,
+     "SafetyDemand": false,
+     "ResetRequired": false,
+     "DiagnosticPresent": false,
+     "FaultPresent": false,
+     "Muted": false
+    }
+   }
+  Children:
+  - Name: bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Sts.bSts"
+  - Name: DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Sts.DeviceSuspended"
+  - Name: SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Sts.SafetyDemand"
+  - Name: ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Sts.ResetRequired"
+  - Name: DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Sts.DiagnosticPresent"
+  - Name: FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Sts.FaultPresent"
+  - Name: Muted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCSTM_Sts.Muted"
+- Name: Dvc_DCSTM_TestDelay
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTM_TestDelay"
+- Name: Dvc_DCSTM_TestRequest
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTM_TestRequest"
+- Name: Dvc_DCSTM_TestRequestONS
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCSTM_TestRequestONS"
+- Name: Dvc_DCS_DCS
+  Type: DCI_STOP
+  DataType: DCI_STOP
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "15851d83942d441a28e22dc62f47a2e3",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "ChannelA": false,
+     "ChannelB": false,
+     "InputStatus": false,
+     "Reset": false,
+     "RestartType": false,
+     "ColdStartType": false,
+     "SafetyFunction": 0,
+     "InputType": 0,
+     "DiscrepancyTime": 0,
+     "EnableOut": false,
+     "O1": false,
+     "FP": false,
+     "FaultCode": 0,
+     "DiagnosticCode": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.EnableIn"
+  - Name: ChannelA
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.ChannelA"
+  - Name: ChannelB
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.ChannelB"
+  - Name: InputStatus
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.InputStatus"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.Reset"
+  - Name: RestartType
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.RestartType"
+  - Name: ColdStartType
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.ColdStartType"
+  - Name: SafetyFunction
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.SafetyFunction"
+  - Name: InputType
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.InputType"
+  - Name: DiscrepancyTime
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.DiscrepancyTime"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.EnableOut"
+  - Name: O1
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.O1"
+  - Name: FP
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.FP"
+  - Name: FaultCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.FaultCode"
+  - Name: DiagnosticCode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_DCS.DiagnosticCode"
+- Name: Dvc_DCS_Inf
+  Type: raC_UDT_Itf_SafetyDevice_Inf
+  DataType: raC_UDT_Itf_SafetyDevice_Inf
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "8ba7e9590d32e885e479a0d90eb3f4be",
+     "Namespace": 20
+    },
+    "Body": {
+     "Type": "",
+     "DisplayName": "",
+     "eClass": 0
+    }
+   }
+  Children:
+  - Name: Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Inf.Type"
+  - Name: DisplayName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Inf.DisplayName"
+  - Name: eClass
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Inf.eClass"
+- Name: Dvc_DCS_InputStatus
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Dvc_DCS_InputStatus"
+- Name: Dvc_DCS_Sts
+  Type: raC_UDT_Itf_SafetyDevice_Sts
+  DataType: raC_UDT_Itf_SafetyDevice_Sts
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "da6cd3e24514bf30fb6c7df289966386",
+     "Namespace": 20
+    },
+    "Body": {
+     "bSts": 0,
+     "DeviceSuspended": false,
+     "SafetyDemand": false,
+     "ResetRequired": false,
+     "DiagnosticPresent": false,
+     "FaultPresent": false,
+     "Muted": false
+    }
+   }
+  Children:
+  - Name: bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Sts.bSts"
+  - Name: DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Sts.DeviceSuspended"
+  - Name: SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Sts.SafetyDemand"
+  - Name: ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Sts.ResetRequired"
+  - Name: DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Sts.DiagnosticPresent"
+  - Name: FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Sts.FaultPresent"
+  - Name: Muted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_DCS_Sts.Muted"
+- Name: Dvc_SafetyGroupMonitor_Inf
+  Type: raC_UDT_Itf_SafetyDevice_Inf
+  DataType: raC_UDT_Itf_SafetyDevice_Inf
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "8ba7e9590d32e885e479a0d90eb3f4be",
+     "Namespace": 20
+    },
+    "Body": {
+     "Type": "",
+     "DisplayName": "",
+     "eClass": 0
+    }
+   }
+  Children:
+  - Name: Type
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Inf.Type"
+  - Name: DisplayName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Inf.DisplayName"
+  - Name: eClass
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Inf.eClass"
+- Name: Dvc_SafetyGroupMonitor_Itf
+  Type: raC_UDT_Itf_SafetyGroup
+  DataType: raC_UDT_Itf_SafetyGroup
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "7b9cd1fbb24ce83e110b5a3acd3eccd3",
+     "Namespace": 20
+    },
+    "Body": {
+     "DuplicateDevice": 0,
+     "Sts_bDevicePresent": 0,
+     "Sts_bDeviceSuspended": 0,
+     "Sts_bSafetyDemand": 0,
+     "Sts_bResetRequired": 0,
+     "Sts_bDiagsPresent": 0,
+     "Sts_bFaultPresent": 0,
+     "Sts_bMuted": 0,
+     "Device": [{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+        "Namespace": 20
+       },
+       "Body": {
+        "Type": "",
+        "DisplayName": "",
+        "eClass": 0
+       }
+      }]
+    }
+   }
+  Children:
+  - Name: DuplicateDevice
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.DuplicateDevice"
+  - Name: Sts_bDevicePresent
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Sts_bDevicePresent"
+  - Name: Sts_bDeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Sts_bDeviceSuspended"
+  - Name: Sts_bSafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Sts_bSafetyDemand"
+  - Name: Sts_bResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Sts_bResetRequired"
+  - Name: Sts_bDiagsPresent
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Sts_bDiagsPresent"
+  - Name: Sts_bFaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Sts_bFaultPresent"
+  - Name: Sts_bMuted
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Sts_bMuted"
+  - Name: Device
+    Type: raC_UDT_Opr_SafetyGroup_DvcInf
+    DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+    ValueRank: OneDimension
+    ArrayDimensions: [32]
+    Value: [{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}},{"TypeId":{"IdType":2,"Id":"a288f742bc4c04ea6aca4f6b5a3e3928","Namespace":20},"Body":{"Type":"","DisplayName":"","eClass":0}}]
+    Children:
+    - Name: 0
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[0].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[0].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[0].eClass"
+    - Name: 1
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[1].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[1].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[1].eClass"
+    - Name: 2
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[2].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[2].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[2].eClass"
+    - Name: 3
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[3].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[3].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[3].eClass"
+    - Name: 4
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[4].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[4].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[4].eClass"
+    - Name: 5
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[5].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[5].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[5].eClass"
+    - Name: 6
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[6].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[6].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[6].eClass"
+    - Name: 7
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[7].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[7].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[7].eClass"
+    - Name: 8
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[8].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[8].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[8].eClass"
+    - Name: 9
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[9].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[9].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[9].eClass"
+    - Name: 10
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[10].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[10].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[10].eClass"
+    - Name: 11
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[11].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[11].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[11].eClass"
+    - Name: 12
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[12].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[12].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[12].eClass"
+    - Name: 13
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[13].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[13].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[13].eClass"
+    - Name: 14
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[14].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[14].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[14].eClass"
+    - Name: 15
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[15].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[15].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[15].eClass"
+    - Name: 16
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[16].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[16].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[16].eClass"
+    - Name: 17
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[17].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[17].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[17].eClass"
+    - Name: 18
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[18].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[18].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[18].eClass"
+    - Name: 19
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[19].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[19].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[19].eClass"
+    - Name: 20
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[20].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[20].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[20].eClass"
+    - Name: 21
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[21].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[21].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[21].eClass"
+    - Name: 22
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[22].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[22].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[22].eClass"
+    - Name: 23
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[23].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[23].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[23].eClass"
+    - Name: 24
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[24].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[24].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[24].eClass"
+    - Name: 25
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[25].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[25].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[25].eClass"
+    - Name: 26
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[26].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[26].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[26].eClass"
+    - Name: 27
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[27].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[27].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[27].eClass"
+    - Name: 28
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[28].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[28].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[28].eClass"
+    - Name: 29
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[29].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[29].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[29].eClass"
+    - Name: 30
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[30].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[30].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[30].eClass"
+    - Name: 31
+      Type: raC_UDT_Opr_SafetyGroup_DvcInf
+      DataType: raC_UDT_Opr_SafetyGroup_DvcInf
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "a288f742bc4c04ea6aca4f6b5a3e3928",
+         "Namespace": 20
+        },
+        "Body": {
+         "Type": "",
+         "DisplayName": "",
+         "eClass": 0
+        }
+       }
+      Children:
+      - Name: Type
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[31].Type"
+      - Name: DisplayName
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[31].DisplayName"
+      - Name: eClass
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[31].eClass"
+- Name: Dvc_SafetyGroupMonitor_Monitor
+  Type: raC_Opr_SafetyGroupMonitor
+  DataType: raC_Opr_SafetyGroupMonitor
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "fb186de68820821e91a1da5cc85c6058",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Sts_bDevicePresent": 0,
+     "Sts_bDeviceSuspended": 0,
+     "Sts_bSafetyDemand": 0,
+     "Sts_bResetRequired": 0,
+     "Sts_bDiagnosticPresent": 0,
+     "Sts_bFaultPresent": 0,
+     "Sts_bMuted": 0,
+     "Sts_DeviceSuspended": false,
+     "Sts_SafetyDemand": false,
+     "Sts_ResetRequired": false,
+     "Sts_DiagnosticPresent": false,
+     "Sts_FaultPresent": false,
+     "Sts_Muted": false,
+     "Sts_DuplicateDevice": false,
+     "Sts_eDuplicateDevice": 0,
+     "Cmd_ClearList": false
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.EnableOut"
+  - Name: Sts_bDevicePresent
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_bDevicePresent"
+  - Name: Sts_bDeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_bDeviceSuspended"
+  - Name: Sts_bSafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_bSafetyDemand"
+  - Name: Sts_bResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_bResetRequired"
+  - Name: Sts_bDiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_bDiagnosticPresent"
+  - Name: Sts_bFaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_bFaultPresent"
+  - Name: Sts_bMuted
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_bMuted"
+  - Name: Sts_DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_DeviceSuspended"
+  - Name: Sts_SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_SafetyDemand"
+  - Name: Sts_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_ResetRequired"
+  - Name: Sts_DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_DiagnosticPresent"
+  - Name: Sts_FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_FaultPresent"
+  - Name: Sts_Muted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_Muted"
+  - Name: Sts_DuplicateDevice
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_DuplicateDevice"
+  - Name: Sts_eDuplicateDevice
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Sts_eDuplicateDevice"
+  - Name: Cmd_ClearList
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Monitor.Cmd_ClearList"
+- Name: Dvc_SafetyGroupMonitor_Sts
+  Type: raC_UDT_Itf_SafetyDevice_Sts
+  DataType: raC_UDT_Itf_SafetyDevice_Sts
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "da6cd3e24514bf30fb6c7df289966386",
+     "Namespace": 20
+    },
+    "Body": {
+     "bSts": 0,
+     "DeviceSuspended": false,
+     "SafetyDemand": false,
+     "ResetRequired": false,
+     "DiagnosticPresent": false,
+     "FaultPresent": false,
+     "Muted": false
+    }
+   }
+  Children:
+  - Name: bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Sts.bSts"
+  - Name: DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Sts.DeviceSuspended"
+  - Name: SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Sts.SafetyDemand"
+  - Name: ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Sts.ResetRequired"
+  - Name: DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Sts.DiagnosticPresent"
+  - Name: FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Sts.FaultPresent"
+  - Name: Muted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Sts.Muted"
+- Name: Test_Request
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:SafetyProgram.Test_Request"
+- Name: _Dvc_CROUT_GpMbr1
+  Type: raC_Opr_SafetyGroupMember
+  DataType: raC_Opr_SafetyGroupMember
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "c508bbd0aef3a11f8ec6350907f3cce3",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Set_ID": 0,
+     "Sts_ER": false,
+     "Sts_DeviceSuspended": false,
+     "Sts_SafetyDemand": false,
+     "Sts_ResetRequired": false,
+     "Sts_DiagnosticPresent": false,
+     "Sts_FaultPresent": false,
+     "raC_Opr_SafetyGroupMember": false,
+     "Sts_ERR": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.EnableOut"
+  - Name: Set_ID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.Set_ID"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.Sts_ER"
+  - Name: Sts_DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.Sts_DeviceSuspended"
+  - Name: Sts_SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.Sts_SafetyDemand"
+  - Name: Sts_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.Sts_ResetRequired"
+  - Name: Sts_DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.Sts_DiagnosticPresent"
+  - Name: Sts_FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.Sts_FaultPresent"
+  - Name: raC_Opr_SafetyGroupMember
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.raC_Opr_SafetyGroupMember"
+  - Name: Sts_ERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_CROUT_GpMbr1.Sts_ERR"
+- Name: _Dvc_DCSTL_GpMbr1
+  Type: raC_Opr_SafetyGroupMember
+  DataType: raC_Opr_SafetyGroupMember
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "c508bbd0aef3a11f8ec6350907f3cce3",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Set_ID": 0,
+     "Sts_ER": false,
+     "Sts_DeviceSuspended": false,
+     "Sts_SafetyDemand": false,
+     "Sts_ResetRequired": false,
+     "Sts_DiagnosticPresent": false,
+     "Sts_FaultPresent": false,
+     "raC_Opr_SafetyGroupMember": false,
+     "Sts_ERR": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.EnableOut"
+  - Name: Set_ID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.Set_ID"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.Sts_ER"
+  - Name: Sts_DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.Sts_DeviceSuspended"
+  - Name: Sts_SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.Sts_SafetyDemand"
+  - Name: Sts_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.Sts_ResetRequired"
+  - Name: Sts_DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.Sts_DiagnosticPresent"
+  - Name: Sts_FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.Sts_FaultPresent"
+  - Name: raC_Opr_SafetyGroupMember
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.raC_Opr_SafetyGroupMember"
+  - Name: Sts_ERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTL_GpMbr1.Sts_ERR"
+- Name: _Dvc_DCSTM_GpMbr1
+  Type: raC_Opr_SafetyGroupMember
+  DataType: raC_Opr_SafetyGroupMember
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "c508bbd0aef3a11f8ec6350907f3cce3",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Set_ID": 0,
+     "Sts_ER": false,
+     "Sts_DeviceSuspended": false,
+     "Sts_SafetyDemand": false,
+     "Sts_ResetRequired": false,
+     "Sts_DiagnosticPresent": false,
+     "Sts_FaultPresent": false,
+     "raC_Opr_SafetyGroupMember": false,
+     "Sts_ERR": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.EnableOut"
+  - Name: Set_ID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.Set_ID"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.Sts_ER"
+  - Name: Sts_DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.Sts_DeviceSuspended"
+  - Name: Sts_SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.Sts_SafetyDemand"
+  - Name: Sts_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.Sts_ResetRequired"
+  - Name: Sts_DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.Sts_DiagnosticPresent"
+  - Name: Sts_FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.Sts_FaultPresent"
+  - Name: raC_Opr_SafetyGroupMember
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.raC_Opr_SafetyGroupMember"
+  - Name: Sts_ERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCSTM_GpMbr1.Sts_ERR"
+- Name: _Dvc_DCS_GpMbr1
+  Type: raC_Opr_SafetyGroupMember
+  DataType: raC_Opr_SafetyGroupMember
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "c508bbd0aef3a11f8ec6350907f3cce3",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Set_ID": 0,
+     "Sts_ER": false,
+     "Sts_DeviceSuspended": false,
+     "Sts_SafetyDemand": false,
+     "Sts_ResetRequired": false,
+     "Sts_DiagnosticPresent": false,
+     "Sts_FaultPresent": false,
+     "raC_Opr_SafetyGroupMember": false,
+     "Sts_ERR": 0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.EnableOut"
+  - Name: Set_ID
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.Set_ID"
+  - Name: Sts_ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.Sts_ER"
+  - Name: Sts_DeviceSuspended
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.Sts_DeviceSuspended"
+  - Name: Sts_SafetyDemand
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.Sts_SafetyDemand"
+  - Name: Sts_ResetRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.Sts_ResetRequired"
+  - Name: Sts_DiagnosticPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.Sts_DiagnosticPresent"
+  - Name: Sts_FaultPresent
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.Sts_FaultPresent"
+  - Name: raC_Opr_SafetyGroupMember
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.raC_Opr_SafetyGroupMember"
+  - Name: Sts_ERR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:SafetyProgram._Dvc_DCS_GpMbr1.Sts_ERR"

@@ -2,3 +2,4 @@ Name: RAEtherNet_IPDriver1
 Type: RAEtherNetIPDriver
 Children:
 - File: PowerLibraryEcho/PowerLibraryEcho.yaml
+- File: RapidLaunchDevices/RapidLaunchDevices.yaml

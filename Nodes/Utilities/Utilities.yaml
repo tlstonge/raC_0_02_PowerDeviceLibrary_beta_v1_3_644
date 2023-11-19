@@ -12,12 +12,12 @@ Children:
   - Name: Converter
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"3f88bb3b562c2934629705d8e0290190","Namespace":20}
+    Value: "/Objects/raC_0_02_PowerDeviceLibrary_beta_v1_3_644/UI/RA Libraries/Power Device v3/raC_Dvc_K5500_3_03_UI/<Private Elements>/raC_Dvc_K5500_3_03_InfLookup_Description"
     Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":46,"Namespace":3}
+      Value: "/Types/ObjectTypes/BaseObjectType/Converter/ValueMapConverter"
     - Name: NodeClass
       Type: PropertyType
       DataType: NodePointerNodeClass

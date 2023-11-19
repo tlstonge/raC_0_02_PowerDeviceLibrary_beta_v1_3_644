@@ -861,7 +861,6 @@ Children:
     DataType: Color
     Value: "#0fafff"
   - Name: AccentTextColor
-    Id: g=6257372cac4375daaf77af56d3282a12
     Type: BaseDataVariableType
     DataType: Color
     Value: "#ffffff"

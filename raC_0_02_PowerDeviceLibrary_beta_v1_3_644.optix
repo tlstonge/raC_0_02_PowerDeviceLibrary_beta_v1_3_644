@@ -16,11 +16,11 @@ Project:
   3:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
-   Version: 3.0
+   Version: 3.1
   4:
    Uri: 'urn:FTOptix:CoreBase:Net'
    Module: FTOptix.CoreBase.Net
-   Version: 1.0
+   Version: 1.1
   5:
    Uri: 'urn:FTOptix:UI'
    Module: FTOptix.UI
@@ -48,7 +48,7 @@ Project:
   11:
    Uri: 'urn:FTOptix:HMIProject'
    Module: FTOptix.HMIProject
-   Version: 5.2
+   Version: 5.3
   12:
    Uri: 'urn:FTOptix:HMIProject:Net'
    Module: FTOptix.HMIProject.Net
@@ -76,10 +76,10 @@ Project:
   18:
    Uri: 'urn:FTOptix:RAEtherNetIP'
    Module: FTOptix.RAEtherNetIP
-   Version: 2.0
+   Version: 2.1
   19:
    Uri: 'urn:FTOptix:RAEtherNetIP:Net'
    Module: FTOptix.RAEtherNetIP.Net
-   Version: 2.0
+   Version: 2.1
  Nodes:
  - File: Nodes/raC_0_02_PowerDeviceLibrary_beta_v1_3_644.yaml

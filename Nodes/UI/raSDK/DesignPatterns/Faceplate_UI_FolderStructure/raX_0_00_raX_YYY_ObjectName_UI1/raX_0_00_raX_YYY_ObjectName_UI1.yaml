@@ -2,7 +2,7 @@ Name: raX_0_00_raX_YYY_ObjectName_UI1
 Type: FolderType
 DisplayName: {"LocaleId":"en-US","Text":"raX_YYY_ObjectName"}
 Children:
-- File: Graphic Symbols/Graphic Symbols.yaml
+- File: Graphic_Symbols/Graphic_Symbols.yaml
 - File: Widgets/Widgets.yaml
 - Name: raX_0_00_raX_YYY_ObjectName_Faceplate
   Id: g=5673aa00a988fbf76b2b8dd5d127aa94
@@ -45,7 +45,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":71,"Namespace":5}
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
           - Name: Title
             Type: Label
             Children:
@@ -91,7 +91,7 @@ Children:
                 - Name: ListenEventType
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":16,"Namespace":5}
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
                 - Name: MethodsToCall
                   Type: BaseObjectType
                   Children:
@@ -106,7 +106,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -182,7 +182,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":5}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
@@ -210,7 +210,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":71,"Namespace":5}
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
           - Name: Help
             Type: Button
           - Name: Close
@@ -222,7 +222,7 @@ Children:
               - Name: ListenEventType
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":16,"Namespace":5}
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
@@ -237,7 +237,7 @@ Children:
                     - Name: Kind
                       Type: PropertyType
                       DataType: NodeId
-                      Value: {"Id":58}
+                      Value: "/Types/ObjectTypes/BaseObjectType"
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
@@ -295,7 +295,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":6,"Namespace":5}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
         - Name: CurrentTabIndex
           Type: BaseDataVariableType
           DataType: Int32
@@ -381,5 +381,5 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":71,"Namespace":5}
-- File: _Private Elements_/_Private Elements_.yaml
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+- File: _Private_Elements_/_Private_Elements_.yaml

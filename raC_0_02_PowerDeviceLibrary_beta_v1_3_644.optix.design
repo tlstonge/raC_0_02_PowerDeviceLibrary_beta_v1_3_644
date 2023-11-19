@@ -18,11 +18,11 @@ Project:
   4:
    Uri: 'urn:FTOptix:CoreBase'
    Module: FTOptix.CoreBase
-   Version: 3.0
+   Version: 3.1
   5:
    Uri: 'urn:FTOptix:CoreBase:Net'
    Module: FTOptix.CoreBase.Net
-   Version: 1.0
+   Version: 1.1
   6:
    Uri: 'urn:FTOptix:TagImporter'
    Module: FTOptix.TagImporter
@@ -37,4 +37,5 @@ Project:
    Version: 1.0
  Nodes:
  - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/PowerLibraryEcho/TagImporter.yaml
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver1/RapidLaunchDevices/TagImporter.yaml
  - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver2/PowerDevice_K5500/TagImporter.yaml

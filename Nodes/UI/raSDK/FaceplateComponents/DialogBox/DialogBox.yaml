@@ -40,7 +40,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":71,"Namespace":5}
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
           - Name: Title
             Type: Label
             Children:
@@ -86,7 +86,7 @@ Children:
                 - Name: ListenEventType
                   Type: PropertyType
                   DataType: NodeId
-                  Value: {"Id":16,"Namespace":5}
+                  Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
                 - Name: MethodsToCall
                   Type: BaseObjectType
                   Children:
@@ -101,7 +101,7 @@ Children:
                       - Name: Kind
                         Type: PropertyType
                         DataType: NodeId
-                        Value: {"Id":58}
+                        Value: "/Types/ObjectTypes/BaseObjectType"
                       - Name: DynamicLink
                         Type: DynamicLink
                         DataType: NodePath
@@ -177,7 +177,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":71,"Namespace":5}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
           - Name: DynamicLink
             Type: DynamicLink
             DataType: NodePath
@@ -210,7 +210,7 @@ Children:
             - Name: Kind
               Type: PropertyType
               DataType: NodeId
-              Value: {"Id":71,"Namespace":5}
+              Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
           - Name: Help
             Type: Button
           - Name: Close
@@ -222,7 +222,7 @@ Children:
               - Name: ListenEventType
                 Type: PropertyType
                 DataType: NodeId
-                Value: {"Id":16,"Namespace":5}
+                Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
               - Name: MethodsToCall
                 Type: BaseObjectType
                 Children:
@@ -237,7 +237,7 @@ Children:
                     - Name: Kind
                       Type: PropertyType
                       DataType: NodeId
-                      Value: {"Id":58}
+                      Value: "/Types/ObjectTypes/BaseObjectType"
                     - Name: DynamicLink
                       Type: DynamicLink
                       DataType: NodePath
@@ -295,7 +295,7 @@ Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
-            Value: {"Id":6,"Namespace":5}
+            Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item"
         - Name: CurrentTabIndex
           Type: BaseDataVariableType
           DataType: Int32
@@ -436,4 +436,4 @@ Children:
     - Name: Kind
       Type: PropertyType
       DataType: NodeId
-      Value: {"Id":71,"Namespace":5}
+      Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"

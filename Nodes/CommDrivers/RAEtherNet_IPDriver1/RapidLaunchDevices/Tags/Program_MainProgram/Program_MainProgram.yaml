@@ -1,0 +1,6257 @@
+Name: 'Program:MainProgram'
+Type: FolderType
+Children:
+- Name: Dvc_1732E_8IOLMaster
+  Type: raC_Dvc_1732E_8IOL
+  DataType: raC_Dvc_1732E_8IOL
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "3775daa6644bd157813fd5f4dd2a6777",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Sts_Connected": false,
+     "Sts_Available": false,
+     "Sts_Warning": false,
+     "Sts_Faulted": false,
+     "Sts_Ready": false,
+     "Sts_Active": false
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster.EnableOut"
+  - Name: Sts_Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster.Sts_Connected"
+  - Name: Sts_Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster.Sts_Available"
+  - Name: Sts_Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster.Sts_Warning"
+  - Name: Sts_Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster.Sts_Faulted"
+  - Name: Sts_Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster.Sts_Ready"
+  - Name: Sts_Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster.Sts_Active"
+- Name: Dvc_1732E_8IOLMaster_Cfg_C
+  Type: raC_UDT_ItfAD_8IOL_Master_Cfg
+  DataType: raC_UDT_ItfAD_8IOL_Master_Cfg
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "4334635a27de1f23924844ae906c3950",
+     "Namespace": 20
+    },
+    "Body": {
+     "_8IOL_Master_Cfg": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "96eebfc1f886f87cc7ebe24d5cce0715",
+       "Namespace": 20
+      },
+      "Body": {
+       "Ch0FaultMode": 0,
+       "Ch0ProgMode": 0,
+       "Ch1FaultMode": 0,
+       "Ch1ProgMode": 0,
+       "Ch2FaultMode": 0,
+       "Ch2ProgMode": 0,
+       "Ch3FaultMode": 0,
+       "Ch3ProgMode": 0,
+       "Ch4FaultMode": 0,
+       "Ch4ProgMode": 0,
+       "Ch5FaultMode": 0,
+       "Ch5ProgMode": 0,
+       "Ch6FaultMode": 0,
+       "Ch6ProgMode": 0,
+       "Ch7FaultMode": 0,
+       "Ch7ProgMode": 0,
+       "Ch0FilterOffOn": 0,
+       "Ch0FilterOnOff": 0,
+       "Ch1FilterOffOn": 0,
+       "Ch1FilterOnOff": 0,
+       "Ch2FilterOffOn": 0,
+       "Ch2FilterOnOff": 0,
+       "Ch3FilterOffOn": 0,
+       "Ch3FilterOnOff": 0,
+       "Ch4FilterOffOn": 0,
+       "Ch4FilterOnOff": 0,
+       "Ch5FilterOffOn": 0,
+       "Ch5FilterOnOff": 0,
+       "Ch6FilterOffOn": 0,
+       "Ch6FilterOnOff": 0,
+       "Ch7FilterOffOn": 0,
+       "Ch7FilterOnOff": 0,
+       "MasterSyncEnabled": false
+      }
+     }
+    }
+   }
+  Children:
+  - Name: _8IOL_Master_Cfg
+    Type: 'AB:1732_8IOL1:C:0'
+    DataType: 'AB:1732_8IOL1:C:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "96eebfc1f886f87cc7ebe24d5cce0715",
+       "Namespace": 20
+      },
+      "Body": {
+       "Ch0FaultMode": 0,
+       "Ch0ProgMode": 0,
+       "Ch1FaultMode": 0,
+       "Ch1ProgMode": 0,
+       "Ch2FaultMode": 0,
+       "Ch2ProgMode": 0,
+       "Ch3FaultMode": 0,
+       "Ch3ProgMode": 0,
+       "Ch4FaultMode": 0,
+       "Ch4ProgMode": 0,
+       "Ch5FaultMode": 0,
+       "Ch5ProgMode": 0,
+       "Ch6FaultMode": 0,
+       "Ch6ProgMode": 0,
+       "Ch7FaultMode": 0,
+       "Ch7ProgMode": 0,
+       "Ch0FilterOffOn": 0,
+       "Ch0FilterOnOff": 0,
+       "Ch1FilterOffOn": 0,
+       "Ch1FilterOnOff": 0,
+       "Ch2FilterOffOn": 0,
+       "Ch2FilterOnOff": 0,
+       "Ch3FilterOffOn": 0,
+       "Ch3FilterOnOff": 0,
+       "Ch4FilterOffOn": 0,
+       "Ch4FilterOnOff": 0,
+       "Ch5FilterOffOn": 0,
+       "Ch5FilterOnOff": 0,
+       "Ch6FilterOffOn": 0,
+       "Ch6FilterOnOff": 0,
+       "Ch7FilterOffOn": 0,
+       "Ch7FilterOnOff": 0,
+       "MasterSyncEnabled": false
+      }
+     }
+    Children:
+    - Name: Ch0FaultMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch0FaultMode"
+    - Name: Ch0ProgMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch0ProgMode"
+    - Name: Ch1FaultMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch1FaultMode"
+    - Name: Ch1ProgMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch1ProgMode"
+    - Name: Ch2FaultMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch2FaultMode"
+    - Name: Ch2ProgMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch2ProgMode"
+    - Name: Ch3FaultMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch3FaultMode"
+    - Name: Ch3ProgMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch3ProgMode"
+    - Name: Ch4FaultMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch4FaultMode"
+    - Name: Ch4ProgMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch4ProgMode"
+    - Name: Ch5FaultMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch5FaultMode"
+    - Name: Ch5ProgMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch5ProgMode"
+    - Name: Ch6FaultMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch6FaultMode"
+    - Name: Ch6ProgMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch6ProgMode"
+    - Name: Ch7FaultMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch7FaultMode"
+    - Name: Ch7ProgMode
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch7ProgMode"
+    - Name: Ch0FilterOffOn
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch0FilterOffOn"
+    - Name: Ch0FilterOnOff
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch0FilterOnOff"
+    - Name: Ch1FilterOffOn
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch1FilterOffOn"
+    - Name: Ch1FilterOnOff
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch1FilterOnOff"
+    - Name: Ch2FilterOffOn
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch2FilterOffOn"
+    - Name: Ch2FilterOnOff
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch2FilterOnOff"
+    - Name: Ch3FilterOffOn
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch3FilterOffOn"
+    - Name: Ch3FilterOnOff
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch3FilterOnOff"
+    - Name: Ch4FilterOffOn
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch4FilterOffOn"
+    - Name: Ch4FilterOnOff
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch4FilterOnOff"
+    - Name: Ch5FilterOffOn
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch5FilterOffOn"
+    - Name: Ch5FilterOnOff
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch5FilterOnOff"
+    - Name: Ch6FilterOffOn
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch6FilterOffOn"
+    - Name: Ch6FilterOnOff
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch6FilterOnOff"
+    - Name: Ch7FilterOffOn
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch7FilterOffOn"
+    - Name: Ch7FilterOnOff
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.Ch7FilterOnOff"
+    - Name: MasterSyncEnabled
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Cfg_C._8IOL_Master_Cfg.MasterSyncEnabled"
+- Name: Dvc_1732E_8IOLMaster_Inp_I
+  Type: raC_UDT_ItfAD_8IOL_Master_Inp
+  DataType: raC_UDT_ItfAD_8IOL_Master_Inp
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "3e88d98f15b7c5a72795f3d772e358da",
+     "Namespace": 20
+    },
+    "Body": {
+     "Fault": 0,
+     "Status": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f2d7cdd4b5626e23d7485badd70003a5",
+       "Namespace": 20
+      },
+      "Body": {
+       "Ch0Fault": false,
+       "Ch0ConnectionFaulted": false,
+       "Ch0ConfigurationInProgress": false,
+       "Ch0ConfigurationFault": false,
+       "Ch0KeyingFault": false,
+       "Ch0ShortCircuit": false,
+       "Ch0DataInvalid": false,
+       "Ch0PowerFault": false,
+       "Ch0ClampAlarm": false,
+       "Ch0NoIoSize": false,
+       "Ch1Fault": false,
+       "Ch1ConnectionFaulted": false,
+       "Ch1ConfigurationInProgress": false,
+       "Ch1ConfigurationFault": false,
+       "Ch1KeyingFault": false,
+       "Ch1ShortCircuit": false,
+       "Ch1DataInvalid": false,
+       "Ch1PowerFault": false,
+       "Ch1ClampAlarm": false,
+       "Ch1NoIoSize": false,
+       "Ch2Fault": false,
+       "Ch2ConnectionFaulted": false,
+       "Ch2ConfigurationInProgress": false,
+       "Ch2ConfigurationFault": false,
+       "Ch2KeyingFault": false,
+       "Ch2ShortCircuit": false,
+       "Ch2DataInvalid": false,
+       "Ch2PowerFault": false,
+       "Ch2ClampAlarm": false,
+       "Ch2NoIoSize": false,
+       "Ch3Fault": false,
+       "Ch3ConnectionFaulted": false,
+       "Ch3ConfigurationInProgress": false,
+       "Ch3ConfigurationFault": false,
+       "Ch3KeyingFault": false,
+       "Ch3ShortCircuit": false,
+       "Ch3DataInvalid": false,
+       "Ch3PowerFault": false,
+       "Ch3ClampAlarm": false,
+       "Ch3NoIoSize": false,
+       "Ch4Fault": false,
+       "Ch4ConnectionFaulted": false,
+       "Ch4ConfigurationInProgress": false,
+       "Ch4ConfigurationFault": false,
+       "Ch4KeyingFault": false,
+       "Ch4ShortCircuit": false,
+       "Ch4DataInvalid": false,
+       "Ch4PowerFault": false,
+       "Ch4ClampAlarm": false,
+       "Ch4NoIoSize": false,
+       "Ch5Fault": false,
+       "Ch5ConnectionFaulted": false,
+       "Ch5ConfigurationInProgress": false,
+       "Ch5ConfigurationFault": false,
+       "Ch5KeyingFault": false,
+       "Ch5ShortCircuit": false,
+       "Ch5DataInvalid": false,
+       "Ch5PowerFault": false,
+       "Ch5ClampAlarm": false,
+       "Ch5NoIoSize": false,
+       "Ch6Fault": false,
+       "Ch6ConnectionFaulted": false,
+       "Ch6ConfigurationInProgress": false,
+       "Ch6ConfigurationFault": false,
+       "Ch6KeyingFault": false,
+       "Ch6ShortCircuit": false,
+       "Ch6DataInvalid": false,
+       "Ch6PowerFault": false,
+       "Ch6ClampAlarm": false,
+       "Ch6NoIoSize": false,
+       "Ch7Fault": false,
+       "Ch7ConnectionFaulted": false,
+       "Ch7ConfigurationInProgress": false,
+       "Ch7ConfigurationFault": false,
+       "Ch7KeyingFault": false,
+       "Ch7ShortCircuit": false,
+       "Ch7DataInvalid": false,
+       "Ch7PowerFault": false,
+       "Ch7ClampAlarm": false,
+       "Ch7NoIoSize": false
+      }
+     },
+     "Ch0DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch1DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch2DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch3DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch4DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch5DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch6DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch7DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "LocalClockOffset": [0,0],
+     "OffsetTimestamp": [0,0],
+     "GrandmasterClockId": [0,0,0,0,0,0,0,0],
+     "Ch0Timestamp": [0,0],
+     "Ch1Timestamp": [0,0],
+     "Ch2Timestamp": [0,0],
+     "Ch3Timestamp": [0,0],
+     "Ch4Timestamp": [0,0],
+     "Ch5Timestamp": [0,0],
+     "Ch6Timestamp": [0,0],
+     "Ch7Timestamp": [0,0],
+     "SynchedToMaster": false
+    }
+   }
+  Children:
+  - Name: Fault
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Fault"
+  - Name: Status
+    Type: 'AB:1732_8IOL_Struct_Status:I:0'
+    DataType: 'AB:1732_8IOL_Struct_Status:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f2d7cdd4b5626e23d7485badd70003a5",
+       "Namespace": 20
+      },
+      "Body": {
+       "Ch0Fault": false,
+       "Ch0ConnectionFaulted": false,
+       "Ch0ConfigurationInProgress": false,
+       "Ch0ConfigurationFault": false,
+       "Ch0KeyingFault": false,
+       "Ch0ShortCircuit": false,
+       "Ch0DataInvalid": false,
+       "Ch0PowerFault": false,
+       "Ch0ClampAlarm": false,
+       "Ch0NoIoSize": false,
+       "Ch1Fault": false,
+       "Ch1ConnectionFaulted": false,
+       "Ch1ConfigurationInProgress": false,
+       "Ch1ConfigurationFault": false,
+       "Ch1KeyingFault": false,
+       "Ch1ShortCircuit": false,
+       "Ch1DataInvalid": false,
+       "Ch1PowerFault": false,
+       "Ch1ClampAlarm": false,
+       "Ch1NoIoSize": false,
+       "Ch2Fault": false,
+       "Ch2ConnectionFaulted": false,
+       "Ch2ConfigurationInProgress": false,
+       "Ch2ConfigurationFault": false,
+       "Ch2KeyingFault": false,
+       "Ch2ShortCircuit": false,
+       "Ch2DataInvalid": false,
+       "Ch2PowerFault": false,
+       "Ch2ClampAlarm": false,
+       "Ch2NoIoSize": false,
+       "Ch3Fault": false,
+       "Ch3ConnectionFaulted": false,
+       "Ch3ConfigurationInProgress": false,
+       "Ch3ConfigurationFault": false,
+       "Ch3KeyingFault": false,
+       "Ch3ShortCircuit": false,
+       "Ch3DataInvalid": false,
+       "Ch3PowerFault": false,
+       "Ch3ClampAlarm": false,
+       "Ch3NoIoSize": false,
+       "Ch4Fault": false,
+       "Ch4ConnectionFaulted": false,
+       "Ch4ConfigurationInProgress": false,
+       "Ch4ConfigurationFault": false,
+       "Ch4KeyingFault": false,
+       "Ch4ShortCircuit": false,
+       "Ch4DataInvalid": false,
+       "Ch4PowerFault": false,
+       "Ch4ClampAlarm": false,
+       "Ch4NoIoSize": false,
+       "Ch5Fault": false,
+       "Ch5ConnectionFaulted": false,
+       "Ch5ConfigurationInProgress": false,
+       "Ch5ConfigurationFault": false,
+       "Ch5KeyingFault": false,
+       "Ch5ShortCircuit": false,
+       "Ch5DataInvalid": false,
+       "Ch5PowerFault": false,
+       "Ch5ClampAlarm": false,
+       "Ch5NoIoSize": false,
+       "Ch6Fault": false,
+       "Ch6ConnectionFaulted": false,
+       "Ch6ConfigurationInProgress": false,
+       "Ch6ConfigurationFault": false,
+       "Ch6KeyingFault": false,
+       "Ch6ShortCircuit": false,
+       "Ch6DataInvalid": false,
+       "Ch6PowerFault": false,
+       "Ch6ClampAlarm": false,
+       "Ch6NoIoSize": false,
+       "Ch7Fault": false,
+       "Ch7ConnectionFaulted": false,
+       "Ch7ConfigurationInProgress": false,
+       "Ch7ConfigurationFault": false,
+       "Ch7KeyingFault": false,
+       "Ch7ShortCircuit": false,
+       "Ch7DataInvalid": false,
+       "Ch7PowerFault": false,
+       "Ch7ClampAlarm": false,
+       "Ch7NoIoSize": false
+      }
+     }
+    Children:
+    - Name: Ch0Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0Fault"
+    - Name: Ch0ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0ConnectionFaulted"
+    - Name: Ch0ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0ConfigurationInProgress"
+    - Name: Ch0ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0ConfigurationFault"
+    - Name: Ch0KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0KeyingFault"
+    - Name: Ch0ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0ShortCircuit"
+    - Name: Ch0DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0DataInvalid"
+    - Name: Ch0PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0PowerFault"
+    - Name: Ch0ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0ClampAlarm"
+    - Name: Ch0NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch0NoIoSize"
+    - Name: Ch1Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1Fault"
+    - Name: Ch1ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1ConnectionFaulted"
+    - Name: Ch1ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1ConfigurationInProgress"
+    - Name: Ch1ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1ConfigurationFault"
+    - Name: Ch1KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1KeyingFault"
+    - Name: Ch1ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1ShortCircuit"
+    - Name: Ch1DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1DataInvalid"
+    - Name: Ch1PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1PowerFault"
+    - Name: Ch1ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1ClampAlarm"
+    - Name: Ch1NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch1NoIoSize"
+    - Name: Ch2Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2Fault"
+    - Name: Ch2ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2ConnectionFaulted"
+    - Name: Ch2ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2ConfigurationInProgress"
+    - Name: Ch2ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2ConfigurationFault"
+    - Name: Ch2KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2KeyingFault"
+    - Name: Ch2ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2ShortCircuit"
+    - Name: Ch2DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2DataInvalid"
+    - Name: Ch2PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2PowerFault"
+    - Name: Ch2ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2ClampAlarm"
+    - Name: Ch2NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch2NoIoSize"
+    - Name: Ch3Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3Fault"
+    - Name: Ch3ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3ConnectionFaulted"
+    - Name: Ch3ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3ConfigurationInProgress"
+    - Name: Ch3ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3ConfigurationFault"
+    - Name: Ch3KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3KeyingFault"
+    - Name: Ch3ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3ShortCircuit"
+    - Name: Ch3DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3DataInvalid"
+    - Name: Ch3PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3PowerFault"
+    - Name: Ch3ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3ClampAlarm"
+    - Name: Ch3NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch3NoIoSize"
+    - Name: Ch4Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4Fault"
+    - Name: Ch4ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4ConnectionFaulted"
+    - Name: Ch4ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4ConfigurationInProgress"
+    - Name: Ch4ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4ConfigurationFault"
+    - Name: Ch4KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4KeyingFault"
+    - Name: Ch4ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4ShortCircuit"
+    - Name: Ch4DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4DataInvalid"
+    - Name: Ch4PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4PowerFault"
+    - Name: Ch4ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4ClampAlarm"
+    - Name: Ch4NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch4NoIoSize"
+    - Name: Ch5Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5Fault"
+    - Name: Ch5ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5ConnectionFaulted"
+    - Name: Ch5ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5ConfigurationInProgress"
+    - Name: Ch5ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5ConfigurationFault"
+    - Name: Ch5KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5KeyingFault"
+    - Name: Ch5ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5ShortCircuit"
+    - Name: Ch5DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5DataInvalid"
+    - Name: Ch5PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5PowerFault"
+    - Name: Ch5ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5ClampAlarm"
+    - Name: Ch5NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch5NoIoSize"
+    - Name: Ch6Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6Fault"
+    - Name: Ch6ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6ConnectionFaulted"
+    - Name: Ch6ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6ConfigurationInProgress"
+    - Name: Ch6ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6ConfigurationFault"
+    - Name: Ch6KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6KeyingFault"
+    - Name: Ch6ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6ShortCircuit"
+    - Name: Ch6DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6DataInvalid"
+    - Name: Ch6PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6PowerFault"
+    - Name: Ch6ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6ClampAlarm"
+    - Name: Ch6NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch6NoIoSize"
+    - Name: Ch7Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7Fault"
+    - Name: Ch7ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7ConnectionFaulted"
+    - Name: Ch7ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7ConfigurationInProgress"
+    - Name: Ch7ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7ConfigurationFault"
+    - Name: Ch7KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7KeyingFault"
+    - Name: Ch7ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7ShortCircuit"
+    - Name: Ch7DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7DataInvalid"
+    - Name: Ch7PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7PowerFault"
+    - Name: Ch7ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7ClampAlarm"
+    - Name: Ch7NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Status.Ch7NoIoSize"
+  - Name: Ch0DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0DiagEvent.Timestamp"
+  - Name: Ch1DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1DiagEvent.Timestamp"
+  - Name: Ch2DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2DiagEvent.Timestamp"
+  - Name: Ch3DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3DiagEvent.Timestamp"
+  - Name: Ch4DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4DiagEvent.Timestamp"
+  - Name: Ch5DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5DiagEvent.Timestamp"
+  - Name: Ch6DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6DiagEvent.Timestamp"
+  - Name: Ch7DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7DiagEvent.Timestamp"
+  - Name: LocalClockOffset
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.LocalClockOffset"
+  - Name: OffsetTimestamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.OffsetTimestamp"
+  - Name: GrandmasterClockId
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    ValueRank: OneDimension
+    ArrayDimensions: [8]
+    Value: [0,0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.GrandmasterClockId"
+  - Name: Ch0Timestamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch0Timestamp"
+  - Name: Ch1Timestamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch1Timestamp"
+  - Name: Ch2Timestamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch2Timestamp"
+  - Name: Ch3Timestamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch3Timestamp"
+  - Name: Ch4Timestamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch4Timestamp"
+  - Name: Ch5Timestamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch5Timestamp"
+  - Name: Ch6Timestamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch6Timestamp"
+  - Name: Ch7Timestamp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.Ch7Timestamp"
+  - Name: SynchedToMaster
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_1732E_8IOLMaster_Inp_I.SynchedToMaster"
+- Name: Dvc_856T_8IOL
+  Type: raC_Dvc_856T_8IOL
+  DataType: raC_Dvc_856T_8IOL
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "c797868bb85d6bbc8b9e4a724cf94cf7",
+     "Namespace": 20
+    },
+    "Body": {
+     "EnableIn": false,
+     "EnableOut": false,
+     "Inp_ChxAlarmStatus": 0,
+     "Inp_ChNumber": 0,
+     "Cfg_DD1ControlOutput1": 0,
+     "Cfg_DD1ControlOutput2": 0,
+     "Cfg_DD1ControlOutput3": 0,
+     "Cfg_DD1ControlOutput4": 0,
+     "Cfg_DD1ControlOutput5": 0,
+     "Cfg_DD1ControlOutput6": 0,
+     "Cfg_DD1ControlOutput7": 0,
+     "Cfg_DD2ControlOutput1": 0,
+     "Cfg_DD2ControlOutput2": 0,
+     "Cfg_DD2ControlOutput3": 0,
+     "Cfg_DD2ControlOutput4": 0,
+     "Cfg_DD2ControlOutput5": 0,
+     "Cfg_DD2ControlOutput6": 0,
+     "Cfg_DD2ControlOutput7": 0,
+     "Cfg_ModuleType1": 0,
+     "Cfg_ModuleType2": 0,
+     "Cfg_ModuleType3": 0,
+     "Cfg_ModuleType4": 0,
+     "Cfg_ModuleType5": 0,
+     "Cfg_ModuleType6": 0,
+     "Cfg_ModuleType7": 0,
+     "Cfg_VibCalibStartStop": 0,
+     "Set_VibCalibPeriod": 0.0,
+     "Set_VibWarningLimitX": 0.0,
+     "Set_VibWarningLimitY": 0.0,
+     "Set_VibWarningLimitZ": 0.0,
+     "Sts_Connected": false,
+     "Sts_Available": false,
+     "Sts_Warning": false,
+     "Sts_Faulted": false,
+     "Sts_Ready": false,
+     "Sts_Active": false,
+     "Sts_bNotReady": 0,
+     "Sts_InhibitCfg": false,
+     "Sts_InhibitCmd": false,
+     "Sts_InhibitSet": false,
+     "Cmd_LocalTeachLock": false,
+     "raC_Dvc_ADFramework_DV_LD": false,
+     "Val_ClassAVoltage": 0.0,
+     "Val_ClassBVoltage": 0.0,
+     "Val_CurrentModuleType1": 0,
+     "Val_CurrentModuleType2": 0,
+     "Val_CurrentModuleType3": 0,
+     "Val_CurrentModuleType4": 0,
+     "Val_CurrentModuleType5": 0,
+     "Val_CurrentModuleType6": 0,
+     "Val_CurrentModuleType7": 0,
+     "Val_OperatingHrsSinceInception": 0,
+     "Val_OperatingHrsSincePowerUp": 0,
+     "Val_TemperatureCurrent": 0,
+     "Val_TemperatureMaxSincePowerUp": 0,
+     "Val_TemperatureMinSincePowerUp": 0,
+     "Val_VibAvgXAxis": 0.0,
+     "Val_VibAvgYAxis": 0.0,
+     "Val_VibAvgZAxis": 0.0,
+     "Val_VibCalibPeriod": 0.0,
+     "Val_VibCalibStatusData": 0,
+     "Val_VibMaxLifetimeXAxis": 0.0,
+     "Val_VibMaxLifetimeYAxis": 0.0,
+     "Val_VibMaxLifetimeZAxis": 0.0,
+     "Val_VibMaxSPUXAxis": 0.0,
+     "Val_VibMaxSPUYAxis": 0.0,
+     "Val_VibMaxSPUZAxis": 0.0,
+     "Val_VibWarningLimitX": 0.0,
+     "Val_VibWarningLimitY": 0.0,
+     "Val_VibWarningLimitZ": 0.0
+    }
+   }
+  Children:
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.EnableOut"
+  - Name: Inp_ChxAlarmStatus
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Inp_ChxAlarmStatus"
+  - Name: Inp_ChNumber
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Inp_ChNumber"
+  - Name: Cfg_DD1ControlOutput1
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD1ControlOutput1"
+  - Name: Cfg_DD1ControlOutput2
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD1ControlOutput2"
+  - Name: Cfg_DD1ControlOutput3
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD1ControlOutput3"
+  - Name: Cfg_DD1ControlOutput4
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD1ControlOutput4"
+  - Name: Cfg_DD1ControlOutput5
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD1ControlOutput5"
+  - Name: Cfg_DD1ControlOutput6
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD1ControlOutput6"
+  - Name: Cfg_DD1ControlOutput7
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD1ControlOutput7"
+  - Name: Cfg_DD2ControlOutput1
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD2ControlOutput1"
+  - Name: Cfg_DD2ControlOutput2
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD2ControlOutput2"
+  - Name: Cfg_DD2ControlOutput3
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD2ControlOutput3"
+  - Name: Cfg_DD2ControlOutput4
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD2ControlOutput4"
+  - Name: Cfg_DD2ControlOutput5
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD2ControlOutput5"
+  - Name: Cfg_DD2ControlOutput6
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD2ControlOutput6"
+  - Name: Cfg_DD2ControlOutput7
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_DD2ControlOutput7"
+  - Name: Cfg_ModuleType1
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_ModuleType1"
+  - Name: Cfg_ModuleType2
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_ModuleType2"
+  - Name: Cfg_ModuleType3
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_ModuleType3"
+  - Name: Cfg_ModuleType4
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_ModuleType4"
+  - Name: Cfg_ModuleType5
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_ModuleType5"
+  - Name: Cfg_ModuleType6
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_ModuleType6"
+  - Name: Cfg_ModuleType7
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_ModuleType7"
+  - Name: Cfg_VibCalibStartStop
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cfg_VibCalibStartStop"
+  - Name: Set_VibCalibPeriod
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Set_VibCalibPeriod"
+  - Name: Set_VibWarningLimitX
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Set_VibWarningLimitX"
+  - Name: Set_VibWarningLimitY
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Set_VibWarningLimitY"
+  - Name: Set_VibWarningLimitZ
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Set_VibWarningLimitZ"
+  - Name: Sts_Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_Connected"
+  - Name: Sts_Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_Available"
+  - Name: Sts_Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_Warning"
+  - Name: Sts_Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_Faulted"
+  - Name: Sts_Ready
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_Ready"
+  - Name: Sts_Active
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_Active"
+  - Name: Sts_bNotReady
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_bNotReady"
+  - Name: Sts_InhibitCfg
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_InhibitCfg"
+  - Name: Sts_InhibitCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_InhibitCmd"
+  - Name: Sts_InhibitSet
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Sts_InhibitSet"
+  - Name: Cmd_LocalTeachLock
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Cmd_LocalTeachLock"
+  - Name: raC_Dvc_ADFramework_DV_LD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.raC_Dvc_ADFramework_DV_LD"
+  - Name: Val_ClassAVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_ClassAVoltage"
+  - Name: Val_ClassBVoltage
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_ClassBVoltage"
+  - Name: Val_CurrentModuleType1
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_CurrentModuleType1"
+  - Name: Val_CurrentModuleType2
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_CurrentModuleType2"
+  - Name: Val_CurrentModuleType3
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_CurrentModuleType3"
+  - Name: Val_CurrentModuleType4
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_CurrentModuleType4"
+  - Name: Val_CurrentModuleType5
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_CurrentModuleType5"
+  - Name: Val_CurrentModuleType6
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_CurrentModuleType6"
+  - Name: Val_CurrentModuleType7
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_CurrentModuleType7"
+  - Name: Val_OperatingHrsSinceInception
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_OperatingHrsSinceInception"
+  - Name: Val_OperatingHrsSincePowerUp
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_OperatingHrsSincePowerUp"
+  - Name: Val_TemperatureCurrent
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_TemperatureCurrent"
+  - Name: Val_TemperatureMaxSincePowerUp
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_TemperatureMaxSincePowerUp"
+  - Name: Val_TemperatureMinSincePowerUp
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_TemperatureMinSincePowerUp"
+  - Name: Val_VibAvgXAxis
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibAvgXAxis"
+  - Name: Val_VibAvgYAxis
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibAvgYAxis"
+  - Name: Val_VibAvgZAxis
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibAvgZAxis"
+  - Name: Val_VibCalibPeriod
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibCalibPeriod"
+  - Name: Val_VibCalibStatusData
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibCalibStatusData"
+  - Name: Val_VibMaxLifetimeXAxis
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibMaxLifetimeXAxis"
+  - Name: Val_VibMaxLifetimeYAxis
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibMaxLifetimeYAxis"
+  - Name: Val_VibMaxLifetimeZAxis
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibMaxLifetimeZAxis"
+  - Name: Val_VibMaxSPUXAxis
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibMaxSPUXAxis"
+  - Name: Val_VibMaxSPUYAxis
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibMaxSPUYAxis"
+  - Name: Val_VibMaxSPUZAxis
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibMaxSPUZAxis"
+  - Name: Val_VibWarningLimitX
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibWarningLimitX"
+  - Name: Val_VibWarningLimitY
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibWarningLimitY"
+  - Name: Val_VibWarningLimitZ
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL.Val_VibWarningLimitZ"
+- Name: Dvc_856T_8IOL_CtrlCmd
+  Type: raC_UDT_ItfAD_IOLinkSensor_CtrlCmd
+  DataType: raC_UDT_ItfAD_IOLinkSensor_CtrlCmd
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "628f81c921e0f99f164de78ab8793265",
+     "Namespace": 20
+    },
+    "Body": {
+     "bCmd": 0,
+     "ResetWarn": false,
+     "ResetFault": false,
+     "ResetCounter": false,
+     "Locate": false,
+     "Physical": false,
+     "Virtual": false
+    }
+   }
+  Children:
+  - Name: bCmd
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlCmd.bCmd"
+  - Name: ResetWarn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlCmd.ResetWarn"
+  - Name: ResetFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlCmd.ResetFault"
+  - Name: ResetCounter
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlCmd.ResetCounter"
+  - Name: Locate
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlCmd.Locate"
+  - Name: Physical
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlCmd.Physical"
+  - Name: Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlCmd.Virtual"
+- Name: Dvc_856T_8IOL_CtrlSet
+  Type: raC_UDT_ItfAD_IOLinkSensor_CtrlSet
+  DataType: raC_UDT_ItfAD_IOLinkSensor_CtrlSet
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "4ecb0d11c65439ebe68c2695bda3507d",
+     "Namespace": 20
+    },
+    "Body": {
+     "InhibitCmd": false,
+     "InhibitSet": false,
+     "InhibitCfg": false,
+     "Setpoint": 0
+    }
+   }
+  Children:
+  - Name: InhibitCmd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSet.InhibitCmd"
+  - Name: InhibitSet
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSet.InhibitSet"
+  - Name: InhibitCfg
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSet.InhibitCfg"
+  - Name: Setpoint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSet.Setpoint"
+- Name: Dvc_856T_8IOL_CtrlSts
+  Type: raC_UDT_ItfAD_IOLinkSensor_CtrlSts
+  DataType: raC_UDT_ItfAD_IOLinkSensor_CtrlSts
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "a7dac97807d56c614af6f049ba3f140e",
+     "Namespace": 20
+    },
+    "Body": {
+     "eState": 0,
+     "FirstWarning": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "3f5689289412b22acd2fd9cdfcf74b34",
+       "Namespace": 20
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     },
+     "FirstFault": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "3f5689289412b22acd2fd9cdfcf74b34",
+       "Namespace": 20
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     },
+     "eCmdFail": 0,
+     "bSts": 0,
+     "Connected": false,
+     "Available": false,
+     "Warning": false,
+     "Faulted": false,
+     "Physical": false,
+     "Virtual": false,
+     "Counter": 0,
+     "Data": 0.0,
+     "EU": "",
+     "Triggered": 0,
+     "Signal_Strength": 0,
+     "AppSensorName": ""
+    }
+   }
+  Children:
+  - Name: eState
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.eState"
+  - Name: FirstWarning
+    Type: raC_UDT_Event4
+    DataType: raC_UDT_Event4
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "3f5689289412b22acd2fd9cdfcf74b34",
+       "Namespace": 20
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     }
+    Children:
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstWarning.Type"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstWarning.ID"
+    - Name: Category
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstWarning.Category"
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstWarning.Action"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstWarning.Value"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstWarning.Message"
+    - Name: EventTime_L
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstWarning.EventTime_L"
+    - Name: EventTime_D
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Value: [0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstWarning.EventTime_D"
+  - Name: FirstFault
+    Type: raC_UDT_Event4
+    DataType: raC_UDT_Event4
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "3f5689289412b22acd2fd9cdfcf74b34",
+       "Namespace": 20
+      },
+      "Body": {
+       "Type": 0,
+       "ID": 0,
+       "Category": 0,
+       "Action": 0,
+       "Value": 0,
+       "Message": "",
+       "EventTime_L": 0,
+       "EventTime_D": [0,0,0,0,0,0,0]
+      }
+     }
+    Children:
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstFault.Type"
+    - Name: ID
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstFault.ID"
+    - Name: Category
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstFault.Category"
+    - Name: Action
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstFault.Action"
+    - Name: Value
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstFault.Value"
+    - Name: Message
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstFault.Message"
+    - Name: EventTime_L
+      Type: RAEtherNetIPTag
+      DataType: Int64
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstFault.EventTime_L"
+    - Name: EventTime_D
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [7]
+      Value: [0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.FirstFault.EventTime_D"
+  - Name: eCmdFail
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.eCmdFail"
+  - Name: bSts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.bSts"
+  - Name: Connected
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Connected"
+  - Name: Available
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Available"
+  - Name: Warning
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Warning"
+  - Name: Faulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Faulted"
+  - Name: Physical
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Physical"
+  - Name: Virtual
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Virtual"
+  - Name: Counter
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Counter"
+  - Name: Data
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Data"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.EU"
+  - Name: Triggered
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Triggered"
+  - Name: Signal_Strength
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.Signal_Strength"
+  - Name: AppSensorName
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_CtrlSts.AppSensorName"
+- Name: Dvc_856T_8IOL_Inp_I
+  Type: raC_UDT_ItfAD_856T_Inp_8IOL
+  DataType: raC_UDT_ItfAD_856T_Inp_8IOL
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "41e381c8cb3a030c19fd5d23ca0aa79b",
+     "Namespace": 20
+    },
+    "Body": {
+     "Fault": 0,
+     "Status": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f2d7cdd4b5626e23d7485badd70003a5",
+       "Namespace": 20
+      },
+      "Body": {
+       "Ch0Fault": false,
+       "Ch0ConnectionFaulted": false,
+       "Ch0ConfigurationInProgress": false,
+       "Ch0ConfigurationFault": false,
+       "Ch0KeyingFault": false,
+       "Ch0ShortCircuit": false,
+       "Ch0DataInvalid": false,
+       "Ch0PowerFault": false,
+       "Ch0ClampAlarm": false,
+       "Ch0NoIoSize": false,
+       "Ch1Fault": false,
+       "Ch1ConnectionFaulted": false,
+       "Ch1ConfigurationInProgress": false,
+       "Ch1ConfigurationFault": false,
+       "Ch1KeyingFault": false,
+       "Ch1ShortCircuit": false,
+       "Ch1DataInvalid": false,
+       "Ch1PowerFault": false,
+       "Ch1ClampAlarm": false,
+       "Ch1NoIoSize": false,
+       "Ch2Fault": false,
+       "Ch2ConnectionFaulted": false,
+       "Ch2ConfigurationInProgress": false,
+       "Ch2ConfigurationFault": false,
+       "Ch2KeyingFault": false,
+       "Ch2ShortCircuit": false,
+       "Ch2DataInvalid": false,
+       "Ch2PowerFault": false,
+       "Ch2ClampAlarm": false,
+       "Ch2NoIoSize": false,
+       "Ch3Fault": false,
+       "Ch3ConnectionFaulted": false,
+       "Ch3ConfigurationInProgress": false,
+       "Ch3ConfigurationFault": false,
+       "Ch3KeyingFault": false,
+       "Ch3ShortCircuit": false,
+       "Ch3DataInvalid": false,
+       "Ch3PowerFault": false,
+       "Ch3ClampAlarm": false,
+       "Ch3NoIoSize": false,
+       "Ch4Fault": false,
+       "Ch4ConnectionFaulted": false,
+       "Ch4ConfigurationInProgress": false,
+       "Ch4ConfigurationFault": false,
+       "Ch4KeyingFault": false,
+       "Ch4ShortCircuit": false,
+       "Ch4DataInvalid": false,
+       "Ch4PowerFault": false,
+       "Ch4ClampAlarm": false,
+       "Ch4NoIoSize": false,
+       "Ch5Fault": false,
+       "Ch5ConnectionFaulted": false,
+       "Ch5ConfigurationInProgress": false,
+       "Ch5ConfigurationFault": false,
+       "Ch5KeyingFault": false,
+       "Ch5ShortCircuit": false,
+       "Ch5DataInvalid": false,
+       "Ch5PowerFault": false,
+       "Ch5ClampAlarm": false,
+       "Ch5NoIoSize": false,
+       "Ch6Fault": false,
+       "Ch6ConnectionFaulted": false,
+       "Ch6ConfigurationInProgress": false,
+       "Ch6ConfigurationFault": false,
+       "Ch6KeyingFault": false,
+       "Ch6ShortCircuit": false,
+       "Ch6DataInvalid": false,
+       "Ch6PowerFault": false,
+       "Ch6ClampAlarm": false,
+       "Ch6NoIoSize": false,
+       "Ch7Fault": false,
+       "Ch7ConnectionFaulted": false,
+       "Ch7ConfigurationInProgress": false,
+       "Ch7ConfigurationFault": false,
+       "Ch7KeyingFault": false,
+       "Ch7ShortCircuit": false,
+       "Ch7DataInvalid": false,
+       "Ch7PowerFault": false,
+       "Ch7ClampAlarm": false,
+       "Ch7NoIoSize": false
+      }
+     },
+     "Ch0DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch1DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch2DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch3DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch4DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch5DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch6DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "Ch7DiagEvent": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     },
+     "ChAlarmStatus": 0
+    }
+   }
+  Children:
+  - Name: Fault
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Fault"
+  - Name: Status
+    Type: 'AB:1732_8IOL_Struct_Status:I:0'
+    DataType: 'AB:1732_8IOL_Struct_Status:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f2d7cdd4b5626e23d7485badd70003a5",
+       "Namespace": 20
+      },
+      "Body": {
+       "Ch0Fault": false,
+       "Ch0ConnectionFaulted": false,
+       "Ch0ConfigurationInProgress": false,
+       "Ch0ConfigurationFault": false,
+       "Ch0KeyingFault": false,
+       "Ch0ShortCircuit": false,
+       "Ch0DataInvalid": false,
+       "Ch0PowerFault": false,
+       "Ch0ClampAlarm": false,
+       "Ch0NoIoSize": false,
+       "Ch1Fault": false,
+       "Ch1ConnectionFaulted": false,
+       "Ch1ConfigurationInProgress": false,
+       "Ch1ConfigurationFault": false,
+       "Ch1KeyingFault": false,
+       "Ch1ShortCircuit": false,
+       "Ch1DataInvalid": false,
+       "Ch1PowerFault": false,
+       "Ch1ClampAlarm": false,
+       "Ch1NoIoSize": false,
+       "Ch2Fault": false,
+       "Ch2ConnectionFaulted": false,
+       "Ch2ConfigurationInProgress": false,
+       "Ch2ConfigurationFault": false,
+       "Ch2KeyingFault": false,
+       "Ch2ShortCircuit": false,
+       "Ch2DataInvalid": false,
+       "Ch2PowerFault": false,
+       "Ch2ClampAlarm": false,
+       "Ch2NoIoSize": false,
+       "Ch3Fault": false,
+       "Ch3ConnectionFaulted": false,
+       "Ch3ConfigurationInProgress": false,
+       "Ch3ConfigurationFault": false,
+       "Ch3KeyingFault": false,
+       "Ch3ShortCircuit": false,
+       "Ch3DataInvalid": false,
+       "Ch3PowerFault": false,
+       "Ch3ClampAlarm": false,
+       "Ch3NoIoSize": false,
+       "Ch4Fault": false,
+       "Ch4ConnectionFaulted": false,
+       "Ch4ConfigurationInProgress": false,
+       "Ch4ConfigurationFault": false,
+       "Ch4KeyingFault": false,
+       "Ch4ShortCircuit": false,
+       "Ch4DataInvalid": false,
+       "Ch4PowerFault": false,
+       "Ch4ClampAlarm": false,
+       "Ch4NoIoSize": false,
+       "Ch5Fault": false,
+       "Ch5ConnectionFaulted": false,
+       "Ch5ConfigurationInProgress": false,
+       "Ch5ConfigurationFault": false,
+       "Ch5KeyingFault": false,
+       "Ch5ShortCircuit": false,
+       "Ch5DataInvalid": false,
+       "Ch5PowerFault": false,
+       "Ch5ClampAlarm": false,
+       "Ch5NoIoSize": false,
+       "Ch6Fault": false,
+       "Ch6ConnectionFaulted": false,
+       "Ch6ConfigurationInProgress": false,
+       "Ch6ConfigurationFault": false,
+       "Ch6KeyingFault": false,
+       "Ch6ShortCircuit": false,
+       "Ch6DataInvalid": false,
+       "Ch6PowerFault": false,
+       "Ch6ClampAlarm": false,
+       "Ch6NoIoSize": false,
+       "Ch7Fault": false,
+       "Ch7ConnectionFaulted": false,
+       "Ch7ConfigurationInProgress": false,
+       "Ch7ConfigurationFault": false,
+       "Ch7KeyingFault": false,
+       "Ch7ShortCircuit": false,
+       "Ch7DataInvalid": false,
+       "Ch7PowerFault": false,
+       "Ch7ClampAlarm": false,
+       "Ch7NoIoSize": false
+      }
+     }
+    Children:
+    - Name: Ch0Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0Fault"
+    - Name: Ch0ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0ConnectionFaulted"
+    - Name: Ch0ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0ConfigurationInProgress"
+    - Name: Ch0ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0ConfigurationFault"
+    - Name: Ch0KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0KeyingFault"
+    - Name: Ch0ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0ShortCircuit"
+    - Name: Ch0DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0DataInvalid"
+    - Name: Ch0PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0PowerFault"
+    - Name: Ch0ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0ClampAlarm"
+    - Name: Ch0NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch0NoIoSize"
+    - Name: Ch1Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1Fault"
+    - Name: Ch1ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1ConnectionFaulted"
+    - Name: Ch1ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1ConfigurationInProgress"
+    - Name: Ch1ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1ConfigurationFault"
+    - Name: Ch1KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1KeyingFault"
+    - Name: Ch1ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1ShortCircuit"
+    - Name: Ch1DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1DataInvalid"
+    - Name: Ch1PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1PowerFault"
+    - Name: Ch1ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1ClampAlarm"
+    - Name: Ch1NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch1NoIoSize"
+    - Name: Ch2Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2Fault"
+    - Name: Ch2ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2ConnectionFaulted"
+    - Name: Ch2ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2ConfigurationInProgress"
+    - Name: Ch2ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2ConfigurationFault"
+    - Name: Ch2KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2KeyingFault"
+    - Name: Ch2ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2ShortCircuit"
+    - Name: Ch2DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2DataInvalid"
+    - Name: Ch2PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2PowerFault"
+    - Name: Ch2ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2ClampAlarm"
+    - Name: Ch2NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch2NoIoSize"
+    - Name: Ch3Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3Fault"
+    - Name: Ch3ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3ConnectionFaulted"
+    - Name: Ch3ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3ConfigurationInProgress"
+    - Name: Ch3ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3ConfigurationFault"
+    - Name: Ch3KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3KeyingFault"
+    - Name: Ch3ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3ShortCircuit"
+    - Name: Ch3DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3DataInvalid"
+    - Name: Ch3PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3PowerFault"
+    - Name: Ch3ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3ClampAlarm"
+    - Name: Ch3NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch3NoIoSize"
+    - Name: Ch4Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4Fault"
+    - Name: Ch4ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4ConnectionFaulted"
+    - Name: Ch4ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4ConfigurationInProgress"
+    - Name: Ch4ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4ConfigurationFault"
+    - Name: Ch4KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4KeyingFault"
+    - Name: Ch4ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4ShortCircuit"
+    - Name: Ch4DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4DataInvalid"
+    - Name: Ch4PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4PowerFault"
+    - Name: Ch4ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4ClampAlarm"
+    - Name: Ch4NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch4NoIoSize"
+    - Name: Ch5Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5Fault"
+    - Name: Ch5ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5ConnectionFaulted"
+    - Name: Ch5ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5ConfigurationInProgress"
+    - Name: Ch5ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5ConfigurationFault"
+    - Name: Ch5KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5KeyingFault"
+    - Name: Ch5ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5ShortCircuit"
+    - Name: Ch5DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5DataInvalid"
+    - Name: Ch5PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5PowerFault"
+    - Name: Ch5ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5ClampAlarm"
+    - Name: Ch5NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch5NoIoSize"
+    - Name: Ch6Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6Fault"
+    - Name: Ch6ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6ConnectionFaulted"
+    - Name: Ch6ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6ConfigurationInProgress"
+    - Name: Ch6ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6ConfigurationFault"
+    - Name: Ch6KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6KeyingFault"
+    - Name: Ch6ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6ShortCircuit"
+    - Name: Ch6DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6DataInvalid"
+    - Name: Ch6PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6PowerFault"
+    - Name: Ch6ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6ClampAlarm"
+    - Name: Ch6NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch6NoIoSize"
+    - Name: Ch7Fault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7Fault"
+    - Name: Ch7ConnectionFaulted
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7ConnectionFaulted"
+    - Name: Ch7ConfigurationInProgress
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7ConfigurationInProgress"
+    - Name: Ch7ConfigurationFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7ConfigurationFault"
+    - Name: Ch7KeyingFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7KeyingFault"
+    - Name: Ch7ShortCircuit
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7ShortCircuit"
+    - Name: Ch7DataInvalid
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7DataInvalid"
+    - Name: Ch7PowerFault
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7PowerFault"
+    - Name: Ch7ClampAlarm
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7ClampAlarm"
+    - Name: Ch7NoIoSize
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Status.Ch7NoIoSize"
+  - Name: Ch0DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch0DiagEvent.Timestamp"
+  - Name: Ch1DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch1DiagEvent.Timestamp"
+  - Name: Ch2DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch2DiagEvent.Timestamp"
+  - Name: Ch3DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch3DiagEvent.Timestamp"
+  - Name: Ch4DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch4DiagEvent.Timestamp"
+  - Name: Ch5DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch5DiagEvent.Timestamp"
+  - Name: Ch6DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch6DiagEvent.Timestamp"
+  - Name: Ch7DiagEvent
+    Type: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    DataType: 'AB:1732_8IOLTIMESTAMP_Struct_Event:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9fed54a159fb8b400cbac88caff9b87b",
+       "Namespace": 20
+      },
+      "Body": {
+       "SequenceCount": 0,
+       "Qualifier": 0,
+       "Source_0": false,
+       "Source_1": false,
+       "Source_2": false,
+       "Location": false,
+       "Type_0": false,
+       "Type_1": false,
+       "Mode_0": false,
+       "Mode_1": false,
+       "Code": 0,
+       "Timestamp": [0,0]
+      }
+     }
+    Children:
+    - Name: SequenceCount
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.SequenceCount"
+    - Name: Qualifier
+      Type: RAEtherNetIPTag
+      DataType: SByte
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Qualifier"
+    - Name: Source_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Source_0"
+    - Name: Source_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Source_1"
+    - Name: Source_2
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Source_2"
+    - Name: Location
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Location"
+    - Name: Type_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Type_0"
+    - Name: Type_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Type_1"
+    - Name: Mode_0
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Mode_0"
+    - Name: Mode_1
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Mode_1"
+    - Name: Code
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Code"
+    - Name: Timestamp
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      ValueRank: OneDimension
+      ArrayDimensions: [2]
+      Value: [0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.Ch7DiagEvent.Timestamp"
+  - Name: ChAlarmStatus
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram.Dvc_856T_8IOL_Inp_I.ChAlarmStatus"

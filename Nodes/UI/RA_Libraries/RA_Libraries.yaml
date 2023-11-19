@@ -1,0 +1,6 @@
+Name: RA Libraries
+Type: FolderType
+Children:
+- File: Machine_Builder/Machine_Builder.yaml
+- File: Power_Device_v3/Power_Device_v3.yaml
+- File: ProcessLibrary_v5.23/ProcessLibrary_v5.23.yaml

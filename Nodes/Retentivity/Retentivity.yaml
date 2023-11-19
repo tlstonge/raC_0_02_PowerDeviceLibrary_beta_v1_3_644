@@ -10,7 +10,7 @@ Children:
     - Name: Node1
       Type: NodePointer
       DataType: NodeId
-      Value: {"IdType":2,"Id":"0111ec45846b326c4205736ac19ce711","Namespace":20}
+      Value: "/Objects/raC_0_02_PowerDeviceLibrary_beta_v1_3_644/Security"
       Children:
       - Name: Kind
         Type: PropertyType
