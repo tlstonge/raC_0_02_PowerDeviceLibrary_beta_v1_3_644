@@ -1,4 +1,5 @@
 Name: raC_Dvc_K5300_3_03_UI
+Id: g=20da09ad2b9dd574a207ccf3f74afa5e
 Type: FolderType
 DisplayName: {"LocaleId":"en-US","Text":"raC_Dvc_K5300"}
 Children:
@@ -187,6 +188,7 @@ Children:
           DataType: Color
           Value: "#afafaf"
         - Name: MoveTarget
+          Id: g=8c347d293d61d38ed88db6443dbbc241
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}

@@ -4070,6 +4070,33 @@ Children:
           Type: BaseDataVariableType
           DataType: String
           Value: "Program:SafetyProgram.Dvc_SafetyGroupMonitor_Itf.Device[31].eClass"
+    - Name: Type
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Type"
+    - Name: DisplayName
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DisplayName"
+    - Name: eClass
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "eClass"
 - Name: Dvc_SafetyGroupMonitor_Monitor
   Type: raC_Opr_SafetyGroupMonitor
   DataType: raC_Opr_SafetyGroupMonitor
